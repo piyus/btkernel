@@ -1,0 +1,121 @@
+/* Peephole table. Some limitations on the rules:
+ * There can be at most one jCC instruction in a peephole rule.
+ * There can be at most one MEM access in a peephole rule.
+ * Temporaries tr0 and tr1 must never be used as index registers in a memory
+ *   access, because in that case, esp would not be subtituted for them.
+ * Specify index register (use %eiz) for every memory access
+ * Always use the 'd' suffix for "read-only" register variables in output code.
+ * The variables (vr0..vr7, tr0..tr7, C0..C7) should always be used in ascending
+ * order. i.e., start with '0' suffix and continue with '1', '2', ...
+ */
+#include "peepgen_offsets.h"
+#include "peep/peeptab_defs.h"
+
+entry:
+  ret
+  --
+  HANDLE_RET
+  ==
+
+entry:
+  jmp *%vr0d
+  --
+  %tr0d: no_esp
+  %vr0d: no_esp
+  --
+  pushfl
+  cli
+	pushl %tr0d
+  JUMP_INDIRECT_1_TEMP(%vr0d, %tr0d)
+  ==
+
+entry:
+  jmp *%vseg0:MEM32
+  --
+  %tr0d: no_esp
+  %tr1d: no_esp
+  --
+	pushfl
+  cli
+	pushl %tr0d
+	pushl %tr1d
+  movl %vseg0:MEM32, %tr1d
+  JUMP_INDIRECT_2_TEMP(%tr1d, %tr0d)
+  ==
+
+entry:
+  jCC _(C0)
+  --
+  jCC end_Block
+  EDGE2($C0); EXIT_TB
+  ==
+
+entry:
+  jecxz _(C0)
+  --
+  jecxz 1f
+  jmp tc_next_eip
+  1: jmp target_C0
+  EDGE0($C0); EXIT_TB
+  EDGE1($fallthrough_addr); EXIT_TB
+  ==
+
+entry:
+  jmp _(C0)
+  --
+  jmp target_C0
+  EDGE0($C0); EXIT_TB
+  ==
+
+entry:
+  call _(C0)
+  --
+  HANDLE_CALL_C0
+  ==
+
+entry:
+  call *%vr0d
+  --
+  %tr0d: no_esp
+  %vr0d: no_esp
+  --
+  HANDLE_CALL_REG
+  ==
+
+entry:
+  call *%vseg0:MEM32
+  --
+  %tr0d: no_esp
+  %tr1d: no_esp
+  --
+  HANDLE_CALL_MEM
+  ==
+
+entry:
+  iretl
+	--
+	iretl
+	==
+
+entry:
+  pushl %ds
+  --
+  pushfl
+  pushl %eax
+  movl %fs, %eax
+  cmpl $(__KERNEL_PERCPU), %eax
+  popl %eax
+  jne 1f
+  popfl
+  pushl %fs:tx_target
+  jmp 2f
+  1: popfl
+  pushl %ds
+  2: nop
+  ==
+
+entry:
+  popl %ds
+  --
+  popl %fs:tx_target
+  ==

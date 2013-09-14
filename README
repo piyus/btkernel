@@ -1,0 +1,48 @@
+The code in btmod compiles into a loadable module in the Linux kernel.
+
+To run, follow the following steps:
+
+1. Download the linux kernel source tree from kernel.org
+   (latest version if you like)
+2. Add a line ``EXPORT_SYMBOL(search_exception_tables)'' after the
+   search_exception_table() in kernel/extable.c. Compile and boot from the
+   custom kernel for 32-bit x86. While this code requires this small change
+   in the kernel, our implementation for [1] disassembles the kernel
+   binary (vmlinux) and modules to obtain the exception tables.
+3. Download binutils-2.19.tar.bz2 and place in folder btmod/
+4. cd btmod/bt
+5. ./configure --enable-callopt
+               --oldkernel           [if version < 3.5]
+               --enable-extable      [if extable.txt exists]
+               --enable-inscount
+6. sudo ./load
+7. If your system doesn't hang and there is no error messages run dmesg.
+8. It should print "BT module loaded sucessfully".
+9. run 'lsmod | grep bt' to confirm that the module is loaded and running.
+
+Congratulations, you are now running translated!
+
+To unload the module run, ./unload.
+To restart the module run, ./unload followed by ./load.
+
+
+The above procedure lets you run the translated kernel with
+identity translations. To implement a custom instrumentation client,
+you will need to modify the translation rulebook given in btmod/bt/peep.tab.
+More details on the syntax of an entry in the peep.tab file can be found
+in doc/ folder.
+
+For some instrumentation clients, you may need to write generic rules
+that do not depend on the instruction opcode --- our shadow memory
+client in [1] required many such rules. The docs in doc/ folder also
+describe how to write such generic rules.
+
+Good luck! and please let us know about how you used this implementation.
+
+thanks,
+
+Piyus Kedia  (piyus.kedia@cse.iitd.ernet.in)
+Sorav Bansal (sbansal@cse.iitd.ernet.in)
+
+References:
+[1] Fast Dynamic Binary Translation for the Kernel, SOSP 2013

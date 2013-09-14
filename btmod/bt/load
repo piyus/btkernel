@@ -1,0 +1,24 @@
+#!/bin/bash
+MODULE_NAME=bt
+MAJOR_NUM=100
+
+echo "MODULE_NAME=bt" > Makefile.config
+echo "#define MODULE_NAME \"$MODULE_NAME\"" > modconfig.h
+echo "#define MAJOR_NUM $MAJOR_NUM" >> modconfig.h
+#echo 0 > /proc/sys/kernel/nmi_watchdog
+make -C .. clean
+make -C ..
+make clean && make
+echo "" > /var/log/kern.log
+lsmod |grep -e ^$MODULE_NAME\.*$MAJOR_NUM > /dev/null
+if [ $? -eq 0 ]
+then
+	./unload $MODULE_NAME
+	echo "Module Unloaded"
+fi
+insmod $MODULE_NAME.ko
+rm -f /dev/$MODULE_NAME
+mknod /dev/$MODULE_NAME c $MAJOR_NUM 0
+chmod 666 /dev/$MODULE_NAME
+../extable
+../launch

@@ -1,0 +1,52 @@
+#!/bin/sh
+
+shadowmem="no"
+oldkernel="no"
+debug="no"
+callopt="yes"
+profile="no"
+inscount="no"
+help="no"
+
+echo "" > config.h
+
+for opt do
+  optarg=`expr "x$opt" : 'x[^=]*=\(.*\)'`
+  case "$opt" in
+  --help|-h) help="yes"
+  ;;
+  --enable-callopt) echo "#define CALL_OPT 1" >> config.h
+  ;;
+  --enable-debug) echo "#define DEBUG_BT 1" >> config.h
+  ;;
+  --enable-profile) echo "#define PROFILING 1" >> config.h
+  ;;
+  --enable-inscount) echo "#define INSCOUNT 1" >> config.h
+  ;;
+  --oldkernel) echo "#define OLDKERNEL 1" >> config.h
+  ;;
+  --enable-extable) echo "#define USER_EXTABLE 1" >> config.h
+  ;;
+  --enable-shadowmem) echo "#define SHADOWMEM 1" >> config.h
+  ;;
+  --enable-shadowkernel) echo "#define SHADOWKERNEL 1" >> config.h
+  ;;
+  --noprint) echo "#define NO_PRINT 1" >> config.h
+  ;;
+  *) echo "ERROR: unknown option $opt"; help="yes"
+  ;;
+  esac
+done
+
+if [ "$help" = "yes" ] ; then
+	echo "--help [print help]"
+	echo "--enable-callopt [enable call-ret optimisations]"
+	echo "--enable-debug [print TB's]"
+	echo "--enable-profile [profile jumptable stats]"
+	echo "--enable-inscount [count instructions]"
+	echo "--oldkernel [kernel version is older than 3.5]"
+	echo "--enable-shadowmem [shadow memory is enabled]"
+	echo "--enable-shadowkernel [kernel has shadowmem support]"
+	echo "--noprint [do not print debug messages]"
+exit 1
+fi

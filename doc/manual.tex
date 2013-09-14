@@ -1,0 +1,456 @@
+\documentclass[9pt]{article}
+
+\usepackage{amsmath}
+\usepackage{epsfig}
+
+\begin{document}
+
+\title{{\sc BTKernel} Manual}
+%\subtitle{Subtitle Text, if any}
+\author{}
+%\authorinfo{}
+%           {}
+%           {}
+
+%\markboth{DRAFT: DO NOT REDISTRIBUTE}{DRAFT: DO NOT REDISTRIBUTE}
+\maketitle
+
+\begin{abstract}
+This manual describes the usage and the code structure of our
+Linux module which performs fast dynamic binary translation for the
+kernel \cite{sosp13}.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+This document is a manual for the Linux kernel module, {\sc BTKernel}, as
+described in \cite{sosp13}.
+For information on running the module, please see the README file packaged
+with this distribution in the top-level directory.
+
+Section~\ref{sec:peeptab} describes the peephole translation table
+used to specify the translation rulebook. Section~\ref{sec:generic_rules}
+specifies, how to add generic rules to the translation rulebook, that do
+not depend on a particular opcode. Section~\ref{sec:implementation} provides
+information about the code structure of our binary translation
+module.
+
+\section{Peephole Table ({\em aka} Translation Rulebook)}
+\label{sec:peeptab}
+The translation rulebook (as described in \cite{sosp13}) is stored a
+file called {\tt peep.tab}. The rulebook is a collection of {\em peephole table
+entries} (or {\em rules}), marked by the ``{\tt entry:}'' keyword in the file. Each entry
+has three sections, each separated by a line containing only ``{\tt --}''
+characters. The entry itself is terminated using the ``{\tt ==}'' characters.
+
+The first section specifies the {\em source
+instruction sequence}, which is a pattern of a native instruction sequence that
+should be matched in the native instruction stream, for this rule to be applied.
+The last section specifies the {\em destination instruction sequence}, or
+the sequence that should be emitted in place of the source sequence, if the
+pattern matches. The optional middle section specifies constraints on the
+variables used in the source and/or destination sequence, if any. We provide
+examples below to clarify this.
+
+The following rule
+\begin{verbatim}
+entry:
+  pushl %ds
+  --
+  pushfl
+  pushl %eax
+  movl %fs, %eax
+  cmpl $(__KERNEL_PERCPU), %eax
+  popl %eax
+  jne 1f
+  popfl
+  pushl %fs:tx_target
+  jmp 2f
+  1: popfl
+  pushl %ds
+  2: nop
+  ==
+\end{verbatim}
+specifies that if the native instruction stream has an instruction
+``{\tt pushl \%ds}'', then it should be replaced by the 12 instructions
+given in the following section of this rule. In this case, the destination
+sequence first saves the flags (using {\tt pushfl}), then saves {\tt eax}
+to allow its use as a temporary, compares {\tt \%fs} with a
+constant ({\tt \_\_KERNEL\_PERCPU}, which indicates that the
+interrupt/exception was received while executing in kernel mode), and
+if found equal, pushes
+{\tt txtarget} instead. If found
+unequal (indicating that the interrupt/exception was received
+in user mode), it performs the original
+{\tt ``pushl \%ds''}. This logic is used to save the special memory
+location {\tt tx-nextpc-loc}, as described in \cite{sosp13} ({\tt tx-nextpc-loc}
+is called {\tt tx\_target} in the code).
+
+Notice that the peephole rule can refer to kernel
+constants (like {\tt \_\_KERNEL\_PERCPU}). Also notice that it can
+refer to 
+the special variable {\tt tx\_target}).
+
+In our translation rules, we use variables of the
+type {\tt \%vrNN} (where NN is a number)
+to refer to register names in the source instruction sequence. We call
+these ``source register variables'' (or source registers, for short). 
+A source register variable can be suffixed with a '{\tt b}', '{\tt w}', or
+'{\tt d}' character to represent 8-bit, 16-bit, and 32-bit incarnations
+of that registern name. For example, if {\tt \%vr0d} represents
+register {\% eax}, then {\tt \%vr0w} represents {\tt \%ax}, and
+{\tt \%vr0b} represents {\tt \%al}. The higher 8-bit registers are
+represented using the capital '{\tt B}' suffix. In the example above,
+{\tt \%vr0B} will represent register {\tt \%ah}. Here is an
+example of a rule involving a source register variable:
+\begin{verbatim}
+entry:
+  add $1, %vr0d
+  --
+  inc %vr0d
+  ==
+\end{verbatim}
+This rule specifies that if the source instruction stream has an
+instruction which adds the constant ``\$1'' to a register ({\em any}
+register), then that instruction must be replaced with an
+increment ({\tt inc}) instruction operating on the same register.
+This single rule will ensure that all:
+\begin{itemize}
+\item ``{\tt add \$1, \%eax}'' get translated to {\tt inc \$1, \%eax}.
+\item ``{\tt add \$1, \%ecx}'' get translated to {\tt inc \$1, \%ecx}.
+\item \ldots
+\item ``{\tt add \$1, \%edi}'' get translated to {\tt inc \$1, \%edi}.
+\end{itemize}
+Thus {\tt \%vr0d} represents a register variable that is matched with
+a real register in the source instructions, and is replaced by its
+matched value in the translated instructions. On 32-bit
+x86, an input rule can have
+up to six register variables {\tt \%vr0 \ldots \%vr5}.
+
+The translated sequence may need to use temporary registers, i.e., registers
+that are not used in the source sequence but are needed to store
+temporary values in the translation. We allow temporary register variables
+of the type {\tt \%trNN} (where NN is a number) to refer to
+temporary register names. These temporary registers are chosen at
+translation time, and are appropriately saved and restored, before and
+after the translated code respectively. As discussed in \cite{sosp13},
+the save and restore is implemented using {\tt push/pop} instructions in
+our translator.
+Here is an example of a rule involving temporary register variables:
+\begin{verbatim}
+entry:
+  xorl %vr0d, %vr1d
+  xorl %vr1d, %vr0d
+  xorl %vr0d, %vr1d
+  --
+  movl %vr0d, %tr0d
+  movl %vr1d, %vr0d
+  movl %tr0d, %vr1d
+  ==
+\end{verbatim}
+In this rule, both the source and the translated sequences exchange the
+values of {\tt vr0d} and {\tt vr1d}. This rule specifies that if a source
+pattern is seen, replace it with a target pattern. Notice that the target
+pattern uses a temporary register ({\tt tr0d}). Our translator automatically
+identifies a register name to be used as a temporary, at translation time.
+This temporary register is chosen carefully so that it does not conflict with
+another register in the source sequence (e.g., {\tt vr0}) in an incorrect
+way.
+Also, a block-level liveness analysis is
+performed to intelligently choose the temporary registers at translation time.
+If the chosen temporary register is live, it is saved and restored, before
+and after the translated code respectively.
+
+Here is an example involving register constraints:
+\begin{verbatim}
+entry:
+  jmp *%vr0d
+  --
+  %tr0d: no_esp
+  %vr0d: no_esp
+  --
+  pushfl
+  cli
+	pushl %tr0d
+  movl %vr0d, $tr0d
+  andl $JUMPTABLE_MASK, %tr0d
+  cmpl %tr0d, %fs:jumptable(,%tr0d,8)
+  jne 1f
+
+  #jumptable hit
+  movl %fs:jumptable+4(,%tr0d,8), %tr0d
+  movl %tr0d, %fs:txnextpc
+  popl %tr0d
+  popfl
+  jmp %fs:txnextpc
+
+  #jumptable miss
+  1: movl %vr0d, %fs:nextpc
+  popl %tr0d
+  jmp dispatcher_entry
+  # dispatcher will call popfl before jumping back to code cache
+  ==
+\end{verbatim}
+This rule specifies that an indirect branch using a register to
+compute the target should be translated to instructions that index
+the jumptable, and jump to the translated target/dispatcher on a
+jumptable hit/miss respectively. Notice that this rule employs one
+temporary register, {\tt \%tr0d}. Further, this rule has
+a middle section which specifies the constraints on the register
+variables. In this case, the constraints specify that
+the rule can be applied only if {\tt \%vr0d}
+is not matched to the register {\tt \%esp} (stack pointer), i.e., the
+source instruction should not be of the form {\tt ``jmp *\%vr0d''}. Also,
+the chosen temporary register should be different from {\tt \%tr0d}. Notice
+that these constraints are needed because the translation modifies
+{\tt \%esp} through {\tt push} and {\tt pop} instructions.
+In this rule, {\tt nextpc} and {\tt txnextpc} refer to the native
+and translated PCs that need to be executed next, as also discussed
+in \cite{sosp13}.
+
+The pattern matching rules additionally allow the specification of
+{\em constant variables}, denoted by {\tt C0}, {\tt C1}, {\tt C2}, \ldots.
+If a constant variable is specified in the source instruction sequence,
+it can match with any constant value. The value with which it is matched
+will be replaced in the translated sequence at each occurrence of that
+constant variable. Here is an example of a rule involving a constant
+variable:
+\begin{verbatim}
+entry:
+  movl $C0, %vr0d
+  movl %vr0d, %vr1d
+  --
+  movl $C0, %vr0d
+  movl $C0, %vr1d
+  ==
+\end{verbatim}
+This rule specifies that if we find a pattern in the instruction sequence
+where a constant is first moved to a register and then that register is
+copied to a second register; then, it should be replaced by an instruction
+sequence that writes the same constant in both registers directly. This
+rule will translate ``{\tt mov \$234, \%eax; mov \%eax, \%ecx}'' to
+``{\tt mov \$234, \%eax; mov \$234, \%ecx}''. Notice that the constant
+{\tt 234} is matched with the constant variable {\tt C0} in this case.
+
+The {\tt peep.tab} file is given to a C preprocessor, before parsing it
+for our use. Hence, it supports C preprocessor macros (using {\tt \#define},
+{\tt \#include}, etc.).
+
+\subsection{Generic Translations}
+For some applications, we need generic rules, which are hard to specify
+as pattern matching rules using the patterns described above.
+Some examples of rules of this type are:
+\begin{itemize}
+\item For each memory access, do something (e.g., write to corresponding
+shadow byte).
+\item For each memory access through a particular segment register, do
+something (e.g., intercept all accesses to code segment {\tt \%cs}).
+\item For each write to a particular register (e.g., stack pointer {\tt \%esp}),
+do something.
+\item For every instruction, do something (e.g., count the number of
+instructions executed).
+\end{itemize}
+
+Because our patterns require specification of the instruction opcode, such
+generic rules will require several pattern-matching rules (one for each
+opcode) to be expressed in our system. To alleviate this problem, we
+provide an alternate mechanism to specify such translation rules, through
+the special function {\tt peepgen\_emit\_code()} to generate translated code:
+\begin{verbatim}
+void
+peepgen_emit_code(char *obuf, char *ebuf, int label, int n_args, ...);
+\end{verbatim}
+This function acts as a code generator, and fills-in arrays
+{\tt obuf} and {\tt ebuf}
+with the generated code and the ``edge code'' respectively
+(see \cite{sosp2013} on why different arrays are needed for translated and
+edge codes). The third argument to the code generator is a {\tt label} which
+specifies the code pattern that should be used to
+generate this code, and the fourth and subsequent arguments
+specify the parameters which may be required by this code pattern to generate
+the final code. We make this clearer with the following example of
+the {\tt inscount} instrumentation client, which
+counts the total number of instructions executed. This client is also
+described in \cite{sosp13}.
+
+At translation time, we call the function {\tt count\_insns()} (defined
+in {\tt peep/instrument.c}) at the beginning of every basic block. The
+{\tt count\_insns()} function is declared as follows:
+\begin{verbatim}
+void
+count_insns(char *optr, char *eptr, int num_insns);
+\end{verbatim}
+This function generates code to add the value in {\tt num\_insns} (determined
+at translation time) to the global variable that maintains the count of the
+total number of instructions at runtime. The function is defined as
+follows:
+\begin{verbatim}
+void count_insns(char *optr, char *eptr, int num_insns)
+{
+  peepgen_emit_code(optr, eptr, peep_snippet_inc_sreg0, 1, num_insns);
+}
+\end{verbatim}
+The call to {\tt peepgen\_emit\_code()} takes as argument the label
+{\tt peep\_snippet\_inc\_sreg0}. This label identifies the code represented
+by the macro {\tt INC\_SREG0} defined in {\tt peep/peeptab\_defs.h}. Notice
+that the macro name is identified by stripping the {\tt peep\_snippet\_}
+prefix from the label name, and capitalizing the rest of the letters.
+
+The {\tt INC\_SREG0} macro is defined in {\tt peep/peeptab\_defs.h} as:
+\begin{verbatim}
+#define INC_SREG0 \
+  pushfl; \
+  addl $C0, %fs:totalcount; \
+  adcl $0, %fs:(totalcount+4); \
+  popfl
+\end{verbatim}
+This assembly fragment has a similar structure as the last section of a
+pattern-matching rule (as described in Section~\ref{sec:peeptab}). It
+first saves the flags, adds {\tt C0} to the 64-bit global per-CPU variable
+called {\tt totalcount} and then restores the flags to their original value.
+Notice that this assembly fragment uses a constant variable, {\tt C0}.
+The concrete value of this constant is determined at translation time; in
+this case, the value of the constant is specified as the {\tt num\_insns}
+argument variable in {\tt count\_insns}. Thus, the {\tt count\_insns} function
+will generate code of the form:
+\begin{verbatim}
+pushfl
+addl $<num_insns>, %fs:totalcount
+adcl $0, %fs:(total_count + 4)
+popfl
+\end{verbatim}
+at the beginning of a basic block, where {\tt <num\_insns>} is substituted
+by the value of the last argument to {\tt count\_insns()}. Notice that the
+value of this argument will be different for each basic block.
+
+We next discuss our implementation of shadow memory briefly. The function
+{\tt instrument\_memory()} in {\tt peep/instrument.c} instruments
+each memory access to update the shadow bytes appropriately. We first
+check if the instruction accesses non-stack memory. If so, we generate
+code to push flags and the temporary register, and
+call {\tt gen\_shadow\_code()} which generates code to update the
+respective shadow bytes. This function takes as argument, the disassembled
+instruction structure {\tt insn}, and its memory operand {\tt op1} which
+needs to be instrumented. The {\tt gen\_shadow\_code()}, in turn, calls
+{\tt peepgen\_emit\_code()} with proper labels to generate the desired
+code for updating shadow bytes.
+
+\section{Implementation}
+\label{sec:implementation}
+Here, we discuss the implementation structure of our binary translation
+module. The user-level executables for loading and unloading the module
+are in the top-level {\tt btmod/} directory. The {\tt launch\_bt} and
+{\tt terminate\_bt} programs
+(sources in {\tt launch\_bt.c} and {\tt terminate\_bt.c}) launch and
+terminate the DBT module respectively. Their operations are described
+in \cite{sosp2013}. Essentially, these programs call open
+on {\tt /dev/btkernel} and execute {\tt ioctl} calls on it to
+configure and start/stop translation.
+
+The top-level module functions are implemented in {\tt bt/btmod.c}
+and {\tt bt/btmain.c}. We
+only discuss the {\tt create\_shadow\_idt()} function, which creates
+a shadow IDT pointing to code cache addresses corresponding to the original
+native code addresses.
+
+The {\tt create\_shadow\_idt()} function iterates over the IDT entries
+(see call to {\tt bt\_read\_idt\_addr()}) and replaces them with the
+translated addresses (see call to {\tt bt\_put\_idt\_addr()}). The
+translated code cache addresses are obtained using the function
+{\tt tb\_gen\_translated\_code\_idt()}, which eventually calls
+{\tt \_\_tb\_gen\_translate\_code()}. This function allocates
+a translation block (also called {\em code block} in \cite{sosp13}),
+initializes its starting PC value ({\tt eip\_virt}), and calls
+{\tt translate()} on it.
+The {\tt translate()} function is called twice, first to determine the
+size of the translation, and then to perform the actual translation.
+After the first call to {\tt translate()}, {\tt tb\_malloc()} is called to
+allocate appropriate space for the translation block, based on the
+computed size of the translation. Then the second call to {\tt translate()}
+actually produces the translated code in the buffers allocated by
+{\tt tb\_malloc()}.
+
+The {\tt translate()} function performs the actual translation by
+looking at each instruction, and calling {\tt peep\_translate()} on
+it\footnote{While the peephole rules allow patterns with multiple
+source instructions, this translator currently only supports
+single instruction translations. Multiple source instruction translation
+has previously been used for \cite{asplos06, osdi08}.}. The
+{\tt peep\_translate()} function searches the table of peephole rules, which
+is organized as a hash table for fast lookup, to find a rule that
+matches. A match is determined by the {\tt templ\_matches\_insns()} function.
+If the match is successful, the function fills-in the {\tt assignments}
+argument with the mappings from variables to
+constants (e.g., {\tt vr0 -> eax}, {\tt C0 -> 234}, etc.). If the
+peephole rule uses temporaries, temporary registers are determined.
+
+The {\tt nomatch\_pairs} field in a peephole entry determines which register
+variables cannot be matched to the same register name. For example, if
+{\tt (vr0, tr0)} belongs to the set of {\tt nomatch\_pairs}, {\tt vr0}
+and {\tt tr0} must be mapped to different registers. Similarly,
+if {\tt (vr0, vr1)} belongs to the set of {\tt nomatch\_pairs}, the
+input sequence cannot match {\tt vr0} and {\tt vr1} to the same register.
+The {\tt nomatch\_pairs} for an entry are automatically computed using
+a use-def analysis on the translated code at table initialization time.
+
+Finally the {\tt peepgen\_code()} function is called with arguments
+specifying the {\tt label} and its parameters. This label is similar to
+the one used for emitting generic translations in
+Section~\ref{sec:generic_translations}. At compilation time,
+these labels are emitted and associated with the assembly code fragments
+specified in their peephole rule. The parameters to this label (passed
+to {\tt peepgen\_code()} in the {\tt peep\_param\_buf} argument) are
+obtained from the {\tt assignments} variable, which was filled-in by
+the {\tt templ\_matches\_insns()} function. We explain this with an example
+below.
+
+Consider the following peephole rule.
+\begin{verbatim}
+entry:
+  movl $C0, %vr0d
+  movl %vr0d, %vr1d
+  --
+  movl $C0, %vr0d
+  movl $C0, %vr1d
+  ==
+\end{verbatim}
+Assume that the source instruction stream contains a sequence
+of the form ``{\tt movl \$123, \%esi; movl \%esi, \%edi}''. This
+sequence will get matched to the source instruction sequence template
+of this rule, and so the {\tt templ\_matches\_insns()} functions
+will return true, with the {\tt assignments} variable containing the
+mappings:
+\begin{verbatim}
+  C0 --> 123
+  vr0 --> esi
+  vr1 --> edi
+\end{verbatim}
+The constant values {\tt 123}, {\tt esi}, and {\tt edi}, will become the
+parameters for the translated assembly fragment. The translated assembly
+fragment will be associated with a {\tt label}; in our implementation, we
+name a label by the line number at which the peephole rule was encountered
+in the {\tt peep.tab} file. Assume that this translated assembly fragment
+is associated with label, {\tt rule450}. In that case, {\tt peepgen\_code()}
+function will receive as arguments {\tt rule450} and an array of parameters
+[{\tt 123}, {\tt esi}, {\tt edi}]. The {\tt peepgen\_code()} function will
+then patch these parameters in the assembly fragment of {\tt rule450} to
+obtain the translated binary code.
+
+The {\tt peepgen\_code()} function is automatically constructed using
+the {\tt peepgen} program. At compile time, the {\tt peepgen}
+program (from {\tt peepgen\.c}) parses {\tt peep.tab} to generate a set
+of labels (e.g., {\tt rule450}), their associated assembly fragments, and
+the code to patch these assembly fragments with the appropriate parameters.
+Notice that the Makefile invokes the {\tt peepgen} utility to generate
+three header files: {\tt peepgen\_defs.h} (which declares and
+defines the labels), {\tt peepgen\_entries.h} (which contain the peephole
+table entries in a form that can be used to match the source instruction
+template and obtain the corresponding assignments
+using the {\tt templ\_matches\_insns()} function), and {\tt peepgen\_gencode.h}
+(which contains the C code to patch the translated assembly fragments with
+their parameters, in the {\tt peepgen\_code()} function).
+
+\footnotesize{\small
+\bibliographystyle{abbrv}
+\bibliography{manual}}
+\end{document}

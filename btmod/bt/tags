@@ -1,0 +1,3014 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABORT	include/debug.h	115;"	d
+AC_MASK	sys/vcpu_consts.h	70;"	d
+AC_SHIFT	sys/vcpu_consts.h	61;"	d
+ADDR_PREFIX_OPCODE	peep/i386-dis.c	76;"	d	file:
+AFLAG	peep/i386-dis.c	450;"	d	file:
+AH	peep/i386-dis.c	388;"	d	file:
+AL	peep/i386-dis.c	384;"	d	file:
+ALr	peep/i386-dis.c	441;"	d	file:
+ASSERT	include/debug.h	105;"	d
+ASSERT	include/debug.h	98;"	d
+ASSERT	include/types.h	10;"	d
+ASSERT	include/types.h	9;"	d
+ASSERT2	include/debug.h	103;"	d
+ASSERT2	include/debug.h	106;"	d
+ATTRIBUTE_UNUSED	peep/i386-dis.c	51;"	d	file:
+AT_BASE	peep/elf.h	196;"	d
+AT_CLKTCK	peep/elf.h	206;"	d
+AT_EGID	peep/elf.h	203;"	d
+AT_ENTRY	peep/elf.h	198;"	d
+AT_EUID	peep/elf.h	201;"	d
+AT_EXECFD	peep/elf.h	191;"	d
+AT_FLAGS	peep/elf.h	197;"	d
+AT_GID	peep/elf.h	202;"	d
+AT_HWCAP	peep/elf.h	205;"	d
+AT_IGNORE	peep/elf.h	190;"	d
+AT_NOTELF	peep/elf.h	199;"	d
+AT_NULL	peep/elf.h	189;"	d
+AT_PAGESZ	peep/elf.h	195;"	d
+AT_PHDR	peep/elf.h	192;"	d
+AT_PHENT	peep/elf.h	193;"	d
+AT_PHNUM	peep/elf.h	194;"	d
+AT_PLATFORM	peep/elf.h	204;"	d
+AT_UID	peep/elf.h	200;"	d
+AX	peep/i386-dis.c	392;"	d	file:
+Ap	peep/i386-dis.c	399;"	d	file:
+BENCH_PID	hypercall.h	/^	BENCH_PID,$/;"	e	enum:__anon18
+BENCH_VA	hypercall.h	/^	BENCH_VA,$/;"	e	enum:__anon18
+BEST_ELEMS_PER_BUCKET	lib/hash.c	405;"	d	file:
+BH	peep/i386-dis.c	391;"	d	file:
+BINUTILS_DIST	Makefile	/^BINUTILS_DIST=binutils-2.19$/;"	m
+BINUTILS_DIST_PATH	Makefile	/^BINUTILS_DIST_PATH=..\/$(BINUTILS_DIST).tar.bz2$/;"	m
+BITMASK	mem/vaddr.h	13;"	d
+BL	peep/i386-dis.c	387;"	d	file:
+BTFIX_H	btfix.h	2;"	d
+BTMOD_H	btmod.h	2;"	d
+BT_MODE_ICOUNT	btmod.h	18;"	d
+BT_MODE_ICOUNT_OPT	btmod.h	19;"	d
+BT_MODE_KADDRCHECK	btmod.h	20;"	d
+BT_MODE_NULL	btmod.h	17;"	d
+BT_PRINTK	hypercall.h	/^	BT_PRINTK,$/;"	e	enum:__anon18
+BT_SET_MODE	btmod.h	13;"	d
+BT_VCPU_H	bt_vcpu.h	2;"	d
+BUF_LEN	hypercall.h	29;"	d
+BadOp	peep/i386-dis.c	/^BadOp (bti386_t *bti386)$/;"	f	file:
+CALL_INDIRECT_1_TEMP	peep/peeptab_defs.h	202;"	d
+CALL_INDIRECT_1_TEMP	peep/peeptab_defs.h	225;"	d
+CALL_INDIRECT_2_TEMP	peep/peeptab_defs.h	190;"	d
+CALL_INDIRECT_2_TEMP	peep/peeptab_defs.h	216;"	d
+CALL_INDIRECT_PART1	peep/peeptab_defs.h	178;"	d
+CALL_OPT	config.h	2;"	d
+CC_A	sys/vcpu_consts.h	52;"	d
+CC_C	sys/vcpu_consts.h	50;"	d
+CC_O	sys/vcpu_consts.h	55;"	d
+CC_P	sys/vcpu_consts.h	51;"	d
+CC_S	sys/vcpu_consts.h	54;"	d
+CC_Z	sys/vcpu_consts.h	53;"	d
+CH	peep/i386-dis.c	389;"	d	file:
+CL	peep/i386-dis.c	385;"	d	file:
+CMPS	peep/peeptab_defs.h	484;"	d
+CMPSS_B	peep/header.h	159;"	d
+CMPSS_L	peep/header.h	161;"	d
+CMPSS_W	peep/header.h	160;"	d
+CMPS_B	peep/header.h	82;"	d
+CMPS_L	peep/header.h	84;"	d
+CMPS_W	peep/header.h	83;"	d
+CMPXCHG8B_Fixup	peep/i386-dis.c	/^CMPXCHG8B_Fixup (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+CONCAT	peep/instrument.c	29;"	d	file:
+CONCAT	peep/instrument.c	35;"	d	file:
+CONCAT	peep/peep.c	37;"	d	file:
+CONCAT	peep/peep.c	43;"	d	file:
+CONST_STRNEQ	peep/i386-dis.c	53;"	d	file:
+CONST_VAR	peepgen.h	6;"	d
+COUNT_LOADS	peep/peeptab_defs.h	24;"	d
+CPU_CONSTRAINT_FORCED_CALLOUT	peep/cpu_constraints.h	11;"	d
+CPU_CONSTRAINT_GPF	peep/cpu_constraints.h	10;"	d
+CPU_CONSTRAINT_NO_EXCP	peep/cpu_constraints.h	9;"	d
+CPU_CONSTRAINT_PROTECTED	peep/cpu_constraints.h	8;"	d
+CPU_CONSTRAINT_REAL	peep/cpu_constraints.h	7;"	d
+CPU_CONSTRAINT_REMAPPED	peep/cpu_constraints.h	13;"	d
+CPU_CONSTRAINT_SIMULATE	peep/cpu_constraints.h	12;"	d
+CPU_INTERRUPT_HARD	sys/vcpu.h	163;"	d
+CR0_AM_MASK	sys/vcpu_consts.h	27;"	d
+CR0_EM_MASK	sys/vcpu_consts.h	22;"	d
+CR0_ET_MASK	sys/vcpu_consts.h	24;"	d
+CR0_MP_MASK	sys/vcpu_consts.h	21;"	d
+CR0_NE_MASK	sys/vcpu_consts.h	25;"	d
+CR0_PE_MASK	sys/vcpu_consts.h	20;"	d
+CR0_PG_MASK	sys/vcpu_consts.h	28;"	d
+CR0_TS_MASK	sys/vcpu_consts.h	23;"	d
+CR0_WP_MASK	sys/vcpu_consts.h	26;"	d
+CRC32_Fixup	peep/i386-dis.c	/^CRC32_Fixup (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+CS_PREFIX_OPCODE	peep/i386-dis.c	79;"	d	file:
+Cm	peep/i386-dis.c	344;"	d	file:
+DATA_PREFIX_OPCODE	peep/i386-dis.c	77;"	d	file:
+DBE	include/debug.h	23;"	d
+DBE	include/debug.h	32;"	d
+DBG	include/debug.h	25;"	d
+DBG	include/debug.h	34;"	d
+DBG_	include/debug.h	24;"	d
+DBG_	include/debug.h	33;"	d
+DBGn	include/debug.h	18;"	d
+DBGn	include/debug.h	31;"	d
+DEBUG_CODE	peep/peeptab_defs.h	567;"	d
+DEF	peep/instrument.c	31;"	d	file:
+DEF	peep/instrument.c	33;"	d	file:
+DEF	peep/peep.c	39;"	d	file:
+DEF	peep/peep.c	41;"	d	file:
+DEF	peep/peep.c	48;"	d	file:
+DEFAULT_CPU_CONSTRAINTS	peep/cpu_constraints.h	14;"	d
+DETECT_GV	peep/peeptab_defs.h	363;"	d
+DETECT_GV	peep/peeptab_defs.h	384;"	d
+DETECT_GVb	peep/peeptab_defs.h	373;"	d
+DETECT_GVb	peep/peeptab_defs.h	394;"	d
+DETECT_GVl	peep/peeptab_defs.h	376;"	d
+DETECT_GVl	peep/peeptab_defs.h	388;"	d
+DETECT_GVw	peep/peeptab_defs.h	379;"	d
+DETECT_GVw	peep/peeptab_defs.h	391;"	d
+DFLAG	peep/i386-dis.c	451;"	d	file:
+DF_MASK	sys/vcpu_consts.h	65;"	d
+DH	peep/i386-dis.c	390;"	d	file:
+DIS_0fae	peep/i386-dis.c	/^DIS_0fae (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_3DNowSuffix	peep/i386-dis.c	/^DIS_3DNowSuffix (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_C	peep/i386-dis.c	/^DIS_C (bti386_t *bti386, operand_t *op, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+DIS_CMPXCHG8B_Fixup	peep/i386-dis.c	/^DIS_CMPXCHG8B_Fixup (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_CRC32_Fixup	peep/i386-dis.c	/^DIS_CRC32_Fixup (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_D	peep/i386-dis.c	/^DIS_D (bti386_t *bti386, operand_t *op, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+DIS_DIR	peep/i386-dis.c	/^DIS_DIR (bti386_t *bti386, operand_t *op, int dummy ATTRIBUTE_UNUSED, int sizeflag)$/;"	f	file:
+DIS_DSreg	peep/i386-dis.c	/^DIS_DSreg (bti386_t *bti386, operand_t *op, int code, int sizeflag)$/;"	f	file:
+DIS_E	peep/i386-dis.c	/^DIS_E (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_EM	peep/i386-dis.c	/^DIS_EM (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_EMC	peep/i386-dis.c	/^DIS_EMC (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_ESreg	peep/i386-dis.c	/^DIS_ESreg (bti386_t *bti386, operand_t *op, int code, int sizeflag)$/;"	f	file:
+DIS_EX	peep/i386-dis.c	/^DIS_EX (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_G	peep/i386-dis.c	/^DIS_G (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_I	peep/i386-dis.c	/^DIS_I (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_I64	peep/i386-dis.c	/^DIS_I64 (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_IMREG	peep/i386-dis.c	/^DIS_IMREG (bti386_t *bti386, operand_t *op, int code, int sizeflag)$/;"	f	file:
+DIS_INVLPG_Fixup	peep/i386-dis.c	/^DIS_INVLPG_Fixup (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_J	peep/i386-dis.c	/^DIS_J (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_M	peep/i386-dis.c	/^DIS_M (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_MMX	peep/i386-dis.c	/^DIS_MMX (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_MS	peep/i386-dis.c	/^DIS_MS (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_MXC	peep/i386-dis.c	/^DIS_MXC (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_NOP_Fixup1	peep/i386-dis.c	/^DIS_NOP_Fixup1 (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_NOP_Fixup2	peep/i386-dis.c	/^DIS_NOP_Fixup2 (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_OFF	peep/i386-dis.c	/^DIS_OFF (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_OFF64	peep/i386-dis.c	/^DIS_OFF64 (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_Prefix	peep/i386-dis.c	/^DIS_Prefix (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_R	peep/i386-dis.c	/^DIS_R (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_REG	peep/i386-dis.c	/^DIS_REG (bti386_t *bti386, operand_t *op, int code, int sizeflag)$/;"	f	file:
+DIS_REP_Fixup	peep/i386-dis.c	/^DIS_REP_Fixup (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_SEG	peep/i386-dis.c	/^DIS_SEG (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_SIMD_Suffix	peep/i386-dis.c	/^DIS_SIMD_Suffix (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_ST	peep/i386-dis.c	/^DIS_ST (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_STi	peep/i386-dis.c	/^DIS_STi (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_SVME_Fixup	peep/i386-dis.c	/^DIS_SVME_Fixup(bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_T	peep/i386-dis.c	/^DIS_T (bti386_t *bti386, operand_t *op, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+DIS_VMX	peep/i386-dis.c	/^DIS_VMX (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_VMX_Fixup	peep/i386-dis.c	/^DIS_VMX_Fixup (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_XMM	peep/i386-dis.c	/^DIS_XMM (bti386_t *bti386, operand_t *op, int bytemode ATTRIBUTE_UNUSED,$/;"	f	file:
+DIS_XMM_Fixup	peep/i386-dis.c	/^DIS_XMM_Fixup (bti386_t *bti386, operand_t *op, int reg, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+DIS_XS	peep/i386-dis.c	/^DIS_XS (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_indirE	peep/i386-dis.c	/^DIS_indirE (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DIS_sI	peep/i386-dis.c	/^DIS_sI (bti386_t *bti386, operand_t *op, int bytemode, int sizeflag)$/;"	f	file:
+DL	peep/i386-dis.c	386;"	d	file:
+DSBX	peep/i386-dis.c	407;"	d	file:
+DS_PREFIX_OPCODE	peep/i386-dis.c	80;"	d	file:
+DT_DEBUG	peep/elf.h	144;"	d
+DT_FINI	peep/elf.h	136;"	d
+DT_HASH	peep/elf.h	127;"	d
+DT_HIPROC	peep/elf.h	148;"	d
+DT_IA_64_NUM	peep/elf.h	843;"	d
+DT_IA_64_PLT_RESERVE	peep/elf.h	842;"	d
+DT_INIT	peep/elf.h	135;"	d
+DT_JMPREL	peep/elf.h	146;"	d
+DT_LOPROC	peep/elf.h	147;"	d
+DT_MIPS_BASE_ADDRESS	peep/elf.h	157;"	d
+DT_MIPS_CONFLICT	peep/elf.h	158;"	d
+DT_MIPS_CONFLICTNO	peep/elf.h	161;"	d
+DT_MIPS_FLAGS	peep/elf.h	153;"	d
+DT_MIPS_GOTSYM	peep/elf.h	165;"	d
+DT_MIPS_HIPAGENO	peep/elf.h	166;"	d
+DT_MIPS_ICHECKSUM	peep/elf.h	151;"	d
+DT_MIPS_IVERSION	peep/elf.h	152;"	d
+DT_MIPS_LIBLIST	peep/elf.h	159;"	d
+DT_MIPS_LIBLISTNO	peep/elf.h	162;"	d
+DT_MIPS_LOCAL_GOTNO	peep/elf.h	160;"	d
+DT_MIPS_RLD_MAP	peep/elf.h	167;"	d
+DT_MIPS_RLD_VERSION	peep/elf.h	149;"	d
+DT_MIPS_SYMTABNO	peep/elf.h	163;"	d
+DT_MIPS_TIME_STAMP	peep/elf.h	150;"	d
+DT_MIPS_UNREFEXTNO	peep/elf.h	164;"	d
+DT_NEEDED	peep/elf.h	124;"	d
+DT_NULL	peep/elf.h	123;"	d
+DT_PLTGOT	peep/elf.h	126;"	d
+DT_PLTREL	peep/elf.h	143;"	d
+DT_PLTRELSZ	peep/elf.h	125;"	d
+DT_REL	peep/elf.h	140;"	d
+DT_RELA	peep/elf.h	130;"	d
+DT_RELAENT	peep/elf.h	132;"	d
+DT_RELASZ	peep/elf.h	131;"	d
+DT_RELENT	peep/elf.h	142;"	d
+DT_RELSZ	peep/elf.h	141;"	d
+DT_RPATH	peep/elf.h	138;"	d
+DT_SONAME	peep/elf.h	137;"	d
+DT_STRSZ	peep/elf.h	133;"	d
+DT_STRTAB	peep/elf.h	128;"	d
+DT_SYMBOLIC	peep/elf.h	139;"	d
+DT_SYMENT	peep/elf.h	134;"	d
+DT_SYMTAB	peep/elf.h	129;"	d
+DT_TEXTREL	peep/elf.h	145;"	d
+DUMP_PORT	hypercall.h	23;"	d
+DUMP_STATE	lib/mdebug.h	22;"	d
+DX	peep/i386-dis.c	393;"	d	file:
+Dm	peep/i386-dis.c	345;"	d	file:
+EBP_REG_NUM	peep/i386-dis.c	92;"	d	file:
+EDGE0	peep/peeptab_defs.h	317;"	d
+EDGE1	peep/peeptab_defs.h	318;"	d
+EDGE2	peep/peeptab_defs.h	319;"	d
+EDGE3	peep/peeptab_defs.h	320;"	d
+EDGE_ALLOC	peep/tb.c	23;"	d	file:
+EFA_PARISC_1_0	peep/elf.h	666;"	d
+EFA_PARISC_1_1	peep/elf.h	667;"	d
+EFA_PARISC_2_0	peep/elf.h	668;"	d
+EF_ALIGN8	peep/elf.h	490;"	d
+EF_ALPHA_32BIT	peep/elf.h	649;"	d
+EF_ARM_APCS_26	peep/elf.h	487;"	d
+EF_ARM_APCS_FLOAT	peep/elf.h	488;"	d
+EF_ARM_HASENTRY	peep/elf.h	485;"	d
+EF_ARM_INTERWORK	peep/elf.h	486;"	d
+EF_ARM_PIC	peep/elf.h	489;"	d
+EF_ARM_RELEXEC	peep/elf.h	484;"	d
+EF_IA_64_ABI64	peep/elf.h	823;"	d
+EF_IA_64_ARCH	peep/elf.h	824;"	d
+EF_IA_64_MASKOS	peep/elf.h	822;"	d
+EF_MIPS_32BITMODE	peep/elf.h	55;"	d
+EF_MIPS_ABI	peep/elf.h	56;"	d
+EF_MIPS_ABI2	peep/elf.h	53;"	d
+EF_MIPS_ABI_O32	peep/elf.h	47;"	d
+EF_MIPS_ABI_O64	peep/elf.h	48;"	d
+EF_MIPS_ARCH	peep/elf.h	57;"	d
+EF_MIPS_ARCH_1	peep/elf.h	38;"	d
+EF_MIPS_ARCH_2	peep/elf.h	39;"	d
+EF_MIPS_ARCH_3	peep/elf.h	40;"	d
+EF_MIPS_ARCH_32	peep/elf.h	43;"	d
+EF_MIPS_ARCH_4	peep/elf.h	41;"	d
+EF_MIPS_ARCH_5	peep/elf.h	42;"	d
+EF_MIPS_ARCH_64	peep/elf.h	44;"	d
+EF_MIPS_CPIC	peep/elf.h	52;"	d
+EF_MIPS_NOREORDER	peep/elf.h	50;"	d
+EF_MIPS_OPTIONS_FIRST	peep/elf.h	54;"	d
+EF_MIPS_PIC	peep/elf.h	51;"	d
+EF_NEW_ABI	peep/elf.h	491;"	d
+EF_OLD_ABI	peep/elf.h	492;"	d
+EF_PARISC_ARCH	peep/elf.h	662;"	d
+EF_PARISC_EXT	peep/elf.h	656;"	d
+EF_PARISC_LAZYSWAP	peep/elf.h	661;"	d
+EF_PARISC_LSB	peep/elf.h	657;"	d
+EF_PARISC_NO_KABP	peep/elf.h	659;"	d
+EF_PARISC_TRAPNIL	peep/elf.h	655;"	d
+EF_PARISC_WIDE	peep/elf.h	658;"	d
+EI_CLASS	peep/elf.h	1103;"	d
+EI_DATA	peep/elf.h	1104;"	d
+EI_MAG0	peep/elf.h	1099;"	d
+EI_MAG1	peep/elf.h	1100;"	d
+EI_MAG2	peep/elf.h	1101;"	d
+EI_MAG3	peep/elf.h	1102;"	d
+EI_NIDENT	peep/elf.h	969;"	d
+EI_PAD	peep/elf.h	1106;"	d
+EI_VERSION	peep/elf.h	1105;"	d
+ELF32_R_SYM	peep/elf.h	225;"	d
+ELF32_R_TYPE	peep/elf.h	226;"	d
+ELF32_ST_BIND	peep/elf.h	182;"	d
+ELF32_ST_TYPE	peep/elf.h	183;"	d
+ELF64_R_SYM	peep/elf.h	228;"	d
+ELF64_R_TYPE	peep/elf.h	229;"	d
+ELF64_R_TYPE_DATA	peep/elf.h	230;"	d
+ELF64_ST_BIND	peep/elf.h	184;"	d
+ELF64_ST_TYPE	peep/elf.h	185;"	d
+ELFCLASS32	peep/elf.h	1116;"	d
+ELFCLASS64	peep/elf.h	1117;"	d
+ELFCLASSNONE	peep/elf.h	1115;"	d
+ELFCLASSNUM	peep/elf.h	1118;"	d
+ELFDATA2LSB	peep/elf.h	1121;"	d
+ELFDATA2MSB	peep/elf.h	1122;"	d
+ELFDATANONE	peep/elf.h	1120;"	d
+ELFMAG	peep/elf.h	1112;"	d
+ELFMAG0	peep/elf.h	1108;"	d
+ELFMAG1	peep/elf.h	1109;"	d
+ELFMAG2	peep/elf.h	1110;"	d
+ELFMAG3	peep/elf.h	1111;"	d
+ELFW	peep/elf.h	1183;"	d
+ELFW	peep/elf.h	1186;"	d
+ELF_CLASS	peepgen.c	47;"	d	file:
+ELF_RELOC	peep/elf.h	1159;"	d
+ELF_RELOC	peep/elf.h	1161;"	d
+ELF_RELOC	peep/elf.h	1173;"	d
+ELF_RELOC	peep/elf.h	1175;"	d
+ELF_ST_BIND	peep/elf.h	180;"	d
+ELF_ST_TYPE	peep/elf.h	181;"	d
+EM	peep/i386-dis.c	418;"	d	file:
+EMCq	peep/i386-dis.c	427;"	d	file:
+EMIT_EDGE0	peep/peeptab_defs.h	348;"	d
+EMIT_EDGE1	peep/peeptab_defs.h	347;"	d
+EMULATE_CMPS	peep/peeptab_defs.h	536;"	d
+EMULATE_CMPSS	peep/peeptab_defs.h	539;"	d
+EMULATE_MOVS	peep/peeptab_defs.h	518;"	d
+EMULATE_MOVSS	peep/peeptab_defs.h	521;"	d
+EMULATE_SCAS	peep/peeptab_defs.h	530;"	d
+EMULATE_SCASS	peep/peeptab_defs.h	533;"	d
+EMULATE_STOS	peep/peeptab_defs.h	524;"	d
+EMULATE_STOSS	peep/peeptab_defs.h	527;"	d
+EM_386	peep/elf.h	72;"	d
+EM_486	peep/elf.h	75;"	d
+EM_68K	peep/elf.h	73;"	d
+EM_860	peep/elf.h	76;"	d
+EM_88K	peep/elf.h	74;"	d
+EM_ALPHA	peep/elf.h	112;"	d
+EM_ARM	peep/elf.h	89;"	d
+EM_CRIS	peep/elf.h	101;"	d
+EM_CYGNUS_V850	peep/elf.h	115;"	d
+EM_H8S	peep/elf.h	106;"	d
+EM_H8_300H	peep/elf.h	105;"	d
+EM_IA_64	peep/elf.h	95;"	d
+EM_M32	peep/elf.h	70;"	d
+EM_MIPS	peep/elf.h	78;"	d
+EM_MIPS_RS4_BE	peep/elf.h	80;"	d
+EM_NONE	peep/elf.h	69;"	d
+EM_PARISC	peep/elf.h	82;"	d
+EM_PPC	peep/elf.h	86;"	d
+EM_PPC64	peep/elf.h	87;"	d
+EM_S390	peep/elf.h	99;"	d
+EM_S390_OLD	peep/elf.h	120;"	d
+EM_SH	peep/elf.h	91;"	d
+EM_SPARC	peep/elf.h	71;"	d
+EM_SPARC32PLUS	peep/elf.h	84;"	d
+EM_SPARCV9	peep/elf.h	93;"	d
+EM_V850	peep/elf.h	103;"	d
+EM_X86_64	peep/elf.h	97;"	d
+EMd	peep/i386-dis.c	419;"	d	file:
+EMx	peep/i386-dis.c	420;"	d	file:
+EOF	peep/assignments.c	17;"	d	file:
+ERR	include/debug.h	26;"	d
+ERR	include/debug.h	35;"	d
+ESCAPE_TO_TWO_BYTE_ADDRESSING	peep/i386-dis.c	96;"	d	file:
+ESP_REG_NUM	peep/assignments.c	323;"	d	file:
+ESP_REG_NUM	peep/i386-dis.c	93;"	d	file:
+ES_PREFIX_OPCODE	peep/i386-dis.c	81;"	d	file:
+ET_CORE	peep/elf.h	64;"	d
+ET_DYN	peep/elf.h	63;"	d
+ET_EXEC	peep/elf.h	62;"	d
+ET_HIPROC	peep/elf.h	66;"	d
+ET_LOPROC	peep/elf.h	65;"	d
+ET_NONE	peep/elf.h	60;"	d
+ET_REL	peep/elf.h	61;"	d
+EV_CURRENT	peep/elf.h	1125;"	d
+EV_NONE	peep/elf.h	1124;"	d
+EV_NUM	peep/elf.h	1126;"	d
+EXCP00_DIVZ	sys/vcpu_consts.h	30;"	d
+EXCP01_SSTP	sys/vcpu_consts.h	31;"	d
+EXCP02_NMI	sys/vcpu_consts.h	32;"	d
+EXCP03_INT3	sys/vcpu_consts.h	33;"	d
+EXCP04_INTO	sys/vcpu_consts.h	34;"	d
+EXCP05_BOUND	sys/vcpu_consts.h	35;"	d
+EXCP06_ILLOP	sys/vcpu_consts.h	36;"	d
+EXCP07_PREX	sys/vcpu_consts.h	37;"	d
+EXCP08_DBLE	sys/vcpu_consts.h	38;"	d
+EXCP09_XERR	sys/vcpu_consts.h	39;"	d
+EXCP0A_TSS	sys/vcpu_consts.h	40;"	d
+EXCP0B_NOSEG	sys/vcpu_consts.h	41;"	d
+EXCP0C_STACK	sys/vcpu_consts.h	42;"	d
+EXCP0D_GPF	sys/vcpu_consts.h	43;"	d
+EXCP0E_PAGE	sys/vcpu_consts.h	44;"	d
+EXCP10_COPR	sys/vcpu_consts.h	45;"	d
+EXCP11_ALGN	sys/vcpu_consts.h	46;"	d
+EXCP12_MCHK	sys/vcpu_consts.h	47;"	d
+EXCP_PATTERN	peepgen.c	933;"	d	file:
+EXE_RELOC	peepgen.c	49;"	d	file:
+EXE_SYM	peepgen.c	1215;"	d	file:
+EXIT_TB	peep/peeptab_defs.h	315;"	d
+EXT_JUMP_ID0	peep/insn.c	282;"	d	file:
+EXd	peep/i386-dis.c	422;"	d	file:
+EXq	peep/i386-dis.c	423;"	d	file:
+EXw	peep/i386-dis.c	421;"	d	file:
+EXx	peep/i386-dis.c	424;"	d	file:
+Eb	peep/i386-dis.c	310;"	d	file:
+Ed	peep/i386-dis.c	312;"	d	file:
+Edq	peep/i386-dis.c	313;"	d	file:
+Edqb	peep/i386-dis.c	315;"	d	file:
+Edqd	peep/i386-dis.c	316;"	d	file:
+Edqw	peep/i386-dis.c	314;"	d	file:
+Elf32_Addr	peep/elf.h	/^typedef uint32_t Elf32_Addr;$/;"	t
+Elf32_Dyn	peep/elf.h	/^} Elf32_Dyn;$/;"	t	typeref:struct:dynamic
+Elf32_Ehdr	peep/elf.h	/^} Elf32_Ehdr;$/;"	t	typeref:struct:elf32_hdr
+Elf32_Half	peep/elf.h	/^typedef uint16_t Elf32_Half;$/;"	t
+Elf32_Nhdr	peep/elf.h	/^} Elf32_Nhdr;$/;"	t	typeref:struct:elf32_note
+Elf32_Off	peep/elf.h	/^typedef uint32_t Elf32_Off;$/;"	t
+Elf32_Phdr	peep/elf.h	/^} Elf32_Phdr;$/;"	t	typeref:struct:elf32_phdr
+Elf32_Rel	peep/elf.h	/^} Elf32_Rel;$/;"	t	typeref:struct:elf32_rel
+Elf32_Rela	peep/elf.h	/^} Elf32_Rela;$/;"	t	typeref:struct:elf32_rela
+Elf32_Shdr	peep/elf.h	/^} Elf32_Shdr;$/;"	t	typeref:struct:elf32_shdr
+Elf32_Sword	peep/elf.h	/^typedef int32_t  Elf32_Sword;$/;"	t
+Elf32_Sym	peep/elf.h	/^} Elf32_Sym;$/;"	t	typeref:struct:elf32_sym
+Elf32_Word	peep/elf.h	/^typedef uint32_t Elf32_Word;$/;"	t
+Elf64_Addr	peep/elf.h	/^typedef uint64_t Elf64_Addr;$/;"	t
+Elf64_Dyn	peep/elf.h	/^} Elf64_Dyn;$/;"	t	typeref:struct:__anon13
+Elf64_Ehdr	peep/elf.h	/^} Elf64_Ehdr;$/;"	t	typeref:struct:elf64_hdr
+Elf64_Half	peep/elf.h	/^typedef uint16_t Elf64_Half;$/;"	t
+Elf64_Nhdr	peep/elf.h	/^} Elf64_Nhdr;$/;"	t	typeref:struct:elf64_note
+Elf64_Off	peep/elf.h	/^typedef uint64_t Elf64_Off;$/;"	t
+Elf64_Phdr	peep/elf.h	/^} Elf64_Phdr;$/;"	t	typeref:struct:elf64_phdr
+Elf64_Rel	peep/elf.h	/^} Elf64_Rel;$/;"	t	typeref:struct:elf64_rel
+Elf64_Rela	peep/elf.h	/^} Elf64_Rela;$/;"	t	typeref:struct:elf64_rela
+Elf64_SHalf	peep/elf.h	/^typedef int16_t	 Elf64_SHalf;$/;"	t
+Elf64_Shdr	peep/elf.h	/^} Elf64_Shdr;$/;"	t	typeref:struct:elf64_shdr
+Elf64_Sword	peep/elf.h	/^typedef int32_t	 Elf64_Sword;$/;"	t
+Elf64_Sxword	peep/elf.h	/^typedef int64_t  Elf64_Sxword;$/;"	t
+Elf64_Sym	peep/elf.h	/^} Elf64_Sym;$/;"	t	typeref:struct:elf64_sym
+Elf64_Word	peep/elf.h	/^typedef uint32_t Elf64_Word;$/;"	t
+Elf64_Xword	peep/elf.h	/^typedef uint64_t Elf64_Xword;$/;"	t
+ElfW	peep/elf.h	1182;"	d
+ElfW	peep/elf.h	1185;"	d
+Em	peep/i386-dis.c	321;"	d	file:
+Eq	peep/i386-dis.c	317;"	d	file:
+Ev	peep/i386-dis.c	311;"	d	file:
+Ew	peep/i386-dis.c	322;"	d	file:
+FGRPS_DPNUM	peep/opctable.h	8;"	d
+FGRPd9_2	peep/i386-dis.c	4009;"	d	file:
+FGRPd9_4	peep/i386-dis.c	4010;"	d	file:
+FGRPd9_5	peep/i386-dis.c	4011;"	d	file:
+FGRPd9_6	peep/i386-dis.c	4012;"	d	file:
+FGRPd9_7	peep/i386-dis.c	4013;"	d	file:
+FGRPda_5	peep/i386-dis.c	4014;"	d	file:
+FGRPdb_4	peep/i386-dis.c	4015;"	d	file:
+FGRPde_3	peep/i386-dis.c	4016;"	d	file:
+FGRPdf_4	peep/i386-dis.c	4017;"	d	file:
+FLOAT	peep/i386-dis.c	525;"	d	file:
+FLOATCODE	peep/i386-dis.c	519;"	d	file:
+FLOAT_MEM_DPNUM	peep/opctable.h	9;"	d
+FNV_32_BASIS	lib/hash.c	301;"	d	file:
+FNV_32_PRIME	lib/hash.c	300;"	d	file:
+FS_PREFIX_OPCODE	peep/i386-dis.c	82;"	d	file:
+FWAIT_OPCODE	peep/i386-dis.c	75;"	d	file:
+GFP_KERNEL	include/types.h	29;"	d
+GLOBAL_INFO	hypercall.h	/^	GLOBAL_INFO,$/;"	e	enum:__anon18
+GRP11_C6	peep/i386-dis.c	545;"	d	file:
+GRP11_C7	peep/i386-dis.c	546;"	d	file:
+GRP12	peep/i386-dis.c	547;"	d	file:
+GRP13	peep/i386-dis.c	548;"	d	file:
+GRP14	peep/i386-dis.c	549;"	d	file:
+GRP15	peep/i386-dis.c	550;"	d	file:
+GRP16	peep/i386-dis.c	551;"	d	file:
+GRP1S	peep/i386-dis.c	529;"	d	file:
+GRP1Ss	peep/i386-dis.c	530;"	d	file:
+GRP1a	peep/i386-dis.c	527;"	d	file:
+GRP1b	peep/i386-dis.c	528;"	d	file:
+GRP2S	peep/i386-dis.c	532;"	d	file:
+GRP2S_cl	peep/i386-dis.c	536;"	d	file:
+GRP2S_one	peep/i386-dis.c	534;"	d	file:
+GRP2b	peep/i386-dis.c	531;"	d	file:
+GRP2b_cl	peep/i386-dis.c	535;"	d	file:
+GRP2b_one	peep/i386-dis.c	533;"	d	file:
+GRP3S	peep/i386-dis.c	538;"	d	file:
+GRP3b	peep/i386-dis.c	537;"	d	file:
+GRP4	peep/i386-dis.c	539;"	d	file:
+GRP5	peep/i386-dis.c	540;"	d	file:
+GRP6	peep/i386-dis.c	541;"	d	file:
+GRP7	peep/i386-dis.c	542;"	d	file:
+GRP8	peep/i386-dis.c	543;"	d	file:
+GRP9	peep/i386-dis.c	544;"	d	file:
+GRPAMD	peep/i386-dis.c	552;"	d	file:
+GRPPADLCK1	peep/i386-dis.c	553;"	d	file:
+GRPPADLCK2	peep/i386-dis.c	554;"	d	file:
+GS_PREFIX_OPCODE	peep/i386-dis.c	83;"	d	file:
+GTABLE_PORT	hypercall.h	26;"	d
+Gb	peep/i386-dis.c	327;"	d	file:
+Gd	peep/i386-dis.c	329;"	d	file:
+Gdq	peep/i386-dis.c	330;"	d	file:
+Gm	peep/i386-dis.c	331;"	d	file:
+Gv	peep/i386-dis.c	328;"	d	file:
+Gw	peep/i386-dis.c	332;"	d	file:
+HANDLE_CALL_C0	peep/peeptab_defs.h	247;"	d
+HANDLE_CALL_C0	peep/peeptab_defs.h	274;"	d
+HANDLE_CALL_MEM	peep/peeptab_defs.h	259;"	d
+HANDLE_CALL_MEM	peep/peeptab_defs.h	284;"	d
+HANDLE_CALL_REG	peep/peeptab_defs.h	252;"	d
+HANDLE_CALL_REG	peep/peeptab_defs.h	278;"	d
+HANDLE_RET	peep/peeptab_defs.h	238;"	d
+HANDLE_RET	peep/peeptab_defs.h	271;"	d
+HF_CS32_SHIFT	sys/vcpu.h	11;"	d
+HF_CS64_SHIFT	sys/vcpu.h	12;"	d
+HWCAP_SPARC_FLUSH	peep/elf.h	366;"	d
+HWCAP_SPARC_MULDIV	peep/elf.h	369;"	d
+HWCAP_SPARC_STBAR	peep/elf.h	367;"	d
+HWCAP_SPARC_SWAP	peep/elf.h	368;"	d
+HWCAP_SPARC_ULTRA3	peep/elf.h	371;"	d
+HWCAP_SPARC_V9	peep/elf.h	370;"	d
+HYPERCALL_BENCH_PORT	hypercall.h	21;"	d
+HYPERCALL_BT_PORT	hypercall.h	22;"	d
+I1	peep/i386-dis.c	341;"	d	file:
+IDIR	Makefile	/^IDIR ?= -I$(PWD)\/lib -I$(PWD)\/mem -I$(PWD)\/peep -I$(PWD)\/sys -I$(PWD) -I$(PWD)\/include$/;"	m
+IDT_VECTOR	peep/peeptab_defs.h	27;"	d
+ID_MASK	sys/vcpu_consts.h	73;"	d
+IF_MASK	sys/vcpu_consts.h	64;"	d
+IF_SHIFT	sys/vcpu_consts.h	60;"	d
+INC_SREG0	peep/peeptab_defs.h	19;"	d
+INC_SREG0F	peep/peeptab_defs.h	15;"	d
+INC_SREG1F	peep/peeptab_defs.h	35;"	d
+INC_SREG1F	peep/peeptab_defs.h	49;"	d
+INC_SREG2F	peep/peeptab_defs.h	39;"	d
+INC_SREG2F	peep/peeptab_defs.h	50;"	d
+INC_SREG3F	peep/peeptab_defs.h	43;"	d
+INC_SREG3F	peep/peeptab_defs.h	51;"	d
+INDIRECT_PART2	peep/peeptab_defs.h	120;"	d
+INIT_BT	btmod.h	8;"	d
+INIT_EXTABLE	btmod.h	15;"	d
+INIT_MYLIST_HEAD	lib/mylist.h	/^static inline void INIT_MYLIST_HEAD(struct mylist_elem *mylist)$/;"	f
+INSN	include/debug.h	55;"	d
+INSPECT_MEMORY	lib/mdebug.h	23;"	d
+INSTRUMENT_H	peep/instrument.h	2;"	d
+INT16_MAX	include/types.h	57;"	d
+INT16_MIN	include/types.h	58;"	d
+INT32_MAX	include/types.h	60;"	d
+INT32_MIN	include/types.h	61;"	d
+INT3_OPCODE	peep/i386-dis.c	72;"	d	file:
+INT64_MAX	include/types.h	63;"	d
+INT64_MIN	include/types.h	64;"	d
+INT8_MAX	include/types.h	54;"	d
+INT8_MIN	include/types.h	55;"	d
+INTERNAL_DISASSEMBLER_ERROR	peep/i386-dis.c	3309;"	d	file:
+INTMAX_MAX	include/types.h	80;"	d
+INTMAX_MIN	include/types.h	79;"	d
+INTPTR_MAX	include/types.h	75;"	d
+INTPTR_MIN	include/types.h	74;"	d
+INT_OPCODE	peep/i386-dis.c	71;"	d	file:
+INVLPG_Fixup	peep/i386-dis.c	/^INVLPG_Fixup (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+IOPL_MASK	sys/vcpu_consts.h	66;"	d
+IOPL_SHIFT	sys/vcpu_consts.h	58;"	d
+IS_3BYTE_OPCODE	peep/i386-dis.c	523;"	d	file:
+Ib	peep/i386-dis.c	335;"	d	file:
+Iq	peep/i386-dis.c	338;"	d	file:
+Iv	peep/i386-dis.c	337;"	d	file:
+Iv64	peep/i386-dis.c	339;"	d	file:
+Iw	peep/i386-dis.c	340;"	d	file:
+JUMPTABLE1_MASK	peep/jumptable1.h	6;"	d
+JUMPTABLE1_SIZE	bt_vcpu.h	10;"	d
+JUMPTABLE1_SIZE	peep/jumptable1.h	5;"	d
+JUMPTABLE_OPTIMIZATION	peep/jumptable1.c	18;"	d	file:
+JUMPTABLE_OPTMIZATION	peep/peeptab_defs.h	11;"	d
+JUMP_INDIRECT_1_TEMP	peep/peeptab_defs.h	136;"	d
+JUMP_INDIRECT_1_TEMP	peep/peeptab_defs.h	157;"	d
+JUMP_INDIRECT_2_TEMP	peep/peeptab_defs.h	125;"	d
+JUMP_INDIRECT_2_TEMP	peep/peeptab_defs.h	148;"	d
+JUMP_INDIRECT_PART1	peep/peeptab_defs.h	66;"	d
+JUMP_INDIR_INSN	peep/peeptab_defs.h	314;"	d
+JUMP_PC_RELATIVE	peep/i386-dis.c	70;"	d	file:
+JUMP_TO_MONITOR	peep/peeptab_defs.h	313;"	d
+JUMP_TO_TC	peep/peeptab_defs.h	561;"	d
+Jb	peep/i386-dis.c	342;"	d	file:
+Jv	peep/i386-dis.c	343;"	d	file:
+KDIR	Makefile	/^KDIR ?= \/lib\/modules\/`uname -r`\/build$/;"	m
+KERROR	peep/tb.c	20;"	d	file:
+KERROR	peep/tb.c	221;"	d	file:
+LIB_MDEBUG_H	lib/mdebug.h	2;"	d
+LIB_RBTREE_H	lib/rbtree.h	2;"	d
+LLONG_MAX	include/types.h	36;"	d
+LLONG_MIN	include/types.h	37;"	d
+LOAD_NATIVE_IDT	btmod.h	11;"	d
+LOAD_REG	peep/peeptab_defs.h	297;"	d
+LOCK_PREFIX_OPCODE	peep/i386-dis.c	78;"	d	file:
+LOCK_PREFIX_OPCODE	peep/instrument.c	278;"	d	file:
+LOG	include/debug.h	61;"	d
+LONG_MAX	include/types.h	32;"	d
+LONG_MIN	include/types.h	33;"	d
+LPGBITS	mem/vaddr.h	23;"	d
+LPGMASK	mem/vaddr.h	25;"	d
+LPGSHIFT	mem/vaddr.h	22;"	d
+LPGSIZE	mem/vaddr.h	24;"	d
+M	peep/i386-dis.c	323;"	d	file:
+MACROS_H	lib/macros.h	2;"	d
+MAJOR_NUM	btmod.h	7;"	d
+MAJOR_NUM	modconfig.h	2;"	d
+MALLOC_ERROR	bt_vcpu.h	64;"	d
+MASSERT	include/debug.h	91;"	d
+MATCH	include/debug.h	56;"	d
+MATCH_ALL	include/debug.h	57;"	d
+MAX_CHUNK	mem/malloc.h	16;"	d
+MAX_CONSTANTS	peep/peeptab.h	6;"	d
+MAX_CPUS	bt_vcpu.h	9;"	d
+MAX_DISAS_ENTRIES	peep/opctable.h	11;"	d
+MAX_ELEMS_PER_BUCKET	lib/hash.c	406;"	d	file:
+MAX_EXTABLE_EIPS	bt_vcpu.h	23;"	d
+MAX_IMMEDIATE_OPERANDS	peep/i386-dis.c	123;"	d	file:
+MAX_IMM_VARS	peepgen.h	7;"	d
+MAX_IN_LEN	peep/peeptab.h	4;"	d
+MAX_IN_REGS	peepgen.c	62;"	d	file:
+MAX_MEMORY_OPERANDS	peep/i386-dis.c	126;"	d	file:
+MAX_MEM_SIZE	sys/vcpu.h	15;"	d
+MAX_MNEM_SIZE	peep/i386-dis.c	129;"	d	file:
+MAX_NOMATCH_PAIRS	peep/peeptab.h	7;"	d
+MAX_NUM_OPERANDS	peep/i386-dis.c	48;"	d	file:
+MAX_NUM_OPERANDS	peep/insn.c	1506;"	d	file:
+MAX_OPCS	peep/opctable.h	13;"	d
+MAX_OPERANDS	peep/i386-dis.c	120;"	d	file:
+MAX_OPERANDS	peep/i386-dis.h	10;"	d
+MAX_OPERAND_STRSIZE	peep/insntypes.h	10;"	d
+MAX_OUT_LEN	peep/peeptab.h	5;"	d
+MAX_OUT_N_INSNS	peepgen.c	2603;"	d	file:
+MAX_PATCHED_EIPS	bt_vcpu.h	24;"	d
+MAX_PATREP_SIZE	peep/assignments.c	244;"	d	file:
+MAX_PATTERNS	peepgen.c	750;"	d	file:
+MAX_PEEP_SIZE	peepgen.c	42;"	d	file:
+MAX_PEEP_STRING_SIZE	peep/peep.h	11;"	d
+MAX_POOL_PAGES	mem/malloc.c	14;"	d	file:
+MAX_REG_NAME_SIZE	peep/i386-dis.c	132;"	d	file:
+MAX_SIZEFLAGS	peep/opctable.h	12;"	d
+MAX_TEMPORARIES	peep/insntypes.h	26;"	d
+MAX_TU_SIZE	peep/peep.h	12;"	d
+MAX_TU_SIZE	peep/tb.h	9;"	d
+MAX_VARIABLES	peep/assignments.h	7;"	d
+MDEBUG_START	lib/mdebug.h	28;"	d
+MDEBUG_STOP	lib/mdebug.h	29;"	d
+MEMPANIC	hypercall.h	145;"	d
+MEM_VADDR_H	mem/vaddr.h	2;"	d
+MIN_ELEMS_PER_BUCKET	lib/hash.c	404;"	d	file:
+MODE16_STR	peepgen.c	40;"	d	file:
+MODRM_CHECK	peep/i386-dis.c	1579;"	d	file:
+MODULE_NAME	Makefile	/^MODULE_NAME=bt$/;"	m
+MODULE_NAME	btmod.h	6;"	d
+MODULE_NAME	modconfig.h	1;"	d
+MONITOR_MEMORY_START	lib/mdebug.h	24;"	d
+MONITOR_MEMORY_STOP	lib/mdebug.h	25;"	d
+MON_OBJS	Makefile	/^MON_OBJS := lib\/mylist.o lib\/hash.o lib\/rbtree.o lib\/utils.o lib\/debug.o \\$/;"	m
+MOVB_AL_TO_REGADDR	peep/peeptab_defs.h	330;"	d
+MOVB_DISPADDR_TO_REGADDR	peep/peeptab_defs.h	334;"	d
+MOVB_REGADDR_TO_AL	peep/peeptab_defs.h	327;"	d
+MOVL_DISPADDR_TO_REGADDR	peep/peeptab_defs.h	342;"	d
+MOVL_EAX_TO_REGADDR	peep/peeptab_defs.h	332;"	d
+MOVL_REGADDR_TO_EAX	peep/peeptab_defs.h	329;"	d
+MOVS	peep/peeptab_defs.h	507;"	d
+MOVSS_B	peep/header.h	150;"	d
+MOVSS_L	peep/header.h	152;"	d
+MOVSS_W	peep/header.h	151;"	d
+MOVS_B	peep/header.h	73;"	d
+MOVS_L	peep/header.h	75;"	d
+MOVS_W	peep/header.h	74;"	d
+MOVW_AX_TO_REGADDR	peep/peeptab_defs.h	331;"	d
+MOVW_DISPADDR_TO_REGADDR	peep/peeptab_defs.h	338;"	d
+MOVW_REGADDR_TO_AX	peep/peeptab_defs.h	328;"	d
+MOV_AX_DISP32	peep/i386-dis.c	68;"	d	file:
+MOV_MEM_TO_REG	peep/peeptab_defs.h	325;"	d
+MS	peep/i386-dis.c	425;"	d	file:
+MSG	include/debug.h	29;"	d
+MSG	include/debug.h	36;"	d
+MX	peep/i386-dis.c	416;"	d	file:
+MXC	peep/i386-dis.c	428;"	d	file:
+MYLIST_HEAD	lib/mylist.h	216;"	d
+MYLIST_HEAD_INIT	lib/mylist.h	214;"	d
+MYLIST_INITIALIZER	lib/mylist.h	119;"	d
+MYLIST_POISON1	lib/mylist.h	287;"	d
+MYLIST_POISON2	lib/mylist.h	288;"	d
+Ma	peep/i386-dis.c	324;"	d	file:
+Mp	peep/i386-dis.c	325;"	d	file:
+Mq	peep/i386-dis.c	326;"	d	file:
+NEXT_NIP_ID	peep/insn.c	283;"	d	file:
+NONE	bt_vcpu.h	/^  NONE,$/;"	e	enum:status
+NOP_Fixup1	peep/i386-dis.c	/^NOP_Fixup1 (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+NOP_Fixup2	peep/i386-dis.c	/^NOP_Fixup2 (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+NOP_OPCODE	peep/i386-dis.c	89;"	d	file:
+NOT_IMPLEMENTED	include/debug.h	109;"	d
+NOT_REACHED	include/debug.h	108;"	d
+NOT_TESTED	include/debug.h	110;"	d
+NO_BASE_REGISTER	peep/i386-dis.c	100;"	d	file:
+NO_BASE_REGISTER_16	peep/i386-dis.c	101;"	d	file:
+NO_INDEX_REGISTER	peep/i386-dis.c	98;"	d	file:
+NO_INLINE	include/debug.h	11;"	d
+NO_RETURN	include/debug.h	10;"	d
+NT_MASK	sys/vcpu_consts.h	67;"	d
+NT_PRFPREG	peep/elf.h	1130;"	d
+NT_PRPSINFO	peep/elf.h	1131;"	d
+NT_PRSTATUS	peep/elf.h	1129;"	d
+NT_PRXFPREG	peep/elf.h	1133;"	d
+NT_TASKSTRUCT	peep/elf.h	1132;"	d
+NUM_AS_CHARS	peep/tb.c	26;"	d	file:
+NUM_BIN_CHARS	peep/tb.c	25;"	d	file:
+NUM_CRS	peep/insntypes.h	9;"	d
+NUM_POOLS	mem/malloc.h	15;"	d
+NUM_REGS	peep/insntypes.h	7;"	d
+NUM_SEGS	peep/insntypes.h	8;"	d
+NUM_SHADOWREGS	bt_vcpu.h	22;"	d
+OLDGCC_COMPAT	peep/i386-dis.c	65;"	d	file:
+OLDKERNEL	config.h	3;"	d
+ONE_TEMP_CALL	peep/peeptab_defs.h	173;"	d
+ONE_TEMP_JUMP	peep/peeptab_defs.h	61;"	d
+OPSIMD	peep/i386-dis.c	431;"	d	file:
+OPSUF	peep/i386-dis.c	430;"	d	file:
+OP_0f07	peep/i386-dis.c	/^OP_0f07 (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_0fae	peep/i386-dis.c	/^OP_0fae (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_3DNowSuffix	peep/i386-dis.c	/^OP_3DNowSuffix (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_C	peep/i386-dis.c	/^OP_C (bti386_t *bti386, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_D	peep/i386-dis.c	/^OP_D (bti386_t *bti386, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_DIR	peep/i386-dis.c	/^OP_DIR (bti386_t *bti386, int dummy ATTRIBUTE_UNUSED, int sizeflag)$/;"	f	file:
+OP_DSreg	peep/i386-dis.c	/^OP_DSreg (bti386_t *bti386, int code, int sizeflag)$/;"	f	file:
+OP_E	peep/i386-dis.c	/^OP_E (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_EM	peep/i386-dis.c	/^OP_EM (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_EMC	peep/i386-dis.c	/^OP_EMC (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_ESreg	peep/i386-dis.c	/^OP_ESreg (bti386_t *bti386, int code, int sizeflag)$/;"	f	file:
+OP_EX	peep/i386-dis.c	/^OP_EX (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_G	peep/i386-dis.c	/^OP_G (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_I	peep/i386-dis.c	/^OP_I (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_I64	peep/i386-dis.c	/^OP_I64 (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_IMREG	peep/i386-dis.c	/^OP_IMREG (bti386_t *bti386, int code, int sizeflag)$/;"	f	file:
+OP_J	peep/i386-dis.c	/^OP_J (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_M	peep/i386-dis.c	/^OP_M (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_MMX	peep/i386-dis.c	/^OP_MMX (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_MS	peep/i386-dis.c	/^OP_MS (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_MXC	peep/i386-dis.c	/^OP_MXC (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_OFF	peep/i386-dis.c	/^OP_OFF (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_OFF64	peep/i386-dis.c	/^OP_OFF64 (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_R	peep/i386-dis.c	/^OP_R (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_REG	peep/i386-dis.c	/^OP_REG (bti386_t *bti386, int code, int sizeflag)$/;"	f	file:
+OP_SEG	peep/i386-dis.c	/^OP_SEG (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_SIMD_Suffix	peep/i386-dis.c	/^OP_SIMD_Suffix (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_ST	peep/i386-dis.c	/^OP_ST (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_STi	peep/i386-dis.c	/^OP_STi (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_T	peep/i386-dis.c	/^OP_T (bti386_t *bti386, int dummy ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_VMX	peep/i386-dis.c	/^OP_VMX (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_XMM	peep/i386-dis.c	/^OP_XMM (bti386_t *bti386, int bytemode ATTRIBUTE_UNUSED, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+OP_XS	peep/i386-dis.c	/^OP_XS (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_indirE	peep/i386-dis.c	/^OP_indirE (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OP_sI	peep/i386-dis.c	/^OP_sI (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+OUT_BUF_SIZE	btmod.c	40;"	d	file:
+Ob	peep/i386-dis.c	400;"	d	file:
+Ov	peep/i386-dis.c	401;"	d	file:
+PAGE_SIZE	bt_vcpu.h	71;"	d
+PANIC	include/debug.h	14;"	d
+PATCHED	bt_vcpu.h	/^  PATCHED,$/;"	e	enum:status
+PEEPGEN_SRCS	Makefile	/^PEEPGEN_SRCS = peepgen.c lib\/utils.c peep\/insn.c peep\/assignments.c \\$/;"	m
+PEEP_ASSIGNMENTS_H	peep/assignments.h	2;"	d
+PEEP_CPU_CONSTRAINTS_H	peep/cpu_constraints.h	2;"	d
+PEEP_I386_DIS_H	peep/i386-dis.h	2;"	d
+PEEP_INSN_H	peep/insn.h	2;"	d
+PEEP_JUMPTABLE1_H	peep/jumptable1.h	2;"	d
+PEEP_JUMPTABLE_H	peep/jumptable2.h	2;"	d
+PEEP_NOMATCH_PAIRS_H	peep/nomatch_pair.h	2;"	d
+PEEP_OPCTABLE_H	peep/opctable.h	2;"	d
+PEEP_PEEPGEN_H	peepgen.h	2;"	d
+PEEP_PEEPTAB_DEFS_H	peep/peeptab_defs.h	2;"	d
+PEEP_PEEPTAB_H	peep/peeptab.h	2;"	d
+PEEP_PEEP_H	peep/peep.h	2;"	d
+PEEP_PREFIX	peep/peep.h	9;"	d
+PEEP_PREFIX_STR	peepgen.c	35;"	d	file:
+PEEP_REGSET_H	peep/regset.h	2;"	d
+PEEP_SNIPPETS_H	peep/snippets.h	2;"	d
+PEEP_STRING_SIZE	peep/peep.c	410;"	d	file:
+PEEP_TB_H	peep/tb.h	2;"	d
+PF_ARM_SB	peep/elf.h	503;"	d
+PF_HP_CODE	peep/elf.h	814;"	d
+PF_HP_FAR_SHARED	peep/elf.h	812;"	d
+PF_HP_LAZYSWAP	peep/elf.h	816;"	d
+PF_HP_MODIFY	peep/elf.h	815;"	d
+PF_HP_NEAR_SHARED	peep/elf.h	813;"	d
+PF_HP_PAGE_SIZE	peep/elf.h	811;"	d
+PF_HP_SBP	peep/elf.h	817;"	d
+PF_IA_64_NORECOV	peep/elf.h	831;"	d
+PF_PARISC_SBP	peep/elf.h	809;"	d
+PF_R	peep/elf.h	1007;"	d
+PF_W	peep/elf.h	1008;"	d
+PF_X	peep/elf.h	1009;"	d
+PGBITS	mem/vaddr.h	17;"	d
+PGMASK	mem/vaddr.h	19;"	d
+PGSHIFT	mem/vaddr.h	16;"	d
+PGSIZE	mem/vaddr.h	18;"	d
+PNI_Fixup	peep/i386-dis.c	/^PNI_Fixup (bti386_t *bti386, int extrachar ATTRIBUTE_UNUSED, int sizeflag)$/;"	f	file:
+POOL_EDGE	mem/malloc.h	13;"	d
+POOL_KMALLOC	mem/malloc.h	14;"	d
+POOL_LOG_PAGES	mem/malloc.c	15;"	d	file:
+POOL_TC	mem/malloc.h	12;"	d
+POPFL	peep/peeptab_defs.h	472;"	d
+POPL	sys/vcpu.h	61;"	d
+POPW	sys/vcpu.h	56;"	d
+POP_SEG_SHORT	peep/i386-dis.c	69;"	d	file:
+POP_TREG	peep/peeptab_defs.h	470;"	d
+PREFIX_ADDR	peep/insntypes.h	23;"	d
+PREFIX_BYTE_SEG	peep/insntypes.h	28;"	d
+PREFIX_CS	peep/insntypes.h	16;"	d
+PREFIX_DATA	peep/insntypes.h	22;"	d
+PREFIX_DS	peep/insntypes.h	18;"	d
+PREFIX_ES	peep/insntypes.h	19;"	d
+PREFIX_FS	peep/insntypes.h	20;"	d
+PREFIX_FWAIT	peep/insntypes.h	24;"	d
+PREFIX_GS	peep/insntypes.h	21;"	d
+PREFIX_LOCK	peep/insntypes.h	15;"	d
+PREFIX_REPNZ	peep/insntypes.h	14;"	d
+PREFIX_REPZ	peep/insntypes.h	13;"	d
+PREFIX_SS	peep/insntypes.h	17;"	d
+PREGRP0	peep/i386-dis.c	556;"	d	file:
+PREGRP1	peep/i386-dis.c	557;"	d	file:
+PREGRP10	peep/i386-dis.c	566;"	d	file:
+PREGRP11	peep/i386-dis.c	567;"	d	file:
+PREGRP12	peep/i386-dis.c	568;"	d	file:
+PREGRP13	peep/i386-dis.c	569;"	d	file:
+PREGRP14	peep/i386-dis.c	570;"	d	file:
+PREGRP15	peep/i386-dis.c	571;"	d	file:
+PREGRP16	peep/i386-dis.c	572;"	d	file:
+PREGRP17	peep/i386-dis.c	573;"	d	file:
+PREGRP18	peep/i386-dis.c	574;"	d	file:
+PREGRP19	peep/i386-dis.c	575;"	d	file:
+PREGRP2	peep/i386-dis.c	558;"	d	file:
+PREGRP20	peep/i386-dis.c	576;"	d	file:
+PREGRP21	peep/i386-dis.c	577;"	d	file:
+PREGRP22	peep/i386-dis.c	578;"	d	file:
+PREGRP23	peep/i386-dis.c	579;"	d	file:
+PREGRP24	peep/i386-dis.c	580;"	d	file:
+PREGRP25	peep/i386-dis.c	581;"	d	file:
+PREGRP26	peep/i386-dis.c	582;"	d	file:
+PREGRP27	peep/i386-dis.c	583;"	d	file:
+PREGRP28	peep/i386-dis.c	584;"	d	file:
+PREGRP29	peep/i386-dis.c	585;"	d	file:
+PREGRP3	peep/i386-dis.c	559;"	d	file:
+PREGRP30	peep/i386-dis.c	586;"	d	file:
+PREGRP31	peep/i386-dis.c	587;"	d	file:
+PREGRP32	peep/i386-dis.c	588;"	d	file:
+PREGRP33	peep/i386-dis.c	589;"	d	file:
+PREGRP34	peep/i386-dis.c	590;"	d	file:
+PREGRP35	peep/i386-dis.c	591;"	d	file:
+PREGRP36	peep/i386-dis.c	592;"	d	file:
+PREGRP37	peep/i386-dis.c	593;"	d	file:
+PREGRP38	peep/i386-dis.c	594;"	d	file:
+PREGRP39	peep/i386-dis.c	595;"	d	file:
+PREGRP4	peep/i386-dis.c	560;"	d	file:
+PREGRP40	peep/i386-dis.c	596;"	d	file:
+PREGRP41	peep/i386-dis.c	597;"	d	file:
+PREGRP42	peep/i386-dis.c	598;"	d	file:
+PREGRP43	peep/i386-dis.c	599;"	d	file:
+PREGRP44	peep/i386-dis.c	600;"	d	file:
+PREGRP45	peep/i386-dis.c	601;"	d	file:
+PREGRP46	peep/i386-dis.c	602;"	d	file:
+PREGRP47	peep/i386-dis.c	603;"	d	file:
+PREGRP48	peep/i386-dis.c	604;"	d	file:
+PREGRP49	peep/i386-dis.c	605;"	d	file:
+PREGRP5	peep/i386-dis.c	561;"	d	file:
+PREGRP50	peep/i386-dis.c	606;"	d	file:
+PREGRP51	peep/i386-dis.c	607;"	d	file:
+PREGRP52	peep/i386-dis.c	608;"	d	file:
+PREGRP53	peep/i386-dis.c	609;"	d	file:
+PREGRP54	peep/i386-dis.c	610;"	d	file:
+PREGRP55	peep/i386-dis.c	611;"	d	file:
+PREGRP56	peep/i386-dis.c	612;"	d	file:
+PREGRP57	peep/i386-dis.c	613;"	d	file:
+PREGRP58	peep/i386-dis.c	614;"	d	file:
+PREGRP59	peep/i386-dis.c	615;"	d	file:
+PREGRP6	peep/i386-dis.c	562;"	d	file:
+PREGRP60	peep/i386-dis.c	616;"	d	file:
+PREGRP61	peep/i386-dis.c	617;"	d	file:
+PREGRP62	peep/i386-dis.c	618;"	d	file:
+PREGRP63	peep/i386-dis.c	619;"	d	file:
+PREGRP64	peep/i386-dis.c	620;"	d	file:
+PREGRP65	peep/i386-dis.c	621;"	d	file:
+PREGRP66	peep/i386-dis.c	622;"	d	file:
+PREGRP67	peep/i386-dis.c	623;"	d	file:
+PREGRP68	peep/i386-dis.c	624;"	d	file:
+PREGRP69	peep/i386-dis.c	625;"	d	file:
+PREGRP7	peep/i386-dis.c	563;"	d	file:
+PREGRP70	peep/i386-dis.c	626;"	d	file:
+PREGRP71	peep/i386-dis.c	627;"	d	file:
+PREGRP72	peep/i386-dis.c	628;"	d	file:
+PREGRP73	peep/i386-dis.c	629;"	d	file:
+PREGRP74	peep/i386-dis.c	630;"	d	file:
+PREGRP75	peep/i386-dis.c	631;"	d	file:
+PREGRP76	peep/i386-dis.c	632;"	d	file:
+PREGRP77	peep/i386-dis.c	633;"	d	file:
+PREGRP78	peep/i386-dis.c	634;"	d	file:
+PREGRP79	peep/i386-dis.c	635;"	d	file:
+PREGRP8	peep/i386-dis.c	564;"	d	file:
+PREGRP80	peep/i386-dis.c	636;"	d	file:
+PREGRP81	peep/i386-dis.c	637;"	d	file:
+PREGRP82	peep/i386-dis.c	638;"	d	file:
+PREGRP83	peep/i386-dis.c	639;"	d	file:
+PREGRP84	peep/i386-dis.c	640;"	d	file:
+PREGRP85	peep/i386-dis.c	641;"	d	file:
+PREGRP86	peep/i386-dis.c	642;"	d	file:
+PREGRP87	peep/i386-dis.c	643;"	d	file:
+PREGRP88	peep/i386-dis.c	644;"	d	file:
+PREGRP89	peep/i386-dis.c	645;"	d	file:
+PREGRP9	peep/i386-dis.c	565;"	d	file:
+PREGRP90	peep/i386-dis.c	646;"	d	file:
+PREGRP91	peep/i386-dis.c	647;"	d	file:
+PREGRP92	peep/i386-dis.c	648;"	d	file:
+PREGRP93	peep/i386-dis.c	649;"	d	file:
+PREGRP94	peep/i386-dis.c	650;"	d	file:
+PREGRP95	peep/i386-dis.c	651;"	d	file:
+PREGRP96	peep/i386-dis.c	652;"	d	file:
+PREGRP97	peep/i386-dis.c	653;"	d	file:
+PRINT	peepgen.c	75;"	d	file:
+PRINTF_FORMAT	include/debug.h	12;"	d
+PRINT_ERRORMSG	lib/mdebug.h	26;"	d
+PROFILE_RESET	lib/mdebug.h	27;"	d
+PROFILE_START	hypercall.h	/^	PROFILE_START = 1,$/;"	e	enum:__anon18
+PROFILE_STOP	hypercall.h	/^  PROFILE_STOP,$/;"	e	enum:__anon18
+PTRDIFF_MAX	include/types.h	85;"	d
+PTRDIFF_MIN	include/types.h	84;"	d
+PT_DYNAMIC	peep/elf.h	26;"	d
+PT_HIPROC	peep/elf.h	32;"	d
+PT_HP_CORE_COMM	peep/elf.h	792;"	d
+PT_HP_CORE_KERNEL	peep/elf.h	791;"	d
+PT_HP_CORE_LOADABLE	peep/elf.h	794;"	d
+PT_HP_CORE_MMF	peep/elf.h	797;"	d
+PT_HP_CORE_NONE	peep/elf.h	789;"	d
+PT_HP_CORE_PROC	peep/elf.h	793;"	d
+PT_HP_CORE_SHM	peep/elf.h	796;"	d
+PT_HP_CORE_STACK	peep/elf.h	795;"	d
+PT_HP_CORE_VERSION	peep/elf.h	790;"	d
+PT_HP_FASTBIND	peep/elf.h	799;"	d
+PT_HP_HSL_ANNOT	peep/elf.h	801;"	d
+PT_HP_OPT_ANNOT	peep/elf.h	800;"	d
+PT_HP_PARALLEL	peep/elf.h	798;"	d
+PT_HP_STACK	peep/elf.h	802;"	d
+PT_HP_TLS	peep/elf.h	788;"	d
+PT_IA_64_ARCHEXT	peep/elf.h	827;"	d
+PT_IA_64_UNWIND	peep/elf.h	828;"	d
+PT_INTERP	peep/elf.h	27;"	d
+PT_LOAD	peep/elf.h	25;"	d
+PT_LOPROC	peep/elf.h	31;"	d
+PT_MIPS_OPTIONS	peep/elf.h	34;"	d
+PT_MIPS_REGINFO	peep/elf.h	33;"	d
+PT_NOTE	peep/elf.h	28;"	d
+PT_NULL	peep/elf.h	24;"	d
+PT_PARISC_ARCHEXT	peep/elf.h	804;"	d
+PT_PARISC_UNWIND	peep/elf.h	805;"	d
+PT_PHDR	peep/elf.h	30;"	d
+PT_SHLIB	peep/elf.h	29;"	d
+PUSHFL	peep/peeptab_defs.h	471;"	d
+PUSHL	sys/vcpu.h	51;"	d
+PUSHW	sys/vcpu.h	46;"	d
+PUSH_TREG	peep/peeptab_defs.h	469;"	d
+PWD	Makefile	/^PWD ?= $(shell pwd)$/;"	m
+Pre	peep/i386-dis.c	443;"	d	file:
+Prefix	peep/i386-dis.c	/^Prefix(bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+RBASES_READ	peep/peeptab_defs.h	463;"	d
+RBASES_WRITE	peep/peeptab_defs.h	451;"	d
+RBASE_B_R	peep/header.h	59;"	d
+RBASE_B_W	peep/header.h	66;"	d
+RBASE_L_R	peep/header.h	61;"	d
+RBASE_L_W	peep/header.h	68;"	d
+RBASE_READ	peep/peeptab_defs.h	439;"	d
+RBASE_SAFE_B_R	peep/header.h	136;"	d
+RBASE_SAFE_B_W	peep/header.h	143;"	d
+RBASE_SAFE_L_R	peep/header.h	138;"	d
+RBASE_SAFE_L_W	peep/header.h	145;"	d
+RBASE_SAFE_W_R	peep/header.h	137;"	d
+RBASE_SAFE_W_W	peep/header.h	144;"	d
+RBASE_WRITE	peep/peeptab_defs.h	427;"	d
+RBASE_W_R	peep/header.h	60;"	d
+RBASE_W_W	peep/header.h	67;"	d
+RDISPS_READ	peep/peeptab_defs.h	466;"	d
+RDISPS_WRITE	peep/peeptab_defs.h	454;"	d
+RDISP_B_R	peep/header.h	62;"	d
+RDISP_B_W	peep/header.h	69;"	d
+RDISP_L_R	peep/header.h	64;"	d
+RDISP_L_W	peep/header.h	71;"	d
+RDISP_READ	peep/peeptab_defs.h	442;"	d
+RDISP_SAFE_B_R	peep/header.h	139;"	d
+RDISP_SAFE_B_W	peep/header.h	146;"	d
+RDISP_SAFE_L_R	peep/header.h	141;"	d
+RDISP_SAFE_L_W	peep/header.h	148;"	d
+RDISP_SAFE_W_R	peep/header.h	140;"	d
+RDISP_SAFE_W_W	peep/header.h	147;"	d
+RDISP_WRITE	peep/peeptab_defs.h	430;"	d
+RDISP_W_R	peep/header.h	63;"	d
+RDISP_W_W	peep/header.h	70;"	d
+READ	peep/peeptab_defs.h	403;"	d
+READS	peep/peeptab_defs.h	414;"	d
+READ_SHADOW_REG	btmod.h	14;"	d
+RECORD_PORT	hypercall.h	25;"	d
+REGMEM_FIELD_HAS_MEM	peep/i386-dis.c	105;"	d	file:
+REGMEM_FIELD_HAS_REG	peep/i386-dis.c	104;"	d	file:
+REGTYPE_REG	peepgen.c	44;"	d	file:
+REGTYPE_SEG	peepgen.c	45;"	d	file:
+RELOC_STRINGS_MAX_LEN	peep/insn.c	285;"	d	file:
+RELOC_STRINGS_START	peep/insn.c	284;"	d	file:
+REMAPS_READ	peep/peeptab_defs.h	457;"	d
+REMAPS_WRITE	peep/peeptab_defs.h	445;"	d
+REMAP_1_B_R	peep/header.h	21;"	d
+REMAP_1_B_W	peep/header.h	46;"	d
+REMAP_1_L_R	peep/header.h	23;"	d
+REMAP_1_L_W	peep/header.h	48;"	d
+REMAP_1_W_R	peep/header.h	22;"	d
+REMAP_1_W_W	peep/header.h	47;"	d
+REMAP_2_B_R	peep/header.h	24;"	d
+REMAP_2_B_W	peep/header.h	49;"	d
+REMAP_2_L_R	peep/header.h	26;"	d
+REMAP_2_L_W	peep/header.h	51;"	d
+REMAP_2_W_R	peep/header.h	25;"	d
+REMAP_2_W_W	peep/header.h	50;"	d
+REMAP_4_B_R	peep/header.h	27;"	d
+REMAP_4_B_W	peep/header.h	52;"	d
+REMAP_4_L_R	peep/header.h	29;"	d
+REMAP_4_L_W	peep/header.h	54;"	d
+REMAP_4_W_R	peep/header.h	28;"	d
+REMAP_4_W_W	peep/header.h	53;"	d
+REMAP_8_B_R	peep/header.h	30;"	d
+REMAP_8_B_W	peep/header.h	55;"	d
+REMAP_8_L_R	peep/header.h	32;"	d
+REMAP_8_L_W	peep/header.h	57;"	d
+REMAP_8_W_R	peep/header.h	31;"	d
+REMAP_8_W_W	peep/header.h	56;"	d
+REMAP_READ	peep/peeptab_defs.h	433;"	d
+REMAP_SAFE_1_B_R	peep/header.h	98;"	d
+REMAP_SAFE_1_B_W	peep/header.h	123;"	d
+REMAP_SAFE_1_L_R	peep/header.h	100;"	d
+REMAP_SAFE_1_L_W	peep/header.h	125;"	d
+REMAP_SAFE_1_W_R	peep/header.h	99;"	d
+REMAP_SAFE_1_W_W	peep/header.h	124;"	d
+REMAP_SAFE_2_B_R	peep/header.h	101;"	d
+REMAP_SAFE_2_B_W	peep/header.h	126;"	d
+REMAP_SAFE_2_L_R	peep/header.h	103;"	d
+REMAP_SAFE_2_L_W	peep/header.h	128;"	d
+REMAP_SAFE_2_W_R	peep/header.h	102;"	d
+REMAP_SAFE_2_W_W	peep/header.h	127;"	d
+REMAP_SAFE_4_B_R	peep/header.h	104;"	d
+REMAP_SAFE_4_B_W	peep/header.h	129;"	d
+REMAP_SAFE_4_L_R	peep/header.h	106;"	d
+REMAP_SAFE_4_L_W	peep/header.h	131;"	d
+REMAP_SAFE_4_W_R	peep/header.h	105;"	d
+REMAP_SAFE_4_W_W	peep/header.h	130;"	d
+REMAP_SAFE_8_B_R	peep/header.h	107;"	d
+REMAP_SAFE_8_B_W	peep/header.h	132;"	d
+REMAP_SAFE_8_L_R	peep/header.h	109;"	d
+REMAP_SAFE_8_L_W	peep/header.h	134;"	d
+REMAP_SAFE_8_W_R	peep/header.h	108;"	d
+REMAP_SAFE_8_W_W	peep/header.h	133;"	d
+REMAP_WRITE	peep/peeptab_defs.h	421;"	d
+REPE_PREFIX_OPCODE	peep/i386-dis.c	86;"	d	file:
+REPNE_PREFIX_OPCODE	peep/i386-dis.c	85;"	d	file:
+REP_Fixup	peep/i386-dis.c	/^REP_Fixup (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+RESET_BT	hypercall.h	/^	RESET_BT,$/;"	e	enum:__anon18
+RESET_GLOBAL_INFO	hypercall.h	/^	RESET_GLOBAL_INFO,$/;"	e	enum:__anon18
+RESET_PORT	hypercall.h	24;"	d
+RESTORE_GUEST	peep/peeptab_defs.h	553;"	d
+RESTORE_GUEST_ESP	peep/peeptab_defs.h	550;"	d
+RESTORE_TEMPORARY	peep/peeptab_defs.h	323;"	d
+REX_B	peep/i386-dis.c	117;"	d	file:
+REX_OPCODE	peep/i386-dis.c	108;"	d	file:
+REX_R	peep/i386-dis.c	113;"	d	file:
+REX_W	peep/i386-dis.c	111;"	d	file:
+REX_X	peep/i386-dis.c	115;"	d	file:
+RF_MASK	sys/vcpu_consts.h	68;"	d
+RHF_HARDWAY	peep/elf.h	155;"	d
+RHF_NONE	peep/elf.h	154;"	d
+RHF_NOTPOT	peep/elf.h	156;"	d
+RINDXS_READ	peep/peeptab_defs.h	460;"	d
+RINDXS_WRITE	peep/peeptab_defs.h	448;"	d
+RINDX_1_B_R	peep/header.h	9;"	d
+RINDX_1_B_W	peep/header.h	34;"	d
+RINDX_1_L_R	peep/header.h	11;"	d
+RINDX_1_L_W	peep/header.h	36;"	d
+RINDX_1_W_R	peep/header.h	10;"	d
+RINDX_1_W_W	peep/header.h	35;"	d
+RINDX_2_B_R	peep/header.h	12;"	d
+RINDX_2_B_W	peep/header.h	37;"	d
+RINDX_2_L_R	peep/header.h	14;"	d
+RINDX_2_L_W	peep/header.h	39;"	d
+RINDX_2_W_R	peep/header.h	13;"	d
+RINDX_2_W_W	peep/header.h	38;"	d
+RINDX_4_B_R	peep/header.h	15;"	d
+RINDX_4_B_W	peep/header.h	40;"	d
+RINDX_4_L_R	peep/header.h	17;"	d
+RINDX_4_L_W	peep/header.h	42;"	d
+RINDX_4_W_R	peep/header.h	16;"	d
+RINDX_4_W_W	peep/header.h	41;"	d
+RINDX_8_B_R	peep/header.h	18;"	d
+RINDX_8_B_W	peep/header.h	43;"	d
+RINDX_8_L_R	peep/header.h	20;"	d
+RINDX_8_L_W	peep/header.h	45;"	d
+RINDX_8_W_R	peep/header.h	19;"	d
+RINDX_8_W_W	peep/header.h	44;"	d
+RINDX_READ	peep/peeptab_defs.h	436;"	d
+RINDX_SAFE_1_B_R	peep/header.h	86;"	d
+RINDX_SAFE_1_B_W	peep/header.h	111;"	d
+RINDX_SAFE_1_L_R	peep/header.h	88;"	d
+RINDX_SAFE_1_L_W	peep/header.h	113;"	d
+RINDX_SAFE_1_W_R	peep/header.h	87;"	d
+RINDX_SAFE_1_W_W	peep/header.h	112;"	d
+RINDX_SAFE_2_B_R	peep/header.h	89;"	d
+RINDX_SAFE_2_B_W	peep/header.h	114;"	d
+RINDX_SAFE_2_L_R	peep/header.h	91;"	d
+RINDX_SAFE_2_L_W	peep/header.h	116;"	d
+RINDX_SAFE_2_W_R	peep/header.h	90;"	d
+RINDX_SAFE_2_W_W	peep/header.h	115;"	d
+RINDX_SAFE_4_B_R	peep/header.h	92;"	d
+RINDX_SAFE_4_B_W	peep/header.h	117;"	d
+RINDX_SAFE_4_L_R	peep/header.h	94;"	d
+RINDX_SAFE_4_L_W	peep/header.h	119;"	d
+RINDX_SAFE_4_W_R	peep/header.h	93;"	d
+RINDX_SAFE_4_W_W	peep/header.h	118;"	d
+RINDX_SAFE_8_B_R	peep/header.h	95;"	d
+RINDX_SAFE_8_B_W	peep/header.h	120;"	d
+RINDX_SAFE_8_L_R	peep/header.h	97;"	d
+RINDX_SAFE_8_L_W	peep/header.h	122;"	d
+RINDX_SAFE_8_W_R	peep/header.h	96;"	d
+RINDX_SAFE_8_W_W	peep/header.h	121;"	d
+RINDX_WRITE	peep/peeptab_defs.h	424;"	d
+RMAH	peep/i386-dis.c	369;"	d	file:
+RMAL	peep/i386-dis.c	364;"	d	file:
+RMAL	peep/i386-dis.c	365;"	d	file:
+RMAX	peep/i386-dis.c	373;"	d	file:
+RMBH	peep/i386-dis.c	372;"	d	file:
+RMBL	peep/i386-dis.c	368;"	d	file:
+RMCH	peep/i386-dis.c	370;"	d	file:
+RMCL	peep/i386-dis.c	366;"	d	file:
+RMDH	peep/i386-dis.c	371;"	d	file:
+RMDL	peep/i386-dis.c	367;"	d	file:
+RMDX	peep/i386-dis.c	374;"	d	file:
+RMeAX	peep/i386-dis.c	348;"	d	file:
+RMeBP	peep/i386-dis.c	353;"	d	file:
+RMeBX	peep/i386-dis.c	349;"	d	file:
+RMeCX	peep/i386-dis.c	350;"	d	file:
+RMeDI	peep/i386-dis.c	355;"	d	file:
+RMeDX	peep/i386-dis.c	351;"	d	file:
+RMeSI	peep/i386-dis.c	354;"	d	file:
+RMeSP	peep/i386-dis.c	352;"	d	file:
+RMrAX	peep/i386-dis.c	356;"	d	file:
+RMrBP	peep/i386-dis.c	361;"	d	file:
+RMrBX	peep/i386-dis.c	357;"	d	file:
+RMrCX	peep/i386-dis.c	358;"	d	file:
+RMrDI	peep/i386-dis.c	363;"	d	file:
+RMrDX	peep/i386-dis.c	359;"	d	file:
+RMrSI	peep/i386-dis.c	362;"	d	file:
+RMrSP	peep/i386-dis.c	360;"	d	file:
+ROLLBACK_PEEP_PREFIX_STR	peepgen.c	37;"	d	file:
+ROLLBACK_PREFIX	peep/peep.h	10;"	d
+ROLLBACK_PREFIX_STR	peepgen.c	36;"	d	file:
+R_386_16	peep/elf.h	252;"	d
+R_386_32	peep/elf.h	233;"	d
+R_386_32PLT	peep/elf.h	243;"	d
+R_386_8	peep/elf.h	254;"	d
+R_386_COPY	peep/elf.h	237;"	d
+R_386_GLOB_DAT	peep/elf.h	238;"	d
+R_386_GOT32	peep/elf.h	235;"	d
+R_386_GOTOFF	peep/elf.h	241;"	d
+R_386_GOTPC	peep/elf.h	242;"	d
+R_386_JMP_SLOT	peep/elf.h	239;"	d
+R_386_NONE	peep/elf.h	232;"	d
+R_386_NUM	peep/elf.h	270;"	d
+R_386_PC16	peep/elf.h	253;"	d
+R_386_PC32	peep/elf.h	234;"	d
+R_386_PC8	peep/elf.h	255;"	d
+R_386_PLT32	peep/elf.h	236;"	d
+R_386_RELATIVE	peep/elf.h	240;"	d
+R_386_TLS_DTPMOD32	peep/elf.h	267;"	d
+R_386_TLS_DTPOFF32	peep/elf.h	268;"	d
+R_386_TLS_GD	peep/elf.h	250;"	d
+R_386_TLS_GD_PLT	peep/elf.h	244;"	d
+R_386_TLS_GOTIE	peep/elf.h	248;"	d
+R_386_TLS_IE	peep/elf.h	247;"	d
+R_386_TLS_LDM	peep/elf.h	251;"	d
+R_386_TLS_LDM_PLT	peep/elf.h	245;"	d
+R_386_TLS_LDO_32	peep/elf.h	264;"	d
+R_386_TLS_LE	peep/elf.h	249;"	d
+R_386_TLS_TPOFF	peep/elf.h	246;"	d
+R_386_UNKNOWN24	peep/elf.h	256;"	d
+R_386_UNKNOWN25	peep/elf.h	257;"	d
+R_386_UNKNOWN26	peep/elf.h	258;"	d
+R_386_UNKNOWN27	peep/elf.h	259;"	d
+R_386_UNKNOWN28	peep/elf.h	260;"	d
+R_386_UNKNOWN29	peep/elf.h	261;"	d
+R_386_UNKNOWN30	peep/elf.h	262;"	d
+R_386_UNKNOWN31	peep/elf.h	263;"	d
+R_386_UNKNOWN33	peep/elf.h	265;"	d
+R_386_UNKNOWN34	peep/elf.h	266;"	d
+R_386_UNKNOWN37	peep/elf.h	269;"	d
+R_390_12	peep/elf.h	551;"	d
+R_390_16	peep/elf.h	552;"	d
+R_390_32	peep/elf.h	553;"	d
+R_390_64	peep/elf.h	571;"	d
+R_390_8	peep/elf.h	550;"	d
+R_390_COPY	peep/elf.h	558;"	d
+R_390_GLOB_DAT	peep/elf.h	559;"	d
+R_390_GOT12	peep/elf.h	555;"	d
+R_390_GOT16	peep/elf.h	564;"	d
+R_390_GOT32	peep/elf.h	556;"	d
+R_390_GOT64	peep/elf.h	573;"	d
+R_390_GOTENT	peep/elf.h	575;"	d
+R_390_GOTOFF16	peep/elf.h	576;"	d
+R_390_GOTOFF32	peep/elf.h	562;"	d
+R_390_GOTOFF64	peep/elf.h	577;"	d
+R_390_GOTPC	peep/elf.h	563;"	d
+R_390_GOTPCDBL	peep/elf.h	570;"	d
+R_390_GOTPLT12	peep/elf.h	578;"	d
+R_390_GOTPLT16	peep/elf.h	579;"	d
+R_390_GOTPLT32	peep/elf.h	580;"	d
+R_390_GOTPLT64	peep/elf.h	581;"	d
+R_390_GOTPLTENT	peep/elf.h	582;"	d
+R_390_JMP_SLOT	peep/elf.h	560;"	d
+R_390_NONE	peep/elf.h	549;"	d
+R_390_NUM	peep/elf.h	624;"	d
+R_390_PC16	peep/elf.h	565;"	d
+R_390_PC16DBL	peep/elf.h	566;"	d
+R_390_PC32	peep/elf.h	554;"	d
+R_390_PC32DBL	peep/elf.h	568;"	d
+R_390_PC64	peep/elf.h	572;"	d
+R_390_PLT16DBL	peep/elf.h	567;"	d
+R_390_PLT32	peep/elf.h	557;"	d
+R_390_PLT32DBL	peep/elf.h	569;"	d
+R_390_PLT64	peep/elf.h	574;"	d
+R_390_PLTOFF16	peep/elf.h	583;"	d
+R_390_PLTOFF32	peep/elf.h	584;"	d
+R_390_PLTOFF64	peep/elf.h	585;"	d
+R_390_RELATIVE	peep/elf.h	561;"	d
+R_390_TLS_DTPMOD	peep/elf.h	619;"	d
+R_390_TLS_DTPOFF	peep/elf.h	620;"	d
+R_390_TLS_GD32	peep/elf.h	591;"	d
+R_390_TLS_GD64	peep/elf.h	593;"	d
+R_390_TLS_GDCALL	peep/elf.h	587;"	d
+R_390_TLS_GOTIE12	peep/elf.h	595;"	d
+R_390_TLS_GOTIE32	peep/elf.h	597;"	d
+R_390_TLS_GOTIE64	peep/elf.h	599;"	d
+R_390_TLS_IE32	peep/elf.h	605;"	d
+R_390_TLS_IE64	peep/elf.h	607;"	d
+R_390_TLS_IEENT	peep/elf.h	609;"	d
+R_390_TLS_LDCALL	peep/elf.h	589;"	d
+R_390_TLS_LDM32	peep/elf.h	601;"	d
+R_390_TLS_LDM64	peep/elf.h	603;"	d
+R_390_TLS_LDO32	peep/elf.h	615;"	d
+R_390_TLS_LDO64	peep/elf.h	617;"	d
+R_390_TLS_LE32	peep/elf.h	611;"	d
+R_390_TLS_LE64	peep/elf.h	613;"	d
+R_390_TLS_LOAD	peep/elf.h	586;"	d
+R_390_TLS_TPOFF	peep/elf.h	621;"	d
+R_68K_16	peep/elf.h	378;"	d
+R_68K_32	peep/elf.h	377;"	d
+R_68K_8	peep/elf.h	379;"	d
+R_68K_COPY	peep/elf.h	395;"	d
+R_68K_GLOB_DAT	peep/elf.h	396;"	d
+R_68K_GOT16	peep/elf.h	384;"	d
+R_68K_GOT16O	peep/elf.h	387;"	d
+R_68K_GOT32	peep/elf.h	383;"	d
+R_68K_GOT32O	peep/elf.h	386;"	d
+R_68K_GOT8	peep/elf.h	385;"	d
+R_68K_GOT8O	peep/elf.h	388;"	d
+R_68K_JMP_SLOT	peep/elf.h	397;"	d
+R_68K_NONE	peep/elf.h	376;"	d
+R_68K_PC16	peep/elf.h	381;"	d
+R_68K_PC32	peep/elf.h	380;"	d
+R_68K_PC8	peep/elf.h	382;"	d
+R_68K_PLT16	peep/elf.h	390;"	d
+R_68K_PLT16O	peep/elf.h	393;"	d
+R_68K_PLT32	peep/elf.h	389;"	d
+R_68K_PLT32O	peep/elf.h	392;"	d
+R_68K_PLT8	peep/elf.h	391;"	d
+R_68K_PLT8O	peep/elf.h	394;"	d
+R_68K_RELATIVE	peep/elf.h	398;"	d
+R_ALPHA_BRADDR	peep/elf.h	410;"	d
+R_ALPHA_BRSGP	peep/elf.h	422;"	d
+R_ALPHA_COPY	peep/elf.h	418;"	d
+R_ALPHA_DTPMOD64	peep/elf.h	425;"	d
+R_ALPHA_DTPREL16	peep/elf.h	430;"	d
+R_ALPHA_DTPREL64	peep/elf.h	427;"	d
+R_ALPHA_DTPRELHI	peep/elf.h	428;"	d
+R_ALPHA_DTPRELLO	peep/elf.h	429;"	d
+R_ALPHA_GLOB_DAT	peep/elf.h	419;"	d
+R_ALPHA_GOTDTPREL	peep/elf.h	426;"	d
+R_ALPHA_GOTTPREL	peep/elf.h	431;"	d
+R_ALPHA_GPDISP	peep/elf.h	409;"	d
+R_ALPHA_GPREL16	peep/elf.h	417;"	d
+R_ALPHA_GPREL32	peep/elf.h	406;"	d
+R_ALPHA_GPRELHIGH	peep/elf.h	415;"	d
+R_ALPHA_GPRELLOW	peep/elf.h	416;"	d
+R_ALPHA_HINT	peep/elf.h	411;"	d
+R_ALPHA_JMP_SLOT	peep/elf.h	420;"	d
+R_ALPHA_LITERAL	peep/elf.h	407;"	d
+R_ALPHA_LITUSE	peep/elf.h	408;"	d
+R_ALPHA_NONE	peep/elf.h	403;"	d
+R_ALPHA_REFLONG	peep/elf.h	404;"	d
+R_ALPHA_REFQUAD	peep/elf.h	405;"	d
+R_ALPHA_RELATIVE	peep/elf.h	421;"	d
+R_ALPHA_SREL16	peep/elf.h	412;"	d
+R_ALPHA_SREL32	peep/elf.h	413;"	d
+R_ALPHA_SREL64	peep/elf.h	414;"	d
+R_ALPHA_TLSGD	peep/elf.h	423;"	d
+R_ALPHA_TLS_LDM	peep/elf.h	424;"	d
+R_ALPHA_TPREL16	peep/elf.h	435;"	d
+R_ALPHA_TPREL64	peep/elf.h	432;"	d
+R_ALPHA_TPRELHI	peep/elf.h	433;"	d
+R_ALPHA_TPRELLO	peep/elf.h	434;"	d
+R_ARM_ABS12	peep/elf.h	513;"	d
+R_ARM_ABS16	peep/elf.h	512;"	d
+R_ARM_ABS32	peep/elf.h	509;"	d
+R_ARM_ABS8	peep/elf.h	515;"	d
+R_ARM_AMP_VCALL9	peep/elf.h	519;"	d
+R_ARM_CALL	peep/elf.h	532;"	d
+R_ARM_COPY	peep/elf.h	524;"	d
+R_ARM_GLOB_DAT	peep/elf.h	525;"	d
+R_ARM_GNU_VTENTRY	peep/elf.h	534;"	d
+R_ARM_GNU_VTINHERIT	peep/elf.h	535;"	d
+R_ARM_GOT32	peep/elf.h	530;"	d
+R_ARM_GOTOFF	peep/elf.h	528;"	d
+R_ARM_GOTPC	peep/elf.h	529;"	d
+R_ARM_JUMP24	peep/elf.h	533;"	d
+R_ARM_JUMP_SLOT	peep/elf.h	526;"	d
+R_ARM_NONE	peep/elf.h	507;"	d
+R_ARM_NUM	peep/elf.h	546;"	d
+R_ARM_PC13	peep/elf.h	511;"	d
+R_ARM_PC24	peep/elf.h	508;"	d
+R_ARM_PLT32	peep/elf.h	531;"	d
+R_ARM_RABS22	peep/elf.h	542;"	d
+R_ARM_RBASE	peep/elf.h	544;"	d
+R_ARM_REL32	peep/elf.h	510;"	d
+R_ARM_RELATIVE	peep/elf.h	527;"	d
+R_ARM_RPC24	peep/elf.h	543;"	d
+R_ARM_RREL32	peep/elf.h	541;"	d
+R_ARM_RSBREL32	peep/elf.h	539;"	d
+R_ARM_RXPC25	peep/elf.h	538;"	d
+R_ARM_SBREL32	peep/elf.h	516;"	d
+R_ARM_SWI24	peep/elf.h	520;"	d
+R_ARM_THM_ABS5	peep/elf.h	514;"	d
+R_ARM_THM_PC11	peep/elf.h	536;"	d
+R_ARM_THM_PC22	peep/elf.h	517;"	d
+R_ARM_THM_PC8	peep/elf.h	518;"	d
+R_ARM_THM_PC9	peep/elf.h	537;"	d
+R_ARM_THM_RPC22	peep/elf.h	540;"	d
+R_ARM_THM_SWI8	peep/elf.h	521;"	d
+R_ARM_THM_XPC22	peep/elf.h	523;"	d
+R_ARM_XPC25	peep/elf.h	522;"	d
+R_CS	sys/vcpu_consts.h	14;"	d
+R_DS	sys/vcpu_consts.h	16;"	d
+R_EAX	sys/vcpu_consts.h	4;"	d
+R_EBP	sys/vcpu_consts.h	9;"	d
+R_EBX	sys/vcpu_consts.h	7;"	d
+R_ECX	sys/vcpu_consts.h	5;"	d
+R_EDI	sys/vcpu_consts.h	11;"	d
+R_EDX	sys/vcpu_consts.h	6;"	d
+R_ES	sys/vcpu_consts.h	13;"	d
+R_ESI	sys/vcpu_consts.h	10;"	d
+R_ESP	sys/vcpu_consts.h	8;"	d
+R_FS	sys/vcpu_consts.h	17;"	d
+R_GS	sys/vcpu_consts.h	18;"	d
+R_IA64_COPY	peep/elf.h	906;"	d
+R_IA64_DIR32LSB	peep/elf.h	851;"	d
+R_IA64_DIR32MSB	peep/elf.h	850;"	d
+R_IA64_DIR64LSB	peep/elf.h	853;"	d
+R_IA64_DIR64MSB	peep/elf.h	852;"	d
+R_IA64_DTPMOD64LSB	peep/elf.h	917;"	d
+R_IA64_DTPMOD64MSB	peep/elf.h	916;"	d
+R_IA64_DTPREL14	peep/elf.h	919;"	d
+R_IA64_DTPREL22	peep/elf.h	920;"	d
+R_IA64_DTPREL32LSB	peep/elf.h	923;"	d
+R_IA64_DTPREL32MSB	peep/elf.h	922;"	d
+R_IA64_DTPREL64I	peep/elf.h	921;"	d
+R_IA64_DTPREL64LSB	peep/elf.h	925;"	d
+R_IA64_DTPREL64MSB	peep/elf.h	924;"	d
+R_IA64_FPTR32LSB	peep/elf.h	868;"	d
+R_IA64_FPTR32MSB	peep/elf.h	867;"	d
+R_IA64_FPTR64I	peep/elf.h	866;"	d
+R_IA64_FPTR64LSB	peep/elf.h	870;"	d
+R_IA64_FPTR64MSB	peep/elf.h	869;"	d
+R_IA64_GPREL22	peep/elf.h	854;"	d
+R_IA64_GPREL32LSB	peep/elf.h	857;"	d
+R_IA64_GPREL32MSB	peep/elf.h	856;"	d
+R_IA64_GPREL64I	peep/elf.h	855;"	d
+R_IA64_GPREL64LSB	peep/elf.h	859;"	d
+R_IA64_GPREL64MSB	peep/elf.h	858;"	d
+R_IA64_IMM14	peep/elf.h	847;"	d
+R_IA64_IMM22	peep/elf.h	848;"	d
+R_IA64_IMM64	peep/elf.h	849;"	d
+R_IA64_IPLTLSB	peep/elf.h	905;"	d
+R_IA64_IPLTMSB	peep/elf.h	904;"	d
+R_IA64_LDXMOV	peep/elf.h	909;"	d
+R_IA64_LTOFF22	peep/elf.h	860;"	d
+R_IA64_LTOFF22X	peep/elf.h	908;"	d
+R_IA64_LTOFF64I	peep/elf.h	861;"	d
+R_IA64_LTOFF_DTPMOD22	peep/elf.h	918;"	d
+R_IA64_LTOFF_DTPREL22	peep/elf.h	926;"	d
+R_IA64_LTOFF_FPTR22	peep/elf.h	879;"	d
+R_IA64_LTOFF_FPTR32LSB	peep/elf.h	882;"	d
+R_IA64_LTOFF_FPTR32MSB	peep/elf.h	881;"	d
+R_IA64_LTOFF_FPTR64I	peep/elf.h	880;"	d
+R_IA64_LTOFF_FPTR64LSB	peep/elf.h	884;"	d
+R_IA64_LTOFF_FPTR64MSB	peep/elf.h	883;"	d
+R_IA64_LTOFF_TPREL22	peep/elf.h	915;"	d
+R_IA64_LTV32LSB	peep/elf.h	898;"	d
+R_IA64_LTV32MSB	peep/elf.h	897;"	d
+R_IA64_LTV64LSB	peep/elf.h	900;"	d
+R_IA64_LTV64MSB	peep/elf.h	899;"	d
+R_IA64_NONE	peep/elf.h	846;"	d
+R_IA64_PCREL21B	peep/elf.h	872;"	d
+R_IA64_PCREL21BI	peep/elf.h	901;"	d
+R_IA64_PCREL21F	peep/elf.h	874;"	d
+R_IA64_PCREL21M	peep/elf.h	873;"	d
+R_IA64_PCREL22	peep/elf.h	902;"	d
+R_IA64_PCREL32LSB	peep/elf.h	876;"	d
+R_IA64_PCREL32MSB	peep/elf.h	875;"	d
+R_IA64_PCREL60B	peep/elf.h	871;"	d
+R_IA64_PCREL64I	peep/elf.h	903;"	d
+R_IA64_PCREL64LSB	peep/elf.h	878;"	d
+R_IA64_PCREL64MSB	peep/elf.h	877;"	d
+R_IA64_PLTOFF22	peep/elf.h	862;"	d
+R_IA64_PLTOFF64I	peep/elf.h	863;"	d
+R_IA64_PLTOFF64LSB	peep/elf.h	865;"	d
+R_IA64_PLTOFF64MSB	peep/elf.h	864;"	d
+R_IA64_REL32LSB	peep/elf.h	894;"	d
+R_IA64_REL32MSB	peep/elf.h	893;"	d
+R_IA64_REL64LSB	peep/elf.h	896;"	d
+R_IA64_REL64MSB	peep/elf.h	895;"	d
+R_IA64_SECREL32LSB	peep/elf.h	890;"	d
+R_IA64_SECREL32MSB	peep/elf.h	889;"	d
+R_IA64_SECREL64LSB	peep/elf.h	892;"	d
+R_IA64_SECREL64MSB	peep/elf.h	891;"	d
+R_IA64_SEGREL32LSB	peep/elf.h	886;"	d
+R_IA64_SEGREL32MSB	peep/elf.h	885;"	d
+R_IA64_SEGREL64LSB	peep/elf.h	888;"	d
+R_IA64_SEGREL64MSB	peep/elf.h	887;"	d
+R_IA64_SUB	peep/elf.h	907;"	d
+R_IA64_TPREL14	peep/elf.h	910;"	d
+R_IA64_TPREL22	peep/elf.h	911;"	d
+R_IA64_TPREL64I	peep/elf.h	912;"	d
+R_IA64_TPREL64LSB	peep/elf.h	914;"	d
+R_IA64_TPREL64MSB	peep/elf.h	913;"	d
+R_MIPS_16	peep/elf.h	273;"	d
+R_MIPS_26	peep/elf.h	276;"	d
+R_MIPS_32	peep/elf.h	274;"	d
+R_MIPS_64	peep/elf.h	292;"	d
+R_MIPS_CALL16	peep/elf.h	283;"	d
+R_MIPS_CALLHI16	peep/elf.h	312;"	d
+R_MIPS_CALLLO16	peep/elf.h	313;"	d
+R_MIPS_DELETE	peep/elf.h	305;"	d
+R_MIPS_GOT16	peep/elf.h	281;"	d
+R_MIPS_GOTHI16	peep/elf.h	300;"	d
+R_MIPS_GOTLO16	peep/elf.h	301;"	d
+R_MIPS_GOT_DISP	peep/elf.h	293;"	d
+R_MIPS_GOT_OFST	peep/elf.h	295;"	d
+R_MIPS_GOT_PAGE	peep/elf.h	294;"	d
+R_MIPS_GPREL16	peep/elf.h	279;"	d
+R_MIPS_GPREL32	peep/elf.h	284;"	d
+R_MIPS_HI16	peep/elf.h	277;"	d
+R_MIPS_HIGHER	peep/elf.h	306;"	d
+R_MIPS_HIGHEST	peep/elf.h	307;"	d
+R_MIPS_HIVENDOR	peep/elf.h	318;"	d
+R_MIPS_INSERT_A	peep/elf.h	303;"	d
+R_MIPS_INSERT_B	peep/elf.h	304;"	d
+R_MIPS_LITERAL	peep/elf.h	280;"	d
+R_MIPS_LO16	peep/elf.h	278;"	d
+R_MIPS_LOVENDOR	peep/elf.h	317;"	d
+R_MIPS_NONE	peep/elf.h	272;"	d
+R_MIPS_PC16	peep/elf.h	282;"	d
+R_MIPS_REL32	peep/elf.h	275;"	d
+R_MIPS_SHIFT5	peep/elf.h	290;"	d
+R_MIPS_SHIFT6	peep/elf.h	291;"	d
+R_MIPS_SUB	peep/elf.h	302;"	d
+R_MIPS_UNUSED1	peep/elf.h	287;"	d
+R_MIPS_UNUSED2	peep/elf.h	288;"	d
+R_MIPS_UNUSED3	peep/elf.h	289;"	d
+R_PARISC_COPY	peep/elf.h	763;"	d
+R_PARISC_DIR14DR	peep/elf.h	733;"	d
+R_PARISC_DIR14R	peep/elf.h	702;"	d
+R_PARISC_DIR14WR	peep/elf.h	732;"	d
+R_PARISC_DIR16DF	peep/elf.h	736;"	d
+R_PARISC_DIR16F	peep/elf.h	734;"	d
+R_PARISC_DIR16WF	peep/elf.h	735;"	d
+R_PARISC_DIR17F	peep/elf.h	701;"	d
+R_PARISC_DIR17R	peep/elf.h	700;"	d
+R_PARISC_DIR21L	peep/elf.h	699;"	d
+R_PARISC_DIR32	peep/elf.h	698;"	d
+R_PARISC_DIR64	peep/elf.h	731;"	d
+R_PARISC_DPREL14R	peep/elf.h	709;"	d
+R_PARISC_DPREL21L	peep/elf.h	708;"	d
+R_PARISC_EPLT	peep/elf.h	765;"	d
+R_PARISC_FPTR64	peep/elf.h	722;"	d
+R_PARISC_GPREL14DR	peep/elf.h	739;"	d
+R_PARISC_GPREL14R	peep/elf.h	711;"	d
+R_PARISC_GPREL14WR	peep/elf.h	738;"	d
+R_PARISC_GPREL16DF	peep/elf.h	742;"	d
+R_PARISC_GPREL16F	peep/elf.h	740;"	d
+R_PARISC_GPREL16WF	peep/elf.h	741;"	d
+R_PARISC_GPREL21L	peep/elf.h	710;"	d
+R_PARISC_GPREL64	peep/elf.h	737;"	d
+R_PARISC_HIRESERVE	peep/elf.h	784;"	d
+R_PARISC_IPLT	peep/elf.h	764;"	d
+R_PARISC_LORESERVE	peep/elf.h	762;"	d
+R_PARISC_LTOFF14DR	peep/elf.h	745;"	d
+R_PARISC_LTOFF14R	peep/elf.h	713;"	d
+R_PARISC_LTOFF14WR	peep/elf.h	744;"	d
+R_PARISC_LTOFF16DF	peep/elf.h	748;"	d
+R_PARISC_LTOFF16F	peep/elf.h	746;"	d
+R_PARISC_LTOFF16WF	peep/elf.h	747;"	d
+R_PARISC_LTOFF21L	peep/elf.h	712;"	d
+R_PARISC_LTOFF64	peep/elf.h	743;"	d
+R_PARISC_LTOFF_FPTR14DR	peep/elf.h	758;"	d
+R_PARISC_LTOFF_FPTR14R	peep/elf.h	721;"	d
+R_PARISC_LTOFF_FPTR14WR	peep/elf.h	757;"	d
+R_PARISC_LTOFF_FPTR16DF	peep/elf.h	761;"	d
+R_PARISC_LTOFF_FPTR16F	peep/elf.h	759;"	d
+R_PARISC_LTOFF_FPTR16WF	peep/elf.h	760;"	d
+R_PARISC_LTOFF_FPTR21L	peep/elf.h	720;"	d
+R_PARISC_LTOFF_FPTR32	peep/elf.h	719;"	d
+R_PARISC_LTOFF_FPTR64	peep/elf.h	756;"	d
+R_PARISC_LTOFF_TP14DR	peep/elf.h	780;"	d
+R_PARISC_LTOFF_TP14F	peep/elf.h	771;"	d
+R_PARISC_LTOFF_TP14R	peep/elf.h	770;"	d
+R_PARISC_LTOFF_TP14WR	peep/elf.h	779;"	d
+R_PARISC_LTOFF_TP16DF	peep/elf.h	783;"	d
+R_PARISC_LTOFF_TP16F	peep/elf.h	781;"	d
+R_PARISC_LTOFF_TP16WF	peep/elf.h	782;"	d
+R_PARISC_LTOFF_TP21L	peep/elf.h	769;"	d
+R_PARISC_LTOFF_TP64	peep/elf.h	778;"	d
+R_PARISC_NONE	peep/elf.h	697;"	d
+R_PARISC_PCREL14DR	peep/elf.h	727;"	d
+R_PARISC_PCREL14R	peep/elf.h	707;"	d
+R_PARISC_PCREL14WR	peep/elf.h	726;"	d
+R_PARISC_PCREL16DF	peep/elf.h	730;"	d
+R_PARISC_PCREL16F	peep/elf.h	728;"	d
+R_PARISC_PCREL16WF	peep/elf.h	729;"	d
+R_PARISC_PCREL17F	peep/elf.h	706;"	d
+R_PARISC_PCREL17R	peep/elf.h	705;"	d
+R_PARISC_PCREL21L	peep/elf.h	704;"	d
+R_PARISC_PCREL22F	peep/elf.h	725;"	d
+R_PARISC_PCREL32	peep/elf.h	703;"	d
+R_PARISC_PCREL64	peep/elf.h	724;"	d
+R_PARISC_PLABEL32	peep/elf.h	723;"	d
+R_PARISC_PLTOFF14DR	peep/elf.h	752;"	d
+R_PARISC_PLTOFF14R	peep/elf.h	718;"	d
+R_PARISC_PLTOFF14WR	peep/elf.h	751;"	d
+R_PARISC_PLTOFF16DF	peep/elf.h	755;"	d
+R_PARISC_PLTOFF16F	peep/elf.h	753;"	d
+R_PARISC_PLTOFF16WF	peep/elf.h	754;"	d
+R_PARISC_PLTOFF21L	peep/elf.h	717;"	d
+R_PARISC_SECREL32	peep/elf.h	714;"	d
+R_PARISC_SECREL64	peep/elf.h	749;"	d
+R_PARISC_SEGBASE	peep/elf.h	715;"	d
+R_PARISC_SEGREL32	peep/elf.h	716;"	d
+R_PARISC_SEGREL64	peep/elf.h	750;"	d
+R_PARISC_TPREL14DR	peep/elf.h	774;"	d
+R_PARISC_TPREL14R	peep/elf.h	768;"	d
+R_PARISC_TPREL14WR	peep/elf.h	773;"	d
+R_PARISC_TPREL16DF	peep/elf.h	777;"	d
+R_PARISC_TPREL16F	peep/elf.h	775;"	d
+R_PARISC_TPREL16WF	peep/elf.h	776;"	d
+R_PARISC_TPREL21L	peep/elf.h	767;"	d
+R_PARISC_TPREL32	peep/elf.h	766;"	d
+R_PARISC_TPREL64	peep/elf.h	772;"	d
+R_PPC_ADDR14	peep/elf.h	448;"	d
+R_PPC_ADDR14_BRNTAKEN	peep/elf.h	450;"	d
+R_PPC_ADDR14_BRTAKEN	peep/elf.h	449;"	d
+R_PPC_ADDR16	peep/elf.h	444;"	d
+R_PPC_ADDR16_HA	peep/elf.h	447;"	d
+R_PPC_ADDR16_HI	peep/elf.h	446;"	d
+R_PPC_ADDR16_LO	peep/elf.h	445;"	d
+R_PPC_ADDR24	peep/elf.h	443;"	d
+R_PPC_ADDR32	peep/elf.h	442;"	d
+R_PPC_COPY	peep/elf.h	460;"	d
+R_PPC_GLOB_DAT	peep/elf.h	461;"	d
+R_PPC_GOT16	peep/elf.h	455;"	d
+R_PPC_GOT16_HA	peep/elf.h	458;"	d
+R_PPC_GOT16_HI	peep/elf.h	457;"	d
+R_PPC_GOT16_LO	peep/elf.h	456;"	d
+R_PPC_JMP_SLOT	peep/elf.h	462;"	d
+R_PPC_LOCAL24PC	peep/elf.h	464;"	d
+R_PPC_NONE	peep/elf.h	441;"	d
+R_PPC_NUM	peep/elf.h	479;"	d
+R_PPC_PLT16_HA	peep/elf.h	472;"	d
+R_PPC_PLT16_HI	peep/elf.h	471;"	d
+R_PPC_PLT16_LO	peep/elf.h	470;"	d
+R_PPC_PLT32	peep/elf.h	468;"	d
+R_PPC_PLTREL24	peep/elf.h	459;"	d
+R_PPC_PLTREL32	peep/elf.h	469;"	d
+R_PPC_REL14	peep/elf.h	452;"	d
+R_PPC_REL14_BRNTAKEN	peep/elf.h	454;"	d
+R_PPC_REL14_BRTAKEN	peep/elf.h	453;"	d
+R_PPC_REL24	peep/elf.h	451;"	d
+R_PPC_REL32	peep/elf.h	467;"	d
+R_PPC_RELATIVE	peep/elf.h	463;"	d
+R_PPC_SDAREL16	peep/elf.h	473;"	d
+R_PPC_SECTOFF	peep/elf.h	474;"	d
+R_PPC_SECTOFF_HA	peep/elf.h	477;"	d
+R_PPC_SECTOFF_HI	peep/elf.h	476;"	d
+R_PPC_SECTOFF_LO	peep/elf.h	475;"	d
+R_PPC_UADDR16	peep/elf.h	466;"	d
+R_PPC_UADDR32	peep/elf.h	465;"	d
+R_SPARC_10	peep/elf.h	354;"	d
+R_SPARC_11	peep/elf.h	355;"	d
+R_SPARC_13	peep/elf.h	335;"	d
+R_SPARC_16	peep/elf.h	326;"	d
+R_SPARC_22	peep/elf.h	334;"	d
+R_SPARC_32	peep/elf.h	327;"	d
+R_SPARC_5	peep/elf.h	361;"	d
+R_SPARC_6	peep/elf.h	362;"	d
+R_SPARC_64	peep/elf.h	356;"	d
+R_SPARC_7	peep/elf.h	360;"	d
+R_SPARC_8	peep/elf.h	325;"	d
+R_SPARC_COPY	peep/elf.h	343;"	d
+R_SPARC_DISP16	peep/elf.h	329;"	d
+R_SPARC_DISP32	peep/elf.h	330;"	d
+R_SPARC_DISP8	peep/elf.h	328;"	d
+R_SPARC_GLOB_DAT	peep/elf.h	344;"	d
+R_SPARC_GOT10	peep/elf.h	337;"	d
+R_SPARC_GOT13	peep/elf.h	338;"	d
+R_SPARC_GOT22	peep/elf.h	339;"	d
+R_SPARC_HI22	peep/elf.h	333;"	d
+R_SPARC_HIPLT22	peep/elf.h	349;"	d
+R_SPARC_JMP_SLOT	peep/elf.h	345;"	d
+R_SPARC_LO10	peep/elf.h	336;"	d
+R_SPARC_LOPLT10	peep/elf.h	350;"	d
+R_SPARC_NONE	peep/elf.h	324;"	d
+R_SPARC_OLO10	peep/elf.h	357;"	d
+R_SPARC_PC10	peep/elf.h	340;"	d
+R_SPARC_PC22	peep/elf.h	341;"	d
+R_SPARC_PCPLT10	peep/elf.h	353;"	d
+R_SPARC_PCPLT22	peep/elf.h	352;"	d
+R_SPARC_PCPLT32	peep/elf.h	351;"	d
+R_SPARC_PLT32	peep/elf.h	348;"	d
+R_SPARC_RELATIVE	peep/elf.h	346;"	d
+R_SPARC_UA32	peep/elf.h	347;"	d
+R_SPARC_WDISP16	peep/elf.h	358;"	d
+R_SPARC_WDISP19	peep/elf.h	359;"	d
+R_SPARC_WDISP22	peep/elf.h	332;"	d
+R_SPARC_WDISP30	peep/elf.h	331;"	d
+R_SPARC_WPLT30	peep/elf.h	342;"	d
+R_SS	sys/vcpu_consts.h	15;"	d
+R_X86_64_16	peep/elf.h	640;"	d
+R_X86_64_32	peep/elf.h	638;"	d
+R_X86_64_32S	peep/elf.h	639;"	d
+R_X86_64_64	peep/elf.h	628;"	d
+R_X86_64_8	peep/elf.h	642;"	d
+R_X86_64_COPY	peep/elf.h	632;"	d
+R_X86_64_GLOB_DAT	peep/elf.h	633;"	d
+R_X86_64_GOT32	peep/elf.h	630;"	d
+R_X86_64_GOTPCREL	peep/elf.h	636;"	d
+R_X86_64_JUMP_SLOT	peep/elf.h	634;"	d
+R_X86_64_NONE	peep/elf.h	627;"	d
+R_X86_64_NUM	peep/elf.h	645;"	d
+R_X86_64_PC16	peep/elf.h	641;"	d
+R_X86_64_PC32	peep/elf.h	629;"	d
+R_X86_64_PC8	peep/elf.h	643;"	d
+R_X86_64_PLT32	peep/elf.h	631;"	d
+R_X86_64_RELATIVE	peep/elf.h	635;"	d
+Rd	peep/i386-dis.c	333;"	d	file:
+Rm	peep/i386-dis.c	334;"	d	file:
+SAVE_GUEST	peep/peeptab_defs.h	544;"	d
+SAVE_GUEST_ESP	peep/peeptab_defs.h	547;"	d
+SAVE_REG	peep/peeptab_defs.h	296;"	d
+SAVE_TEMPORARY	peep/peeptab_defs.h	321;"	d
+SCAS	peep/peeptab_defs.h	496;"	d
+SCASS_B	peep/header.h	156;"	d
+SCASS_L	peep/header.h	158;"	d
+SCASS_W	peep/header.h	157;"	d
+SCAS_B	peep/header.h	79;"	d
+SCAS_L	peep/header.h	81;"	d
+SCAS_W	peep/header.h	80;"	d
+SEARCH_HASH_TABLE	peep/peeptab_defs.h	77;"	d
+SELFMAG	peep/elf.h	1113;"	d
+SETUP_MONITOR_STACK	peep/peeptab_defs.h	558;"	d
+SET_ESP	sys/vcpu.h	67;"	d
+SHADOWKERNEL	config.h	5;"	d
+SHADOWMEM	config.h	4;"	d
+SHADOWMEM_START	peep/peeptab_defs.h	359;"	d
+SHF_ALLOC	peep/elf.h	1058;"	d
+SHF_ALPHA_GPREL	peep/elf.h	437;"	d
+SHF_ARM_COMDEF	peep/elf.h	499;"	d
+SHF_ARM_ENTRYSECT	peep/elf.h	498;"	d
+SHF_EXECINSTR	peep/elf.h	1059;"	d
+SHF_IA_64_NORECOV	peep/elf.h	839;"	d
+SHF_IA_64_SHORT	peep/elf.h	838;"	d
+SHF_MASKPROC	peep/elf.h	1060;"	d
+SHF_MIPS_GPREL	peep/elf.h	1061;"	d
+SHF_PARISC_HUGE	peep/elf.h	685;"	d
+SHF_PARISC_SBP	peep/elf.h	686;"	d
+SHF_PARISC_SHORT	peep/elf.h	684;"	d
+SHF_WRITE	peep/elf.h	1057;"	d
+SHN_ABS	peep/elf.h	1068;"	d
+SHN_COMMON	peep/elf.h	1069;"	d
+SHN_HIPROC	peep/elf.h	1067;"	d
+SHN_HIRESERVE	peep/elf.h	1070;"	d
+SHN_LOPROC	peep/elf.h	1066;"	d
+SHN_LORESERVE	peep/elf.h	1065;"	d
+SHN_MIPS_ACCOMON	peep/elf.h	1071;"	d
+SHN_PARISC_ANSI_COMMON	peep/elf.h	672;"	d
+SHN_PARISC_HUGE_COMMON	peep/elf.h	674;"	d
+SHN_UNDEF	peep/elf.h	1064;"	d
+SHT_DYNAMIC	peep/elf.h	1040;"	d
+SHT_DYNSYM	peep/elf.h	1045;"	d
+SHT_HASH	peep/elf.h	1039;"	d
+SHT_HIPROC	peep/elf.h	1048;"	d
+SHT_HIUSER	peep/elf.h	1050;"	d
+SHT_IA_64_EXT	peep/elf.h	834;"	d
+SHT_IA_64_UNWIND	peep/elf.h	835;"	d
+SHT_LOPROC	peep/elf.h	1047;"	d
+SHT_LOUSER	peep/elf.h	1049;"	d
+SHT_MIPS_CONFLICT	peep/elf.h	1052;"	d
+SHT_MIPS_GPTAB	peep/elf.h	1053;"	d
+SHT_MIPS_LIST	peep/elf.h	1051;"	d
+SHT_MIPS_UCODE	peep/elf.h	1054;"	d
+SHT_NOBITS	peep/elf.h	1042;"	d
+SHT_NOTE	peep/elf.h	1041;"	d
+SHT_NULL	peep/elf.h	1034;"	d
+SHT_NUM	peep/elf.h	1046;"	d
+SHT_PARISC_DOC	peep/elf.h	680;"	d
+SHT_PARISC_EXT	peep/elf.h	678;"	d
+SHT_PARISC_UNWIND	peep/elf.h	679;"	d
+SHT_PROGBITS	peep/elf.h	1035;"	d
+SHT_REL	peep/elf.h	1043;"	d
+SHT_RELA	peep/elf.h	1038;"	d
+SHT_RELOC	peepgen.c	1216;"	d	file:
+SHT_SHLIB	peep/elf.h	1044;"	d
+SHT_STRTAB	peep/elf.h	1037;"	d
+SHT_SYMTAB	peep/elf.h	1036;"	d
+SIMD_Fixup	peep/i386-dis.c	/^SIMD_Fixup (bti386_t *bti386, int extrachar, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+SNIPPET_PREFIX_STR	peepgen.c	38;"	d	file:
+SS_PREFIX_OPCODE	peep/i386-dis.c	84;"	d	file:
+ST	peep/i386-dis.c	4006;"	d	file:
+STB_GLOBAL	peep/elf.h	171;"	d
+STB_LOCAL	peep/elf.h	170;"	d
+STB_WEAK	peep/elf.h	172;"	d
+STOP_BT	btmod.h	9;"	d
+STOS	peep/peeptab_defs.h	474;"	d
+STOSS_B	peep/header.h	153;"	d
+STOSS_L	peep/header.h	155;"	d
+STOSS_W	peep/header.h	154;"	d
+STOS_B	peep/header.h	76;"	d
+STOS_L	peep/header.h	78;"	d
+STOS_W	peep/header.h	77;"	d
+STT_ARM_TFUNC	peep/elf.h	495;"	d
+STT_FILE	peep/elf.h	178;"	d
+STT_FUNC	peep/elf.h	176;"	d
+STT_HP_OPAQUE	peep/elf.h	692;"	d
+STT_HP_STUB	peep/elf.h	693;"	d
+STT_NOTYPE	peep/elf.h	174;"	d
+STT_OBJECT	peep/elf.h	175;"	d
+STT_PARISC_MILLICODE	peep/elf.h	690;"	d
+STT_SECTION	peep/elf.h	177;"	d
+STi	peep/i386-dis.c	4007;"	d	file:
+SUFFIX_ALWAYS	peep/i386-dis.c	449;"	d	file:
+SVME_Fixup	peep/i386-dis.c	/^SVME_Fixup (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+SWITCH_MODE	hypercall.h	28;"	d
+SYSV386_COMPAT	peep/i386-dis.c	59;"	d	file:
+SYS_MONITOR_H	sys/monitor.h	2;"	d
+SYS_VCPU_CONSTS_H	sys/vcpu_consts.h	2;"	d
+SYS_VCPU_H	sys/vcpu.h	2;"	d
+Suffix3DNow	peep/i386-dis.c	/^static const char *const Suffix3DNow[] = {$/;"	v	file:
+Sv	peep/i386-dis.c	398;"	d	file:
+Sw	peep/i386-dis.c	397;"	d	file:
+TB	peep/tb.c	19;"	d	file:
+TB_ALLOC	peep/tb.c	21;"	d	file:
+TC_ALLOC	peep/tb.c	22;"	d	file:
+TEMP_REG0	peep/assignments.h	8;"	d
+TF_MASK	sys/vcpu_consts.h	63;"	d
+TF_SHIFT	sys/vcpu_consts.h	57;"	d
+THREADS_MALLOC_H	mem/malloc.h	2;"	d
+THREE_BYTE_0	peep/i386-dis.c	661;"	d	file:
+THREE_BYTE_1	peep/i386-dis.c	662;"	d	file:
+TRANSLATE_DEBUG_CODE	btmod.h	12;"	d
+TRANSLATE_IDT	btmod.h	10;"	d
+TWO_BYTE_OPCODE_ESCAPE	peep/i386-dis.c	88;"	d	file:
+TWO_TEMPS_CALL	peep/peeptab_defs.h	167;"	d
+TWO_TEMPS_JUMP	peep/peeptab_defs.h	55;"	d
+Td	peep/i386-dis.c	346;"	d	file:
+UINT16_MAX	include/types.h	68;"	d
+UINT32_MAX	include/types.h	70;"	d
+UINT64_MAX	include/types.h	72;"	d
+UINT8_MAX	include/types.h	66;"	d
+UINTMAX_MAX	include/types.h	82;"	d
+UINTPTR_MAX	include/types.h	77;"	d
+UINT_MAX	include/types.h	30;"	d
+ULLONG_MAX	include/types.h	38;"	d
+ULONG_MAX	include/types.h	34;"	d
+UNPATCHED	bt_vcpu.h	/^  UNPATCHED,$/;"	e	enum:status
+UNUSED	include/debug.h	9;"	d
+USED_REX	peep/i386-dis.c	292;"	d	file:
+USE_GROUPS	peep/i386-dis.c	520;"	d	file:
+USE_PREFIX_USER_TABLE	peep/i386-dis.c	521;"	d	file:
+UTILS_H	lib/utils.h	2;"	d
+VAR_CONST	peepgen.h	5;"	d
+VCONSTANT_PLACEHOLDER	peep/insn.c	286;"	d	file:
+VCPU_LOG_ALWAYS	include/debug.h	40;"	d
+VCPU_LOG_CPU	include/debug.h	49;"	d
+VCPU_LOG_EXCP	include/debug.h	45;"	d
+VCPU_LOG_HW	include/debug.h	43;"	d
+VCPU_LOG_INT	include/debug.h	44;"	d
+VCPU_LOG_IN_ASM	include/debug.h	42;"	d
+VCPU_LOG_IOPORT	include/debug.h	48;"	d
+VCPU_LOG_MTRACE	include/debug.h	51;"	d
+VCPU_LOG_OUT_ASM	include/debug.h	41;"	d
+VCPU_LOG_PAGING	include/debug.h	52;"	d
+VCPU_LOG_PCALL	include/debug.h	47;"	d
+VCPU_LOG_TB	include/debug.h	53;"	d
+VCPU_LOG_TRANSLATE	include/debug.h	50;"	d
+VCPU_LOG_USB	include/debug.h	46;"	d
+VIF_MASK	sys/vcpu_consts.h	71;"	d
+VIP_MASK	sys/vcpu_consts.h	72;"	d
+VM	peep/i386-dis.c	429;"	d	file:
+VMX_Fixup	peep/i386-dis.c	/^VMX_Fixup (bti386_t *bti386, int extrachar ATTRIBUTE_UNUSED, int sizeflag)$/;"	f	file:
+VM_MASK	sys/vcpu_consts.h	69;"	d
+VM_SHIFT	sys/vcpu_consts.h	59;"	d
+WRITE	peep/peeptab_defs.h	400;"	d
+WRITES	peep/peeptab_defs.h	406;"	d
+X86_64_0	peep/i386-dis.c	656;"	d	file:
+X86_64_1	peep/i386-dis.c	657;"	d	file:
+X86_64_2	peep/i386-dis.c	658;"	d	file:
+X86_64_3	peep/i386-dis.c	659;"	d	file:
+X86_64_SPECIAL	peep/i386-dis.c	522;"	d	file:
+XM	peep/i386-dis.c	417;"	d	file:
+XMM0	peep/i386-dis.c	432;"	d	file:
+XMM_Fixup	peep/i386-dis.c	/^XMM_Fixup (bti386_t *bti386, int reg, int sizeflag ATTRIBUTE_UNUSED)$/;"	f	file:
+XS	peep/i386-dis.c	426;"	d	file:
+XX	peep/i386-dis.c	308;"	d	file:
+Xb	peep/i386-dis.c	402;"	d	file:
+Xbr	peep/i386-dis.c	435;"	d	file:
+Xv	peep/i386-dis.c	403;"	d	file:
+Xvr	peep/i386-dis.c	436;"	d	file:
+Xz	peep/i386-dis.c	404;"	d	file:
+Yb	peep/i386-dis.c	405;"	d	file:
+Ybr	peep/i386-dis.c	437;"	d	file:
+Yv	peep/i386-dis.c	406;"	d	file:
+Yvr	peep/i386-dis.c	438;"	d	file:
+Yzr	peep/i386-dis.c	439;"	d	file:
+_	peep/i386-dis.c	50;"	d	file:
+_	peep/peeptab_defs.h	311;"	d
+_BLACK_	lib/rbtree.c	8;"	d	file:
+_DEF	peep/instrument.c	30;"	d	file:
+_DEF	peep/instrument.c	34;"	d	file:
+_DEF	peep/peep.c	38;"	d	file:
+_DEF	peep/peep.c	42;"	d	file:
+_INFINITY_	lib/rbtree.c	11;"	d	file:
+_QEMU_ELF_H	peep/elf.h	2;"	d
+_RED_	lib/rbtree.c	9;"	d	file:
+__DUMP_STATE	lib/mdebug.h	8;"	d
+__HEADER_H__	peep/header.h	2;"	d
+__HYPERCALL_H__	hypercall.h	2;"	d
+__INSNTYPES_H	peep/insntypes.h	2;"	d
+__INSPECT_MEMORY	lib/mdebug.h	9;"	d
+__LIB_CTYPE_H	lib/ctype.h	2;"	d
+__LIB_DEBUG_H	include/debug.h	2;"	d
+__LIB_KERNEL_HASH_H	lib/hash.h	2;"	d
+__LIB_MYLIST_H	lib/mylist.h	2;"	d
+__MDEBUG_PAD	lib/mdebug.h	6;"	d
+__MDEBUG_SET	lib/mdebug.h	14;"	d
+__MONITOR_MEMORY_START	lib/mdebug.h	10;"	d
+__MONITOR_MEMORY_STOP	lib/mdebug.h	11;"	d
+__PRINT_ERRORMSG	lib/mdebug.h	12;"	d
+__PROFILE_RESET	lib/mdebug.h	13;"	d
+__ROMWRITE_SET_DST	lib/mdebug.h	16;"	d
+__ROMWRITE_SET_SIZE	lib/mdebug.h	18;"	d
+__ROMWRITE_SET_SRC	lib/mdebug.h	17;"	d
+__ROMWRITE_TRANSFER	lib/mdebug.h	19;"	d
+__TYPES_H	include/types.h	2;"	d
+__builtin_prefetch	lib/hash.c	9;"	d	file:
+__extable	btfix.c	/^static struct exception_table_entry *__extable;$/;"	v	typeref:struct:exception_table_entry	file:
+__inited	btmod.c	/^static int __inited = 0;$/;"	v	file:
+__insn_get_usedef	peep/insn.c	/^__insn_get_usedef(btmod *bt, struct insn_t const *insn, $/;"	f
+__mylist_add	lib/mylist.h	/^static inline void __mylist_add(struct mylist_elem *new,$/;"	f
+__mylist_cut_position	lib/mylist.h	/^static inline void __mylist_cut_position(struct mylist_elem *mylist,$/;"	f
+__mylist_del	lib/mylist.h	/^static inline void __mylist_del(struct mylist_elem * prev, struct mylist_elem * next)$/;"	f
+__mylist_head_splice	lib/mylist.h	/^static inline void __mylist_head_splice(const struct mylist_elem *mylist,$/;"	f
+__new_buf	btmod.c	/^char __new_buf[2][512];$/;"	v
+__print_buf	btmod.c	/^char __print_buf[512];$/;"	v
+__search_exception_tables	btfix.c	/^__search_exception_tables(uint32_t addr)$/;"	f
+__tb_gen_translate_code	bt_main.c	/^__tb_gen_translate_code(btmod_vcpu *v, uint32_t eip_virt)$/;"	f	file:
+_shadowmem_start	btmod.c	/^unsigned _shadowmem_start = 0;$/;"	v
+_xstr	lib/macros.h	5;"	d
+add_bt_exception_table	btfix.c	/^add_bt_exception_table(uint32_t eip, uint32_t fixup)$/;"	f
+addr	btmod.h	/^  unsigned len, addr;$/;"	m	struct:extable_ioctl
+addr_to_chunk	mem/malloc.c	/^addr_to_chunk(struct malloc_info *info, uint32_t addr)$/;"	f	file:
+addr_to_pool	mem/malloc.c	/^addr_to_pool(struct malloc_info *info, uint32_t addr)$/;"	f
+address_mode	peep/i386-dis.c	/^enum address_mode address_mode;$/;"	v	typeref:enum:address_mode
+address_mode	peep/i386-dis.c	/^enum address_mode$/;"	g	file:
+addrsize	peep/insntypes.h	/^  unsigned addrsize:4;        \/\/in bytes$/;"	m	struct:__anon4
+ah_reg	peep/i386-dis.c	493;"	d	file:
+al_reg	peep/i386-dis.c	489;"	d	file:
+alignment	peep/tb.h	/^  unsigned alignment:2;$/;"	m	struct:tb_t
+all	peep/insntypes.h	/^  unsigned all:4;                    \/* colocated with tag->all*\/$/;"	m	struct:__anon6
+alloc_a_tb	peep/tb.c	/^alloc_a_tb(btmod *bt)$/;"	f
+alloc_jumptable1	peep/jumptable1.c	/^alloc_jumptable1(void)$/;"	f
+alloc_module_extable	btmod.c	/^alloc_module_extable(void)$/;"	f	file:
+append_assignments	peep/assignments.c	/^append_assignments(assignments_t *assignments,$/;"	f
+append_code_snippets	peepgen.c	/^append_code_snippets(char const *filename, char const *append_filename)$/;"	f	file:
+append_constraints	peepgen.c	/^append_constraints(char *all_constraints, int all_constraints_size,$/;"	f	file:
+append_seg	peep/i386-dis.c	/^append_seg (bti386_t *bti386)$/;"	f	file:
+arr	btmod.c	/^	unsigned long long arr[PAGE_SIZE\/sizeof(unsigned long)];$/;"	m	struct:shared_page	file:
+arr	peep/assignments.h	/^  } arr[MAX_VARIABLES];$/;"	m	struct:assignments_t	typeref:struct:assignments_t::__anon16
+assignment_is_coherent	peep/assignments.c	/^assignment_is_coherent(operand_t const *var, operand_t const *val)$/;"	f
+assignments	peep/peep.h	/^	assignments_t assignments;$/;"	m	struct:bt_peep_t
+assignments2str	peep/assignments.c	/^assignments2str(assignments_t const *assignments, char *buf, int buf_size)$/;"	f
+assignments_add	peep/assignments.c	/^assignments_add(assignments_t *assignments, operand_t const *templ,$/;"	f
+assignments_are_coherent	peep/assignments.c	/^assignments_are_coherent(assignments_t const *assignments)$/;"	f
+assignments_copy	peep/assignments.c	/^assignments_copy(assignments_t *dst, assignments_t const *src)$/;"	f
+assignments_get_regs	peep/assignments.c	/^assignments_get_regs(int *reg_indices, assignments_t const *assignments)$/;"	f
+assignments_get_segs	peep/assignments.c	/^assignments_get_segs(int *seg_indices, assignments_t const *assignments)$/;"	f
+assignments_get_temporaries	peep/assignments.c	/^assignments_get_temporaries(assignments_t const *assignments,$/;"	f
+assignments_get_text_replacements	peep/assignments.c	/^assignments_get_text_replacements(assignments_t const *assignments,$/;"	f
+assignments_getval	peep/assignments.c	/^assignments_getval(assignments_t const *assignments, operand_t const *templ,$/;"	f
+assignments_init	peep/assignments.c	/^assignments_init(assignments_t *assignments)$/;"	f
+assignments_t	peep/assignments.h	/^typedef struct assignments_t {$/;"	s
+assignments_t	peep/assignments.h	/^} assignments_t;$/;"	t	typeref:struct:assignments_t
+atoi	lib/utils.c	/^atoi (const char *s) $/;"	f
+atomic64_t	bt_vcpu.h	72;"	d
+att_index16	peep/i386-dis.c	/^static const char *att_index16[] = {$/;"	v	file:
+att_names16	peep/i386-dis.c	/^static const char *att_names16[] = {$/;"	v	file:
+att_names32	peep/i386-dis.c	/^static const char *att_names32[] = {$/;"	v	file:
+att_names64	peep/i386-dis.c	/^static const char *att_names64[] = {$/;"	v	file:
+att_names8	peep/i386-dis.c	/^static const char *att_names8[] = {$/;"	v	file:
+att_names8rex	peep/i386-dis.c	/^static const char *att_names8rex[] = {$/;"	v	file:
+att_names_seg	peep/i386-dis.c	/^static const char *att_names_seg[] = {$/;"	v	file:
+aux	lib/hash.h	/^    void *aux;                  \/* Auxiliary data for `hash' and `less'. *\/$/;"	m	struct:hash
+aux	lib/rbtree.h	/^  void *aux;$/;"	m	struct:rbtree
+ax_reg	peep/i386-dis.c	498;"	d	file:
+b_mode	peep/i386-dis.c	453;"	d	file:
+base	peep/insntypes.h	/^  int base:5;$/;"	m	struct:__anon4
+base	peep/insntypes.h	/^  unsigned base:4;$/;"	m	struct:__anon6
+bfd_byte	peep/i386-dis.h	/^typedef unsigned char bfd_byte;$/;"	t
+bfd_signed_vma	peep/i386-dis.h	/^typedef long bfd_signed_vma;$/;"	t
+bfd_vma	peep/i386-dis.h	/^typedef unsigned long bfd_vma;$/;"	t
+bh_reg	peep/i386-dis.c	496;"	d	file:
+bl_reg	peep/i386-dis.c	492;"	d	file:
+bp_reg	peep/i386-dis.c	503;"	d	file:
+bt	bt_vcpu.h	/^	struct btmod *bt;$/;"	m	struct:btmod_vcpu	typeref:struct:btmod_vcpu::btmod
+bt	btmod.c	/^btmod *bt;$/;"	v
+bt	peepgen.c	/^btmod bt;$/;"	v
+bt_load_idt	btmod.c	/^bt_load_idt(const struct desc_ptr *dtr)$/;"	f	file:
+bt_peep	bt_vcpu.h	/^	bt_peep_t bt_peep;$/;"	m	struct:btmod_vcpu
+bt_peep_t	peep/peep.h	/^typedef struct bt_peep_t {$/;"	s
+bt_peep_t	peep/peep.h	/^} bt_peep_t;$/;"	t	typeref:struct:bt_peep_t
+bt_put_idt_addr	bt_main.c	/^bt_put_idt_addr(gate_desc *idt, unsigned gate, void *addr)$/;"	f	file:
+bt_read_idt_addr	bt_main.c	/^bt_read_idt_addr(gate_desc *idt, unsigned gate)$/;"	f	file:
+bt_shadow	bt_main.c	/^struct bt_shadow {$/;"	s	file:
+bt_store_idt	bt_main.c	/^bt_store_idt(struct desc_ptr *dtr)$/;"	f	file:
+btalloc	mem/malloc.c	/^btalloc(int size, pgprot_t prot)$/;"	f
+btalloc	mem/malloc.h	41;"	d
+btfree	mem/malloc.c	/^btfree(void *ptr, int size)$/;"	f
+btfree	mem/malloc.h	42;"	d
+bti386	bt_vcpu.h	/^	bti386_t bti386;$/;"	m	struct:btmod_vcpu
+bti386_t	peep/i386-dis.h	/^typedef struct bti386_t {$/;"	s
+bti386_t	peep/i386-dis.h	/^} bti386_t;$/;"	t	typeref:struct:bti386_t
+btmod	bt_vcpu.h	/^typedef struct btmod {$/;"	s
+btmod	bt_vcpu.h	/^} btmod;$/;"	t	typeref:struct:btmod
+btmod_opctable	peep/opctable.h	/^typedef struct btmod_opctable {$/;"	s
+btmod_opctable	peep/opctable.h	/^} btmod_opctable;$/;"	t	typeref:struct:btmod_opctable
+btmod_vcpu	bt_vcpu.h	/^typedef struct btmod_vcpu {$/;"	s
+btmod_vcpu	bt_vcpu.h	/^} btmod_vcpu;$/;"	t	typeref:struct:btmod_vcpu
+bucket	lib/hash.h	/^    struct mylist *bucket;        \/* Current bucket. *\/$/;"	m	struct:hash_iterator	typeref:struct:hash_iterator::mylist
+bucket_cnt	lib/hash.h	/^    size_t bucket_cnt;          \/* Number of buckets, a power of 2. *\/$/;"	m	struct:hash
+buckets	lib/hash.h	/^    struct mylist *buckets;       \/* Array of `bucket_cnt' mylists. *\/$/;"	m	struct:hash	typeref:struct:hash::mylist
+bx_reg	peep/i386-dis.c	501;"	d	file:
+bytemode	peep/i386-dis.c	/^		int bytemode;$/;"	m	struct:dis386::__anon10	file:
+calc_offset	peep/instrument.c	/^calc_offset(int scale, int opcsize, int perm, int safe)$/;"	f	file:
+callout_label	sys/vcpu.h	/^	void *callout_label;$/;"	m	struct:vcpu_t
+ch_reg	peep/i386-dis.c	494;"	d	file:
+check_dead_flags_and_tregs	peep/instrument.c	/^check_dead_flags_and_tregs(btmod_vcpu *v, uint32_t cur_addr, $/;"	f	file:
+check_if_flags_are_dead	peep/instrument.c	/^check_if_flags_are_dead(btmod_vcpu *v, uint32_t cur_addr)$/;"	f	file:
+chunk_cur	mem/malloc.h	/^  uint32_t chunk_cur;$/;"	m	struct:chunk_info
+chunk_end	mem/malloc.h	/^	uint32_t chunk_end;$/;"	m	struct:chunk_info
+chunk_info	mem/malloc.h	/^struct chunk_info {$/;"	s
+chunk_start	mem/malloc.h	/^	uint32_t chunk_start;$/;"	m	struct:chunk_info
+cinfo	mem/malloc.h	/^	struct chunk_info cinfo[MAX_CHUNK];$/;"	m	struct:malloc_info	typeref:struct:malloc_info::chunk_info
+ckprefix	peep/i386-dis.c	/^ckprefix (bti386_t *bti386)$/;"	f	file:
+cl_reg	peep/i386-dis.c	490;"	d	file:
+clear_jumptable1	peep/jumptable1.c	/^clear_jumptable1(int smp_cpus)$/;"	f
+close_char	peep/i386-dis.h	/^	char close_char;$/;"	m	struct:bti386_t
+cmp_ex	btfix.c	/^static int cmp_ex(const void *a, const void *b)$/;"	f	file:
+code_len	peep/tb.h	/^  size_t edge_len, code_len;$/;"	m	struct:tb_t
+codep	peep/i386-dis.h	/^	unsigned char const *codep;$/;"	m	struct:bti386_t
+color	lib/rbtree.h	/^  bool color ;$/;"	m	struct:rbtree_elem
+cond_jump_flag	peep/i386-dis.c	445;"	d	file:
+cond_jump_mode	peep/i386-dis.c	461;"	d	file:
+const_1_mode	peep/i386-dis.c	466;"	d	file:
+constraint_bit2str	peep/cpu_constraints.c	/^constraint_bit2str(cpu_constraints_t constraint)$/;"	f	file:
+constraint_bits	peep/cpu_constraints.c	/^cpu_constraints_t const constraint_bits[] = {$/;"	v
+continuous_blocks	peep/jumptable1.c	/^continuous_blocks(uint32_t addr1, uint32_t addr2, uint32_t size)$/;"	f	file:
+count_insns	peep/instrument.c	/^count_insns(btmod_vcpu *v, uint32_t eip_virt, $/;"	f
+cpu_constraints	peep/peeptab.h	/^  cpu_constraints_t cpu_constraints;$/;"	m	struct:peep_entry_t
+cpu_constraints2str	peep/cpu_constraints.c	/^cpu_constraints2str(cpu_constraints_t const *constraints, char *buf,$/;"	f
+cpu_constraints_read	peepgen.c	/^cpu_constraints_read(char const *str)$/;"	f	file:
+cpu_constraints_t	peep/cpu_constraints.h	/^typedef uint64_t cpu_constraints_t;$/;"	t
+cpu_mode_16	sys/vcpu.h	/^  cpu_mode_16 = 0,$/;"	e	enum:__anon19
+cpu_mode_32	sys/vcpu.h	/^  cpu_mode_32,$/;"	e	enum:__anon19
+cpu_mode_any	sys/vcpu.h	/^  cpu_mode_any,$/;"	e	enum:__anon19
+cpu_mode_t	sys/vcpu.h	/^} cpu_mode_t;$/;"	t	typeref:enum:__anon19
+cr2str	peep/insn.c	/^cr2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+create_shadow_idt	bt_main.c	/^create_shadow_idt(btmod_vcpu *v)$/;"	f
+cregs	peep/regset.h	/^  char cregs[NUM_REGS];          \/* actual registers. *\/$/;"	m	struct:regset_t
+cs	peep/i386-dis.c	411;"	d	file:
+cs_reg	peep/i386-dis.c	474;"	d	file:
+cx_reg	peep/i386-dis.c	499;"	d	file:
+d3now	peep/insntypes.h	/^    uint8_t d3now;$/;"	m	union:operand_t::__anon8
+d_mode	peep/i386-dis.c	456;"	d	file:
+d_ptr	peep/elf.h	/^    Elf32_Addr	d_ptr;$/;"	m	union:dynamic::__anon12
+d_ptr	peep/elf.h	/^    Elf64_Addr d_ptr;$/;"	m	union:__anon13::__anon14
+d_tag	peep/elf.h	/^  Elf32_Sword d_tag;$/;"	m	struct:dynamic
+d_tag	peep/elf.h	/^  Elf64_Sxword d_tag;		\/* entry tag value *\/$/;"	m	struct:__anon13
+d_un	peep/elf.h	/^  } d_un;$/;"	m	struct:__anon13	typeref:union:__anon13::__anon14
+d_un	peep/elf.h	/^  } d_un;$/;"	m	struct:dynamic	typeref:union:dynamic::__anon12
+d_val	peep/elf.h	/^    Elf32_Sword	d_val;$/;"	m	union:dynamic::__anon12
+d_val	peep/elf.h	/^    Elf64_Xword d_val;$/;"	m	union:__anon13::__anon14
+db2str	peep/insn.c	/^db2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+dbg_level	lib/debug.c	/^int dbg_level = 1;$/;"	v
+debug_backtrace	peepgen.c	/^void debug_backtrace(void **frame_address)$/;"	f
+debug_code	peep/peeptab_defs.h	573;"	d
+debug_panic	peepgen.c	/^debug_panic (const char *file, int line, const char *function,$/;"	f
+def	peep/peep.h	/^	regset_t use, def;$/;"	m	struct:bt_peep_t
+device_ioctl	btmod.c	/^device_ioctl(struct file *file,$/;"	f	file:
+dh_reg	peep/i386-dis.c	495;"	d	file:
+di_reg	peep/i386-dis.c	505;"	d	file:
+dis386	peep/i386-dis.c	/^static struct dis386 dis386[] = {$/;"	v	typeref:struct:dis386	file:
+dis386	peep/i386-dis.c	/^struct dis386 {$/;"	s	file:
+dis386_twobyte	peep/i386-dis.c	/^static struct dis386 dis386_twobyte[] = {$/;"	v	typeref:struct:dis386	file:
+dis_ldub	peep/i386-dis.c	137;"	d	file:
+dis_private	peep/i386-dis.c	/^struct dis_private {$/;"	s	file:
+disas_dofloat	peep/i386-dis.c	/^disas_dofloat (btmod_vcpu *v, insn_t *insn, int sizeflag)$/;"	f	file:
+disas_insn	peep/i386-dis.c	/^disas_insn(btmod_vcpu *v, unsigned char const *code, target_ulong eip, $/;"	f
+disas_insns	peepgen.c	/^disas_insns(insn_t *insns, size_t insns_size, uint8_t const *code,$/;"	f	file:
+disas_putop	peep/i386-dis.c	/^disas_putop (bti386_t *bti386, const char *template, int sizeflag)$/;"	f	file:
+disas_rtn	peep/i386-dis.c	/^		op_disas_rtn disas_rtn;$/;"	m	struct:dis386::__anon10	file:
+disp	peep/insntypes.h	/^  uint64_t disp;$/;"	m	struct:__anon4
+disp	peep/insntypes.h	/^  unsigned disp:4;$/;"	m	struct:__anon6
+dl_reg	peep/i386-dis.c	491;"	d	file:
+dofloat	peep/i386-dis.c	/^dofloat (bti386_t *bti386, int sizeflag)$/;"	f	file:
+dp_inval	peep/i386-dis.c	667;"	d	file:
+dpnum	peep/i386-dis.c	/^	int dpnum;$/;"	m	struct:dis386	file:
+dpnum	peep/opctable.h	/^	int dpnum;$/;"	m	struct:btmod_opctable
+dprintk	hypercall.h	7;"	d
+dprintk	hypercall.h	80;"	d
+dprintk	hypercall.h	82;"	d
+dprintk	include/types.h	6;"	d
+dq_mode	peep/i386-dis.c	463;"	d	file:
+dqb_mode	peep/i386-dis.c	470;"	d	file:
+dqd_mode	peep/i386-dis.c	471;"	d	file:
+dqw_mode	peep/i386-dis.c	464;"	d	file:
+ds	peep/i386-dis.c	412;"	d	file:
+ds_reg	peep/i386-dis.c	476;"	d	file:
+dump_shadow_memory	btmod.c	/^dump_shadow_memory(void)$/;"	f	file:
+dump_stack	include/debug.h	6;"	d
+dump_state	lib/mdebug.h	31;"	d
+dx_reg	peep/i386-dis.c	500;"	d	file:
+dynamic	peep/elf.h	/^typedef struct dynamic{$/;"	s
+eAX	peep/i386-dis.c	376;"	d	file:
+eAX_reg	peep/i386-dis.c	480;"	d	file:
+eAXr	peep/i386-dis.c	442;"	d	file:
+eBP	peep/i386-dis.c	381;"	d	file:
+eBP_reg	peep/i386-dis.c	485;"	d	file:
+eBX	peep/i386-dis.c	377;"	d	file:
+eBX_reg	peep/i386-dis.c	483;"	d	file:
+eCX	peep/i386-dis.c	378;"	d	file:
+eCX_reg	peep/i386-dis.c	481;"	d	file:
+eDI	peep/i386-dis.c	383;"	d	file:
+eDI_reg	peep/i386-dis.c	487;"	d	file:
+eDX	peep/i386-dis.c	379;"	d	file:
+eDX_reg	peep/i386-dis.c	482;"	d	file:
+eSI	peep/i386-dis.c	382;"	d	file:
+eSI_reg	peep/i386-dis.c	486;"	d	file:
+eSP	peep/i386-dis.c	380;"	d	file:
+eSP_reg	peep/i386-dis.c	484;"	d	file:
+e_ehsize	peep/elf.h	/^  Elf32_Half	e_ehsize;$/;"	m	struct:elf32_hdr
+e_ehsize	peep/elf.h	/^  Elf64_Half e_ehsize;$/;"	m	struct:elf64_hdr
+e_entry	peep/elf.h	/^  Elf32_Addr	e_entry;  \/* Entry point *\/$/;"	m	struct:elf32_hdr
+e_entry	peep/elf.h	/^  Elf64_Addr e_entry;		\/* Entry point virtual address *\/$/;"	m	struct:elf64_hdr
+e_flags	peep/elf.h	/^  Elf32_Word	e_flags;$/;"	m	struct:elf32_hdr
+e_flags	peep/elf.h	/^  Elf64_Word e_flags;$/;"	m	struct:elf64_hdr
+e_ident	peep/elf.h	/^  unsigned char	e_ident[16];		\/* ELF "magic number" *\/$/;"	m	struct:elf64_hdr
+e_ident	peep/elf.h	/^  unsigned char	e_ident[EI_NIDENT];$/;"	m	struct:elf32_hdr
+e_machine	peep/elf.h	/^  Elf32_Half	e_machine;$/;"	m	struct:elf32_hdr
+e_machine	peep/elf.h	/^  Elf64_Half e_machine;$/;"	m	struct:elf64_hdr
+e_phentsize	peep/elf.h	/^  Elf32_Half	e_phentsize;$/;"	m	struct:elf32_hdr
+e_phentsize	peep/elf.h	/^  Elf64_Half e_phentsize;$/;"	m	struct:elf64_hdr
+e_phnum	peep/elf.h	/^  Elf32_Half	e_phnum;$/;"	m	struct:elf32_hdr
+e_phnum	peep/elf.h	/^  Elf64_Half e_phnum;$/;"	m	struct:elf64_hdr
+e_phoff	peep/elf.h	/^  Elf32_Off	e_phoff;$/;"	m	struct:elf32_hdr
+e_phoff	peep/elf.h	/^  Elf64_Off e_phoff;		\/* Program header table file offset *\/$/;"	m	struct:elf64_hdr
+e_shentsize	peep/elf.h	/^  Elf32_Half	e_shentsize;$/;"	m	struct:elf32_hdr
+e_shentsize	peep/elf.h	/^  Elf64_Half e_shentsize;$/;"	m	struct:elf64_hdr
+e_shnum	peep/elf.h	/^  Elf32_Half	e_shnum;$/;"	m	struct:elf32_hdr
+e_shnum	peep/elf.h	/^  Elf64_Half e_shnum;$/;"	m	struct:elf64_hdr
+e_shoff	peep/elf.h	/^  Elf32_Off	e_shoff;$/;"	m	struct:elf32_hdr
+e_shoff	peep/elf.h	/^  Elf64_Off e_shoff;		\/* Section header table file offset *\/$/;"	m	struct:elf64_hdr
+e_shstrndx	peep/elf.h	/^  Elf32_Half	e_shstrndx;$/;"	m	struct:elf32_hdr
+e_shstrndx	peep/elf.h	/^  Elf64_Half e_shstrndx;$/;"	m	struct:elf64_hdr
+e_type	peep/elf.h	/^  Elf32_Half	e_type;$/;"	m	struct:elf32_hdr
+e_type	peep/elf.h	/^  Elf64_Half e_type;$/;"	m	struct:elf64_hdr
+e_version	peep/elf.h	/^  Elf32_Word	e_version;$/;"	m	struct:elf32_hdr
+e_version	peep/elf.h	/^  Elf64_Word e_version;$/;"	m	struct:elf64_hdr
+edge	sys/vcpu.h	/^  unsigned long edge;$/;"	m	struct:vcpu_t
+edge_len	peep/tb.h	/^  size_t edge_len, code_len;$/;"	m	struct:tb_t
+edge_offset	peep/peep.h	/^	uint16_t edge_offset[3], jmp_offset[3];$/;"	m	struct:bt_peep_t
+edge_ptr	peep/tb.h	/^  uint8_t *edge_ptr;$/;"	m	struct:tb_t
+ehdr	peepgen.c	/^struct elfhdr ehdr;$/;"	v	typeref:struct:elfhdr
+eip	sys/vcpu.h	/^  void *eip;$/;"	m	struct:vcpu_t
+eip_boundaries	peep/tb.h	/^  uint16_t  *eip_boundaries;$/;"	m	struct:tb_t
+eip_virt	peep/tb.h	/^  target_ulong eip_virt;$/;"	m	struct:tb_t
+eip_virt_to_tc_ptr	peep/tb.c	/^eip_virt_to_tc_ptr(tb_t *tb, uint32_t eip_virt)$/;"	f
+elem	lib/hash.h	/^    struct hash_elem *elem;     \/* Current hash element in current bucket. *\/$/;"	m	struct:hash_iterator	typeref:struct:hash_iterator::hash_elem
+elem_cnt	lib/hash.h	/^    size_t elem_cnt;            \/* Number of elements in table. *\/$/;"	m	struct:hash
+elf32_hdr	peep/elf.h	/^typedef struct elf32_hdr{$/;"	s
+elf32_note	peep/elf.h	/^typedef struct elf32_note {$/;"	s
+elf32_phdr	peep/elf.h	/^typedef struct elf32_phdr{$/;"	s
+elf32_rel	peep/elf.h	/^typedef struct elf32_rel {$/;"	s
+elf32_rela	peep/elf.h	/^typedef struct elf32_rela{$/;"	s
+elf32_shdr	peep/elf.h	/^typedef struct elf32_shdr {$/;"	s
+elf32_sym	peep/elf.h	/^typedef struct elf32_sym{$/;"	s
+elf64_hdr	peep/elf.h	/^typedef struct elf64_hdr {$/;"	s
+elf64_note	peep/elf.h	/^typedef struct elf64_note {$/;"	s
+elf64_phdr	peep/elf.h	/^typedef struct elf64_phdr {$/;"	s
+elf64_rel	peep/elf.h	/^typedef struct elf64_rel {$/;"	s
+elf64_rela	peep/elf.h	/^typedef struct elf64_rela {$/;"	s
+elf64_shdr	peep/elf.h	/^typedef struct elf64_shdr {$/;"	s
+elf64_sym	peep/elf.h	/^typedef struct elf64_sym {$/;"	s
+elf_check_arch	peepgen.c	48;"	d	file:
+elf_note	peep/elf.h	1154;"	d
+elf_note	peep/elf.h	1168;"	d
+elf_phdr	peep/elf.h	1153;"	d
+elf_phdr	peep/elf.h	1167;"	d
+elf_shdr	peep/elf.h	1155;"	d
+elf_shdr	peep/elf.h	1169;"	d
+elf_sym	peep/elf.h	1156;"	d
+elf_sym	peep/elf.h	1170;"	d
+elfhdr	peep/elf.h	1152;"	d
+elfhdr	peep/elf.h	1166;"	d
+end_eip	peep/tb.h	/^  target_ulong end_eip;$/;"	m	struct:tb_t
+entry_equal	peepgen.c	/^entry_equal(struct hash_elem const *ha, struct hash_elem const *hb, void *aux)$/;"	f	file:
+entry_free	peepgen.c	/^entry_free(struct hash_elem *ha, void *unused)$/;"	f	file:
+entry_hash	peepgen.c	/^entry_hash(struct hash_elem const *ha, void *aux)$/;"	f	file:
+entry_t	peepgen.c	/^} entry_t;$/;"	t	typeref:struct:__anon20	file:
+equal	lib/hash.h	/^    hash_equal_func *equal;     \/* Comparison function. *\/$/;"	m	struct:hash
+es	peep/i386-dis.c	409;"	d	file:
+es_reg	peep/i386-dis.c	473;"	d	file:
+exit_translator	btmod.c	/^exit_translator(void)$/;"	f
+exit_translator	btmod.c	/^module_exit(exit_translator);$/;"	v
+extable_inited	btfix.c	/^static bool extable_inited = false;$/;"	v	file:
+extable_ioctl	btmod.h	/^struct extable_ioctl {$/;"	s
+extable_is_inited	btfix.c	/^extable_is_inited(void)$/;"	f
+f_mode	peep/i386-dis.c	465;"	d	file:
+fetch_eip_and_prev_tb	btfix.c	/^fetch_eip_and_prev_tb(btmod_vcpu *v, uint32_t cur_eip,$/;"	f
+fetch_eip_from_edge	btfix.c	/^fetch_eip_from_edge(btmod_vcpu *v, uint32_t cur_eip)$/;"	f	file:
+fgrps	peep/i386-dis.c	/^static char *fgrps[][8] = {$/;"	v	file:
+fgrps_dpnum	peep/i386-dis.c	/^static int fgrps_dpnum[sizeof fgrps\/sizeof fgrps[0]][8];$/;"	v	file:
+find_bucket	lib/hash.c	/^find_bucket (struct hash *h, struct hash_elem *e) $/;"	f	file:
+find_constants	peepgen.c	/^find_constants(char const *assembly, operand_t *constants, int *num_constants)$/;"	f	file:
+find_elem	lib/hash.c	/^find_elem (struct hash *h, struct mylist *bucket, struct hash_elem *e) $/;"	f	file:
+find_elf_section	peepgen.c	/^find_elf_section(struct elf_shdr *shdr, int shnum,$/;"	f	file:
+find_end_of_run	lib/mylist.c	/^find_end_of_run (struct mylist_elem *a, struct mylist_elem *b,$/;"	f	file:
+find_first_equal_entry	lib/rbtree.c	/^find_first_equal_entry(struct rbtree const *tree,$/;"	f	file:
+find_regvars	peepgen.c	/^find_regvars(char const **regvars, unsigned num_regvars,$/;"	f	file:
+find_reloc	peepgen.c	/^find_reloc(unsigned sh_index)$/;"	f	file:
+find_sizeflag_num	peep/opctable.c	/^find_sizeflag_num(btmod *bt, int sizeflag)$/;"	f	file:
+find_temporary_regs	peep/peep.c	/^find_temporary_regs(int *temporaries, int n_temporaries,$/;"	f	file:
+find_variables	peepgen.c	/^find_variables(char const *assembly, operand_t *variables, int *num_variables)$/;"	f	file:
+float_mem	peep/i386-dis.c	/^static const char *float_mem[] = {$/;"	v	file:
+float_mem_dpnum	peep/i386-dis.c	/^int float_mem_dpnum[sizeof float_mem_mode\/sizeof float_mem_mode[0]];$/;"	v
+float_mem_mode	peep/i386-dis.c	/^static const unsigned char float_mem_mode[] = {$/;"	v	file:
+float_reg	peep/i386-dis.c	/^static struct dis386 float_reg[][8] = {$/;"	v	typeref:struct:dis386	file:
+fops	btmod.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+free_jumptable1	peep/jumptable1.c	/^free_jumptable1(void)$/;"	f
+free_module_extable	btmod.c	/^free_module_extable(void)$/;"	f	file:
+fs	peep/i386-dis.c	413;"	d	file:
+fs_reg	peep/i386-dis.c	477;"	d	file:
+gen_as_entry	peepgen.c	/^gen_as_entry(char const *in_text, char const *out_text,$/;"	f	file:
+gen_as_files	peepgen.c	/^gen_as_files(char const *filename)$/;"	f	file:
+gen_defs	peepgen.c	/^gen_defs(char const *outfilename)$/;"	f	file:
+gen_defs_from_file	peepgen.c	/^gen_defs_from_file(FILE *outfile, char const *filename, char const *prefix)$/;"	f	file:
+gen_mem_modes	peepgen.c	/^gen_mem_modes(char const *mem_modes[], char const *mem_constraints[],$/;"	f	file:
+gen_mem_modes16	peepgen.c	/^gen_mem_modes16(char const *mem_modes[], char const *mem_constraints[],$/;"	f	file:
+gen_mem_modes32	peepgen.c	/^gen_mem_modes32(char const *mem_modes[], char const *mem_constraints[],$/;"	f	file:
+gen_mem_ord_assn	peepgen.c	1481;"	d	file:
+gen_offsets	peepgen.c	/^gen_offsets(void)$/;"	f	file:
+gen_peep_tab	peepgen.c	/^gen_peep_tab(char const *outfilename, char const *snippet_filename)$/;"	f	file:
+gen_peeptab_entry	peepgen.c	/^gen_peeptab_entry(FILE *outfile, char const *index_name,$/;"	f	file:
+gen_shadow_code	peep/instrument.c	/^gen_shadow_code(btmod_vcpu *v, uint8_t **optr, $/;"	f	file:
+gen_shadow_str_code	peep/instrument.c	/^gen_shadow_str_code(btmod_vcpu *v, uint8_t **optr, uint8_t **eptr, $/;"	f	file:
+gen_snippet_entry	peepgen.c	/^gen_snippet_entry(FILE *snippet_file, char const *index_name,$/;"	f	file:
+gen_vars_ordered	peepgen.c	/^gen_vars_ordered(char const *outfilename)$/;"	f	file:
+gen_vars_ordered_for_entry	peepgen.c	/^gen_vars_ordered_for_entry(FILE *outfile, char const *name,$/;"	f	file:
+generate_output_code	peepgen.c	/^generate_output_code(FILE *out_S, char const *index_name,$/;"	f	file:
+get16	peep/i386-dis.c	/^get16 (bti386_t *bti386)$/;"	f	file:
+get32	peep/i386-dis.c	/^get32 (bti386_t *bti386)$/;"	f	file:
+get32s	peep/i386-dis.c	/^get32s (bti386_t *bti386)$/;"	f	file:
+get64	peep/i386-dis.c	/^get64 (bti386_t *bti386)$/;"	f	file:
+get_assignments_without_temps	peepgen.c	/^get_assignments_without_temps(assignments_t *assignments_no_temps,$/;"	f	file:
+get_num_variants	peepgen.c	/^get_num_variants(EXE_SYM **entries, char const *name)$/;"	f	file:
+get_opcode_size	peep/insn.c	/^get_opcode_size(btmod *bt, insn_t const *insn)$/;"	f
+get_operand_size	peep/i386-dis.c	/^get_operand_size (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+get_opertype_str	peep/insn.c	/^get_opertype_str(opertype_t type)$/;"	f
+get_regname	peepgen.c	/^get_regname(char *regname, size_t regname_size,assignments_t const *assignments,$/;"	f	file:
+get_rel_offset	peepgen.c	/^static unsigned long get_rel_offset(EXE_RELOC *rel)$/;"	f	file:
+get_rel_sym_name	peepgen.c	/^static char *get_rel_sym_name(EXE_RELOC *rel)$/;"	f	file:
+get_reloc_expr	peepgen.c	/^get_reloc_expr(char *name, size_t name_size, char const *sym_name,$/;"	f	file:
+get_seg	peep/i386-dis.c	/^get_seg (bti386_t *bti386)$/;"	f	file:
+get_segname	peepgen.c	/^get_segname(char *segname, size_t segname_size,assignments_t const *assignments,$/;"	f	file:
+get_sp_mask	sys/vcpu.h	36;"	d
+get_sym_name	peepgen.c	/^static char *get_sym_name(EXE_SYM *sym)$/;"	f	file:
+get_symtab_entries	peepgen.c	/^get_symtab_entries(EXE_SYM **entries, char const *prefix)$/;"	f	file:
+glue	peep/peeptab_defs.h	354;"	d
+grps	peep/i386-dis.c	/^static struct dis386 grps[][8] = {$/;"	v	typeref:struct:dis386	file:
+gs	peep/i386-dis.c	414;"	d	file:
+gs_reg	peep/i386-dis.c	478;"	d	file:
+guest_flag	peep/i386-dis.c	/^bool guest_flag = false;$/;"	v
+h_elem	peepgen.c	/^  struct hash_elem h_elem;$/;"	m	struct:__anon20	typeref:struct:__anon20::hash_elem	file:
+hash	lib/hash.h	/^    hash_hash_func *hash;       \/* Hash function. *\/$/;"	m	struct:hash
+hash	lib/hash.h	/^    struct hash *hash;          \/* The hash table. *\/$/;"	m	struct:hash_iterator	typeref:struct:hash_iterator::hash
+hash	lib/hash.h	/^struct hash $/;"	s
+hash_action_func	lib/hash.h	/^typedef void hash_action_func (struct hash_elem *e, void *aux);$/;"	t
+hash_apply	lib/hash.c	/^hash_apply (struct hash *h, hash_action_func *action) $/;"	f
+hash_bytes	lib/hash.c	/^hash_bytes (const void *buf_, size_t size)$/;"	f
+hash_clear	lib/hash.c	/^hash_clear (struct hash *h, hash_action_func *destructor) $/;"	f
+hash_cur	lib/hash.c	/^hash_cur (struct hash_iterator *i) $/;"	f
+hash_delete	lib/hash.c	/^hash_delete (struct hash *h, struct hash_elem *e)$/;"	f
+hash_destroy	lib/hash.c	/^hash_destroy (struct hash *h, hash_action_func *destructor) $/;"	f
+hash_elem	lib/hash.h	/^struct hash_elem $/;"	s
+hash_empty	lib/hash.c	/^hash_empty (struct hash *h) $/;"	f
+hash_entry	lib/hash.h	38;"	d
+hash_equal_func	lib/hash.h	/^typedef bool hash_equal_func (const struct hash_elem *a,$/;"	t
+hash_find	lib/hash.c	/^hash_find (struct hash *h, struct hash_elem *e) $/;"	f
+hash_find_bucket	lib/hash.c	/^hash_find_bucket (struct hash *h, struct hash_elem *e)$/;"	f
+hash_find_bucket_with_hash	lib/hash.c	/^hash_find_bucket_with_hash (struct hash *h, unsigned hashval)$/;"	f
+hash_first	lib/hash.c	/^hash_first (struct hash_iterator *i, struct hash *h) $/;"	f
+hash_hash_func	lib/hash.h	/^typedef unsigned hash_hash_func (const struct hash_elem *e, void *aux);$/;"	t
+hash_init	lib/hash.c	/^hash_init (struct hash *h, hash_hash_func *hash, hash_equal_func *equal,$/;"	f
+hash_init_size	lib/hash.c	/^hash_init_size (struct hash *h, size_t size, hash_hash_func *hash,$/;"	f
+hash_insert	lib/hash.c	/^hash_insert (struct hash *h, struct hash_elem *new)$/;"	f
+hash_insns	peep/peep.c	/^hash_insns(size_t n_insns, insn_t const *insns)$/;"	f	file:
+hash_int	lib/hash.c	/^hash_int (int i) $/;"	f
+hash_iterator	lib/hash.h	/^struct hash_iterator $/;"	s
+hash_next	lib/hash.c	/^hash_next (struct hash_iterator *i)$/;"	f
+hash_replace	lib/hash.c	/^hash_replace (struct hash *h, struct hash_elem *new) $/;"	f
+hash_size	lib/hash.c	/^hash_size (struct hash *h) $/;"	f
+hash_string	lib/hash.c	/^hash_string (const char *s_) $/;"	f
+head	lib/mylist.h	/^  struct mylist_elem head;      \/* List head. *\/$/;"	m	struct:mylist	typeref:struct:mylist::mylist_elem
+height	lib/rbtree.c	/^height(struct rbtree_elem const *root)$/;"	f	file:
+help	include/debug.h	/^  char const *help;$/;"	m	struct:vcpu_log_item_t
+hw_memcpy	peep/peep.c	/^hw_memcpy(void *dst, const void *src, size_t n)$/;"	f
+identify_reg_variables_in_outcode	peepgen.c	/^identify_reg_variables_in_outcode(char const *name, insn_t *insns,$/;"	f	file:
+imm	peep/insntypes.h	/^    uint64_t imm;$/;"	m	union:operand_t::__anon8
+imm2str	peep/insn.c	/^imm2str(int64 val, int tag, char *buf, int buflen)$/;"	f	file:
+in_range	lib/utils.h	16;"	d
+index	peep/insntypes.h	/^  int index:5;$/;"	m	struct:__anon4
+index	peep/insntypes.h	/^  unsigned index:4;$/;"	m	struct:__anon6
+index16	peep/i386-dis.c	/^static const char **index16;$/;"	v	file:
+indirDX	peep/i386-dis.c	395;"	d	file:
+indirDXr	peep/i386-dis.c	440;"	d	file:
+indirEp	peep/i386-dis.c	319;"	d	file:
+indirEv	peep/i386-dis.c	318;"	d	file:
+indir_dx_reg	peep/i386-dis.c	517;"	d	file:
+info	bt_vcpu.h	/^	struct malloc_info info;$/;"	m	struct:btmod	typeref:struct:btmod::malloc_info
+init_bt	btmod.c	/^init_bt(int smp_cpus)$/;"	f	file:
+init_bt_vcpu	btmod.c	/^init_bt_vcpu(btmod *bt, int smp_cpus)$/;"	f	file:
+init_callout_label	bt_main.c	/^init_callout_label(vcpu_t *vcpu)$/;"	f
+init_exception_table	btfix.c	/^init_exception_table(void __user *table, int len)$/;"	f
+init_pool_range	mem/malloc.c	/^init_pool_range(struct malloc_info *info)$/;"	f	file:
+init_shadow_data	btmod.c	/^init_shadow_data(int smp_cpus)$/;"	f	file:
+inorder	lib/rbtree.c	/^inorder(struct rbtree_elem const *root, rbtree_print_func *print, void *aux)$/;"	f	file:
+inplace_merge	lib/mylist.c	/^inplace_merge (struct mylist_elem *a0, struct mylist_elem *a1b0,$/;"	f	file:
+insert_elem	lib/hash.c	/^insert_elem (struct hash *h, struct mylist *bucket, struct hash_elem *e) $/;"	f	file:
+insn	peep/peep.h	/^	insn_t insn;$/;"	m	struct:bt_peep_t
+insn2str	peep/insn.c	/^insn2str(btmod *bt, insn_t const *insn, char *buf, size_t size)$/;"	f
+insn_accesses_mem	peep/insn.c	/^insn_accesses_mem(btmod *bt, insn_t const *insn, struct operand_t const **op1,$/;"	f
+insn_accesses_mem16	peep/insn.c	/^insn_accesses_mem16(btmod *bt, insn_t const *insn, struct operand_t const **op1,$/;"	f
+insn_accesses_op_type	peep/insn.c	/^insn_accesses_op_type(btmod *bt, insn_t const *insn, struct operand_t const **op1,$/;"	f	file:
+insn_accesses_stack	peep/insn.c	/^insn_accesses_stack(btmod *bt, insn_t const *insn)$/;"	f
+insn_can_do_exception	peep/insn.c	/^insn_can_do_exception(btmod *bt, insn_t const *insn)$/;"	f
+insn_codep	peep/i386-dis.h	/^	unsigned char const *insn_codep;$/;"	m	struct:bti386_t
+insn_get_addr_size	peep/insn.c	/^insn_get_addr_size(btmod *bt, insn_t const *insn)$/;"	f
+insn_get_operand_size	peep/insn.c	/^insn_get_operand_size(insn_t const *insn)$/;"	f
+insn_get_usedef	peep/insn.c	/^insn_get_usedef(struct insn_t const *insn, struct regset_t *use,$/;"	f
+insn_has_direct_dependence	peep/insn.c	/^insn_has_direct_dependence(btmod *bt, insn_t const *insn)$/;"	f
+insn_has_indirect_dependence	peep/insn.c	/^insn_has_indirect_dependence(btmod *bt, insn_t const *insn)$/;"	f
+insn_has_prefix	peep/insn.c	/^insn_has_prefix(btmod *bt, insn_t const *insn)$/;"	f
+insn_has_rep_prefix	peep/insn.c	/^insn_has_rep_prefix(insn_t const *insn)$/;"	f
+insn_has_translation	peep/insn.c	/^insn_has_translation(btmod *bt, insn_t const *insn)$/;"	f
+insn_init	peep/insn.c	/^insn_init(insn_t *insn)$/;"	f
+insn_is_cmps_or_scas	peep/insn.c	/^insn_is_cmps_or_scas(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_comparison	peep/insn.c	/^insn_is_comparison(btmod *bt, insn_t const *insn)$/;"	f	file:
+insn_is_conditional_jump	peep/insn.c	/^insn_is_conditional_jump(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_direct_call	peep/insn.c	/^insn_is_direct_call(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_direct_jump	peep/insn.c	/^insn_is_direct_jump(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_indirect_branch	peep/insn.c	/^insn_is_indirect_branch(btmod *bt, insn_t const *insn)$/;"	f	file:
+insn_is_indirect_jump	peep/insn.c	/^insn_is_indirect_jump(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_movs_or_cmps	peep/insn.c	/^insn_is_movs_or_cmps(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_nop	peep/insn.c	/^insn_is_nop(btmod *bt, insn_t const *insn)$/;"	f	file:
+insn_is_pop	peep/insn.c	/^insn_is_pop(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_prefetch	peep/insn.c	/^insn_is_prefetch(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_push	peep/insn.c	/^insn_is_push(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_push_es	bt_main.c	/^insn_is_push_es(uint8_t *ptr)$/;"	f	file:
+insn_is_sti	peep/insn.c	/^insn_is_sti(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_string_op	peep/insn.c	/^insn_is_string_op(btmod *bt, insn_t const *insn)$/;"	f
+insn_is_terminating	peep/insn.c	/^insn_is_terminating(btmod *bt, insn_t const *insn)$/;"	f
+insn_pattern_match_regvar	peepgen.c	/^insn_pattern_match_regvar(insn_t *insn, insn_t const *c_insn, int regnum,$/;"	f	file:
+insn_reads_flags	peep/insn.c	/^insn_reads_flags(btmod *bt, struct insn_t const *insn)$/;"	f
+insn_regvar_union	peepgen.c	/^insn_regvar_union(insn_t *insn, insn_t const *v_insn)$/;"	f	file:
+insn_rename_constants	peep/insn.c	/^insn_rename_constants(insn_t *insn, assignments_t const *assignments)$/;"	f
+insn_seq_pattern_match_regvar	peepgen.c	/^insn_seq_pattern_match_regvar(insn_t *insns, insn_t const *c_insns,$/;"	f	file:
+insn_seqs_are_isomorphic	peepgen.c	/^insn_seqs_are_isomorphic(insn_t const *a, int na, insn_t const *b, int nb)$/;"	f	file:
+insn_sets_flags	peep/insn.c	/^insn_sets_flags(btmod *bt, struct insn_t const *insn)$/;"	f
+insn_start	peep/i386-dis.c	/^	bfd_vma insn_start;$/;"	m	struct:dis_private	file:
+insn_t	peep/insntypes.h	/^typedef struct insn_t {$/;"	s
+insn_t	peep/insntypes.h	/^} insn_t;$/;"	t	typeref:struct:insn_t
+insns	peep/peep.h	/^	insn_t insns[MAX_TU_SIZE];$/;"	m	struct:bt_peep_t
+insns2str	peep/insn.c	/^insns2str(btmod *bt, insn_t const *insns, int n_insns, char *buf, size_t size)$/;"	f
+insns_are_isomorphic	peepgen.c	/^insns_are_isomorphic(struct insn_t const *a, struct insn_t const *b)$/;"	f	file:
+insns_buf	peep/peep.h	/^	char insns_buf[256];$/;"	m	struct:bt_peep_t
+insns_regvar_union	peepgen.c	/^insns_regvar_union(insn_t *insns, insn_t const *r_insns, int n_insns)$/;"	f	file:
+insns_rename_constants	peepgen.c	/^insns_rename_constants(insn_t *insns, int n_insns,$/;"	f	file:
+inspect_memory	lib/mdebug.h	32;"	d
+instrument_memory	peep/instrument.c	/^instrument_memory(btmod_vcpu *v, uint32_t eip, $/;"	f
+int64	peep/insn.c	/^typedef long long int64;$/;"	t	file:
+intel_operand_size	peep/i386-dis.c	/^intel_operand_size (bti386_t *bti386, int bytemode, int sizeflag)$/;"	f	file:
+intel_syntax	peep/i386-dis.h	/^	char intel_syntax;$/;"	m	struct:bti386_t
+invalid	peep/insntypes.h	/^  invalid = 0,$/;"	e	enum:__anon1
+is_edge_cache_addr	bt_main.c	/^is_edge_cache_addr(btmod *bt, uint32_t eip)$/;"	f	file:
+is_head	lib/mylist.c	/^is_head (struct mylist_elem *elem)$/;"	f	file:
+is_identical_byte	peepgen.c	/^is_identical_byte(uint8_t const *code[], size_t size, size_t bytenum)$/;"	f	file:
+is_interior	lib/mylist.c	/^is_interior (struct mylist_elem *elem)$/;"	f	file:
+is_power_of_two	peepgen.c	/^is_power_of_two(unsigned val, unsigned *bitpos)$/;"	f	file:
+is_seg_prefix_byte	peepgen.c	/^is_seg_prefix_byte(uint8_t const *code[], size_t size, size_t bytenum)$/;"	f	file:
+is_sorted	lib/mylist.c	/^is_sorted (struct mylist_elem *a, struct mylist_elem *b,$/;"	f	file:
+is_tail	lib/mylist.c	/^is_tail (struct mylist_elem *elem)$/;"	f	file:
+is_variable_name	peepgen.c	/^is_variable_name(char const *name, assignments_t const *assignments)$/;"	f	file:
+is_whitespace	lib/utils.c	/^is_whitespace(char const *buf)$/;"	f
+is_xor_to_zero	peep/insn.c	/^is_xor_to_zero(btmod *bt, insn_t const *insn)$/;"	f	file:
+isalnum	lib/ctype.h	/^static inline int isalnum (int c) { return isalpha (c) || isdigit (c); }$/;"	f
+isalpha	lib/ctype.h	/^static inline int isalpha (int c) { return islower (c) || isupper (c); }$/;"	f
+isascii	lib/ctype.h	/^static inline int isascii (int c) { return c >= 0 && c < 128; }$/;"	f
+isblank	lib/ctype.h	/^static inline int isblank (int c) { return c == ' ' || c == '\\t'; }$/;"	f
+iscntrl	lib/ctype.h	/^static inline int iscntrl (int c) { return (c >= 0 && c < 32) || c == 127; }$/;"	f
+isdigit	lib/ctype.h	/^static inline int isdigit (int c) { return c >= '0' && c <= '9'; }$/;"	f
+isgraph	lib/ctype.h	/^static inline int isgraph (int c) { return c > 32 && c < 127; }$/;"	f
+islower	lib/ctype.h	/^static inline int islower (int c) { return c >= 'a' && c <= 'z'; }$/;"	f
+isprint	lib/ctype.h	/^static inline int isprint (int c) { return c >= 32 && c < 127; }$/;"	f
+ispunct	lib/ctype.h	/^static inline int ispunct (int c) {$/;"	f
+isspace	lib/ctype.h	/^static inline int isspace (int c) {$/;"	f
+isupper	lib/ctype.h	/^static inline int isupper (int c) { return c >= 'A' && c <= 'Z'; }$/;"	f
+isxdigit	lib/ctype.h	/^static inline int isxdigit (int c) {$/;"	f
+its_ok	peep/peeptab_defs.h	357;"	d
+jmp_offset	peep/peep.h	/^	uint16_t edge_offset[3], jmp_offset[3];$/;"	m	struct:bt_peep_t
+jmp_opcodes	peep/insn.c	/^char *jmp_opcodes[] = {"jmp", "je", "jne", "jg", "jle", "jl", "jge", "ja",$/;"	v
+jump_boundaries	peep/tb.h	/^	uint16_t *jump_boundaries;$/;"	m	struct:tb_t
+jump_to_tc	peep/peeptab_defs.h	564;"	d
+jumptable	bt_vcpu.h	/^	unsigned long long *jumptable;$/;"	m	struct:btmod_vcpu
+jumptable1	peep/jumptable1.c	/^unsigned long long __percpu *jumptable1;$/;"	v
+jumptable1_add	peep/jumptable1.c	/^jumptable1_add(uint32_t eip, uint32_t tc_ptr)$/;"	f
+jumptable2	bt_vcpu.h	/^  struct rbtree jumptable2;$/;"	m	struct:btmod	typeref:struct:btmod::rbtree
+jumptable2_add	peep/jumptable2.c	/^jumptable2_add(struct rbtree *rb, struct tb_t *tb)$/;"	f
+jumptable2_elem	peep/tb.h	/^  struct rbtree_elem jumptable2_elem;$/;"	m	struct:tb_t	typeref:struct:tb_t::rbtree_elem
+jumptable2_find	peep/jumptable2.c	/^jumptable2_find(struct rbtree *rb, target_ulong eip_virt)$/;"	f
+jumptable2_init	peep/jumptable2.c	/^jumptable2_init(struct rbtree *rb)$/;"	f
+jumptable2_remove	peep/jumptable2.c	/^jumptable2_remove(struct rbtree *rb, tb_t *tb)$/;"	f
+jumptable_aux	peep/jumptable1.c	/^unsigned long long __percpu *jumptable_aux[3];$/;"	v
+kfree	include/types.h	8;"	d
+kmalloc	include/types.h	7;"	d
+label	peep/peeptab.h	/^  int label;$/;"	m	struct:peep_entry_t
+ld	sys/vcpu.h	78;"	d
+ld_kernel	sys/vcpu.h	81;"	d
+ld_phys	sys/vcpu.h	103;"	d
+ldl	sys/vcpu.h	/^ldl(target_ulong ptr) {$/;"	f
+ldl_kernel	sys/vcpu.h	146;"	d
+ldl_phys	sys/vcpu.h	154;"	d
+ldub	peep/i386-dis.c	134;"	d	file:
+ldub	peep/i386-dis.c	135;"	d	file:
+ldub	sys/vcpu.h	/^ldub(target_ulong ptr) {$/;"	f
+ldub_kernel	sys/vcpu.h	144;"	d
+ldub_phys	sys/vcpu.h	152;"	d
+lduw	sys/vcpu.h	/^lduw(target_ulong ptr) {$/;"	f
+lduw_kernel	sys/vcpu.h	145;"	d
+lduw_phys	sys/vcpu.h	153;"	d
+left	lib/rbtree.h	/^  struct rbtree_elem *left;$/;"	m	struct:rbtree_elem	typeref:struct:rbtree_elem::rbtree_elem
+leftrotate	lib/rbtree.c	/^leftrotate(rbnode_t *tree, rbnode_t node)$/;"	f	file:
+len	btmod.h	/^  unsigned len, addr;$/;"	m	struct:extable_ioctl
+less	lib/rbtree.h	/^  rbtree_less_func *less;$/;"	m	struct:rbtree
+likely	include/debug.h	117;"	d
+load_data	peepgen.c	/^load_data(int fd, long offset, unsigned int size)$/;"	f	file:
+load_native_idt	btmod.c	/^load_native_idt(int idx)$/;"	f	file:
+load_object	peepgen.c	/^load_object(const char *filename)$/;"	f	file:
+lock_owner	bt_main.c	/^static int lock_owner = 0xff;$/;"	v	file:
+loglevel	lib/debug.c	/^int loglevel;$/;"	v
+loop_jcxz_flag	peep/i386-dis.c	446;"	d	file:
+loop_jcxz_mode	peep/i386-dis.c	462;"	d	file:
+lpg_ofs	mem/vaddr.h	/^static inline unsigned lpg_ofs (const void *va) {$/;"	f
+m_mode	peep/i386-dis.c	460;"	d	file:
+main	peepgen.c	/^main(int argc, char **argv)$/;"	f
+make_string_replacements	lib/utils.c	/^make_string_replacements(char *out, unsigned out_size, char const *in,$/;"	f
+malloc_from_pool	mem/malloc.c	/^malloc_from_pool (struct malloc_info *info, unsigned pool, size_t size) $/;"	f
+malloc_info	mem/malloc.h	/^struct malloc_info {$/;"	s
+malloc_init	mem/malloc.c	/^malloc_init (struct malloc_info *info) $/;"	f
+malloc_uninit	mem/malloc.c	/^malloc_uninit(struct malloc_info *info)$/;"	f
+mask	include/debug.h	/^  int mask;$/;"	m	struct:vcpu_log_item_t
+max	include/types.h	23;"	d
+max	peepgen.c	57;"	d	file:
+max_fetched	peep/i386-dis.c	/^	bfd_byte *max_fetched;$/;"	m	struct:dis_private	file:
+maximum	lib/rbtree.c	/^maximum(struct rbtree_elem const *root)$/;"	f	file:
+mdebug_start	lib/mdebug.h	37;"	d
+mdebug_stop	lib/mdebug.h	38;"	d
+mem	peep/insntypes.h	/^    operand_mem_tag_t mem;$/;"	m	union:operand_t::__anon9
+mem	peep/insntypes.h	/^    operand_mem_val_t mem;$/;"	m	union:operand_t::__anon8
+mem2str	peep/insn.c	/^mem2str(operand_mem_val_t const *val, operand_mem_tag_t const *tag, int size,$/;"	f	file:
+mem_match	peep/peep.c	94;"	d	file:
+mem_operands_match	peep/peep.c	/^mem_operands_match(btmod_vcpu *v, operand_t const *op, operand_t const *templ,$/;"	f	file:
+min	include/types.h	19;"	d
+min	peepgen.c	53;"	d	file:
+min_bucket_count	lib/hash.h	/^    size_t min_bucket_count;    \/* The minimum size of the table. default:4. *\/$/;"	m	struct:hash
+minimum	lib/rbtree.c	/^minimum(struct rbtree_elem const *root)$/;"	f	file:
+mmx2str	peep/insn.c	/^mmx2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+mod	peep/i386-dis.h	/^	  int mod;$/;"	m	struct:bti386_t::__anon15
+mode_16bit	peep/i386-dis.c	/^	mode_16bit,$/;"	e	enum:address_mode	file:
+mode_32bit	peep/i386-dis.c	/^	mode_32bit,$/;"	e	enum:address_mode	file:
+mode_64bit	peep/i386-dis.c	/^	mode_64bit$/;"	e	enum:address_mode	file:
+mode_translate	peep/peep.c	/^mode_translate(uint8_t **out_buf, size_t out_buf_size, $/;"	f	file:
+modrm	peep/i386-dis.h	/^	} modrm;$/;"	m	struct:bti386_t	typeref:struct:bti386_t::__anon15
+mon_stack	bt_vcpu.h	/^	unsigned long mon_stack;$/;"	m	struct:btmod_vcpu
+monitor_entry	bt_main.c	/^monitor_entry(void)$/;"	f	file:
+monitor_memory_start	lib/mdebug.h	33;"	d
+monitor_memory_stop	lib/mdebug.h	34;"	d
+must_printk	hypercall.h	129;"	d
+my_is_power_of_2	lib/hash.c	/^my_is_power_of_2 (size_t x) $/;"	f	file:
+mylist	lib/mylist.h	/^struct mylist {$/;"	s
+mylist_add	lib/mylist.h	/^static inline void mylist_add(struct mylist_elem *new, struct mylist_elem *head)$/;"	f
+mylist_add_tail	lib/mylist.h	/^static inline void mylist_add_tail(struct mylist_elem *new, struct mylist_elem *head)$/;"	f
+mylist_back	lib/mylist.c	/^mylist_back (struct mylist *mylist)$/;"	f
+mylist_begin	lib/mylist.c	/^mylist_begin (struct mylist *mylist)$/;"	f
+mylist_cut_position	lib/mylist.h	/^static inline void mylist_cut_position(struct mylist_elem *mylist,$/;"	f
+mylist_del	lib/mylist.h	/^static inline void mylist_del(struct mylist_elem *entry)$/;"	f
+mylist_del_init	lib/mylist.h	/^static inline void mylist_del_init(struct mylist_elem *entry)$/;"	f
+mylist_elem	lib/hash.h	/^    struct mylist_elem mylist_elem;$/;"	m	struct:hash_elem	typeref:struct:hash_elem::mylist_elem
+mylist_elem	lib/mylist.h	/^struct mylist_elem {$/;"	s
+mylist_elem_to_hash_elem	lib/hash.c	26;"	d	file:
+mylist_empty	lib/mylist.c	/^mylist_empty (struct mylist *mylist)$/;"	f
+mylist_empty_careful	lib/mylist.h	/^static inline int mylist_empty_careful(const struct mylist_elem *head)$/;"	f
+mylist_end	lib/mylist.c	/^mylist_end (struct mylist *mylist)$/;"	f
+mylist_entry	lib/mylist.h	105;"	d
+mylist_for_each	lib/mylist.h	208;"	d
+mylist_for_each_entry	lib/mylist.h	185;"	d
+mylist_for_each_entry_safe	lib/mylist.h	197;"	d
+mylist_front	lib/mylist.c	/^mylist_front (struct mylist *mylist)$/;"	f
+mylist_head	lib/mylist.c	/^mylist_head (struct mylist *mylist) $/;"	f
+mylist_head_empty	lib/mylist.h	/^static inline int mylist_head_empty(const struct mylist_elem *head)$/;"	f
+mylist_init	lib/mylist.c	/^mylist_init (struct mylist *mylist)$/;"	f
+mylist_insert	lib/mylist.c	/^mylist_insert (struct mylist_elem *before, struct mylist_elem *elem)$/;"	f
+mylist_insert_ordered	lib/mylist.c	/^mylist_insert_ordered (struct mylist *mylist, struct mylist_elem *elem,$/;"	f
+mylist_is_last	lib/mylist.h	/^static inline int mylist_is_last(const struct mylist_elem *mylist,$/;"	f
+mylist_is_singular	lib/mylist.h	/^static inline int mylist_is_singular(const struct mylist_elem *head)$/;"	f
+mylist_less_func	lib/mylist.h	/^typedef bool mylist_less_func (const struct mylist_elem *a,$/;"	t
+mylist_max	lib/mylist.c	/^mylist_max (struct mylist *mylist, mylist_less_func *less, void *aux)$/;"	f
+mylist_min	lib/mylist.c	/^mylist_min (struct mylist *mylist, mylist_less_func *less, void *aux)$/;"	f
+mylist_move	lib/mylist.h	/^static inline void mylist_move(struct mylist_elem *mylist, struct mylist_elem *head)$/;"	f
+mylist_move_tail	lib/mylist.h	/^static inline void mylist_move_tail(struct mylist_elem *mylist,$/;"	f
+mylist_next	lib/mylist.c	/^mylist_next (struct mylist_elem *elem)$/;"	f
+mylist_pop_back	lib/mylist.c	/^mylist_pop_back (struct mylist *mylist)$/;"	f
+mylist_pop_front	lib/mylist.c	/^mylist_pop_front (struct mylist *mylist)$/;"	f
+mylist_prev	lib/mylist.c	/^mylist_prev (struct mylist_elem *elem)$/;"	f
+mylist_push_back	lib/mylist.c	/^mylist_push_back (struct mylist *mylist, struct mylist_elem *elem)$/;"	f
+mylist_push_front	lib/mylist.c	/^mylist_push_front (struct mylist *mylist, struct mylist_elem *elem)$/;"	f
+mylist_rbegin	lib/mylist.c	/^mylist_rbegin (struct mylist *mylist) $/;"	f
+mylist_remove	lib/mylist.c	/^mylist_remove (struct mylist_elem *elem)$/;"	f
+mylist_rend	lib/mylist.c	/^mylist_rend (struct mylist *mylist) $/;"	f
+mylist_replace	lib/mylist.h	/^static inline void mylist_replace(struct mylist_elem *old,$/;"	f
+mylist_replace_init	lib/mylist.h	/^static inline void mylist_replace_init(struct mylist_elem *old,$/;"	f
+mylist_size	lib/mylist.c	/^mylist_size (struct mylist *mylist)$/;"	f
+mylist_sort	lib/mylist.c	/^mylist_sort (struct mylist *mylist, mylist_less_func *less, void *aux)$/;"	f
+mylist_splice	lib/mylist.c	/^mylist_splice (struct mylist_elem *before,$/;"	f
+mylist_tail	lib/mylist.c	/^mylist_tail (struct mylist *mylist) $/;"	f
+mylist_unique	lib/mylist.c	/^mylist_unique (struct mylist *mylist, struct mylist *duplicates,$/;"	f
+myprintk	hypercall.h	114;"	d
+myprintk	hypercall.h	8;"	d
+myprintk	hypercall.h	98;"	d
+n_descsz	peep/elf.h	/^  Elf32_Word	n_descsz;	\/* Content size *\/$/;"	m	struct:elf32_note
+n_descsz	peep/elf.h	/^  Elf64_Word n_descsz;	\/* Content size *\/$/;"	m	struct:elf64_note
+n_flag_opt	btmod.c	/^int n_flag_opt = 0;$/;"	v
+n_namesz	peep/elf.h	/^  Elf32_Word	n_namesz;	\/* Name size *\/$/;"	m	struct:elf32_note
+n_namesz	peep/elf.h	/^  Elf64_Word n_namesz;	\/* Name size *\/$/;"	m	struct:elf64_note
+n_reg_opt	btmod.c	/^int n_reg_opt = 0;$/;"	v
+n_remapped_eips	btmod.c	/^int n_remapped_eips = 0;$/;"	v
+n_temporaries	peep/peeptab.h	/^  unsigned n_temporaries;$/;"	m	struct:peep_entry_t
+n_tmpl	peep/peeptab.h	/^  int n_tmpl;$/;"	m	struct:peep_entry_t
+n_type	peep/elf.h	/^  Elf32_Word	n_type;		\/* Content type *\/$/;"	m	struct:elf32_note
+n_type	peep/elf.h	/^  Elf64_Word n_type;	\/* Content type *\/$/;"	m	struct:elf64_note
+name	include/debug.h	/^  char const *name;$/;"	m	struct:vcpu_log_item_t
+name	peep/i386-dis.c	/^	const char *name;$/;"	m	struct:dis386	file:
+name	peep/peeptab.h	/^  char const *name;                 \/* for debugging purposes. *\/$/;"	m	struct:peep_entry_t
+names16	peep/i386-dis.c	/^static const char **names16;$/;"	v	file:
+names32	peep/i386-dis.c	/^static const char **names32;$/;"	v	file:
+names64	peep/i386-dis.c	/^static const char **names64;$/;"	v	file:
+names8	peep/i386-dis.c	/^static const char **names8;$/;"	v	file:
+names8rex	peep/i386-dis.c	/^static const char **names8rex;$/;"	v	file:
+names_seg	peep/i386-dis.c	/^static const char **names_seg;$/;"	v	file:
+nametable	peep/opctable.h	/^  char nametable[MAX_OPCS][10];$/;"	m	struct:btmod_opctable
+nametable_size	peep/opctable.h	/^  size_t nametable_size;$/;"	m	struct:btmod_opctable
+native_idt_descr	btmod.c	/^struct desc_ptr native_idt_descr;$/;"	v	typeref:struct:desc_ptr
+native_sysenter	btmod.c	/^uint64_t native_sysenter;$/;"	v
+nb_relocs	peepgen.c	/^int nb_relocs;$/;"	v
+nb_syms	peepgen.c	/^int nb_syms;$/;"	v
+need_modrm	peep/i386-dis.h	/^	unsigned char need_modrm;$/;"	m	struct:bti386_t
+next	lib/mylist.h	/^  struct mylist_elem *next;     \/* Next mylist element. *\/$/;"	m	struct:mylist_elem	typeref:struct:mylist_elem::mylist_elem
+nil	lib/rbtree.c	/^struct rbtree_elem *nil = &nil_store;$/;"	v	typeref:struct:rbtree_elem
+nil_store	lib/rbtree.c	/^struct rbtree_elem nil_store;$/;"	v	typeref:struct:rbtree_elem
+node_delete	lib/rbtree.c	/^node_delete(struct rbtree *tree, struct rbtree_elem *node)$/;"	f	file:
+node_insert	lib/rbtree.c	/^node_insert(rbnode_t *rootp, rbnode_t new_node, rbtree_less_func *less,$/;"	f	file:
+nomatch_pair2str	peep/nomatch_pair.c	/^nomatch_pair2str(nomatch_pair_t const *nomatch_pair, char *buf,$/;"	f
+nomatch_pair_add	peep/nomatch_pair.c	/^nomatch_pair_add(nomatch_pair_t *nomatch_pairs, int max_nomatch_pairs,$/;"	f
+nomatch_pair_t	peep/nomatch_pair.h	/^typedef struct nomatch_pair_t {$/;"	s
+nomatch_pair_t	peep/nomatch_pair.h	/^} nomatch_pair_t;$/;"	t	typeref:struct:nomatch_pair_t
+nomatch_pairs	peep/peeptab.h	/^  struct nomatch_pair_t nomatch_pairs[MAX_NOMATCH_PAIRS];$/;"	m	struct:peep_entry_t	typeref:struct:peep_entry_t::nomatch_pair_t
+num_assignments	peep/assignments.h	/^  int num_assignments;$/;"	m	struct:assignments_t
+num_extable_entries	btfix.c	/^static int num_extable_entries = 0;$/;"	v	file:
+num_insns	peep/tb.h	/^	size_t num_insns;$/;"	m	struct:tb_t
+num_jumps	peep/tb.h	/^	size_t num_jumps;$/;"	m	struct:tb_t
+num_nomatch_pairs	peep/peeptab.h	/^  int num_nomatch_pairs;$/;"	m	struct:peep_entry_t
+num_segs	peep/insn.c	/^size_t const num_segs = sizeof segs\/sizeof segs[0];$/;"	v
+num_vsegs	peep/insn.c	/^size_t const num_vsegs = sizeof vsegs\/sizeof vsegs[0];$/;"	v
+o_mode	peep/i386-dis.c	469;"	d	file:
+oappend	peep/i386-dis.c	/^oappend (bti386_t *bti386, const char *s)$/;"	f	file:
+obuf	peep/i386-dis.h	/^	char obuf[100];$/;"	m	struct:bti386_t
+obufp	peep/i386-dis.h	/^	char *obufp;$/;"	m	struct:bti386_t
+onebyte_has_modrm	peep/i386-dis.c	/^static const unsigned char onebyte_has_modrm[256] = {$/;"	v	file:
+op	peep/i386-dis.c	/^	} op[MAX_OPERANDS];$/;"	m	struct:dis386	typeref:struct:dis386::__anon10	file:
+op	peep/insntypes.h	/^  operand_t op[3];$/;"	m	struct:insn_t
+op3dnow2str	peep/insn.c	/^op3dnow2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+op_3dnow	peep/insntypes.h	/^  op_3dnow,$/;"	e	enum:__anon1
+op_ad	peep/i386-dis.h	/^	int op_ad, op_index[MAX_OPERANDS];$/;"	m	struct:bti386_t
+op_address	peep/i386-dis.h	/^	bfd_vma op_address[MAX_OPERANDS];$/;"	m	struct:bti386_t
+op_buf	peep/peep.h	/^	char op_buf[64];$/;"	m	struct:bt_peep_t
+op_cr	peep/insntypes.h	/^  op_cr,$/;"	e	enum:__anon1
+op_db	peep/insntypes.h	/^  op_db,$/;"	e	enum:__anon1
+op_disas_rtn	peep/i386-dis.c	/^typedef void (*op_disas_rtn)(bti386_t *bti386, operand_t *op, int bytemode, int sizeflag);$/;"	t	file:
+op_imm	peep/insntypes.h	/^  op_imm,$/;"	e	enum:__anon1
+op_index	peep/i386-dis.h	/^	int op_ad, op_index[MAX_OPERANDS];$/;"	m	struct:bti386_t
+op_mem	peep/insntypes.h	/^  op_mem,$/;"	e	enum:__anon1
+op_mmx	peep/insntypes.h	/^  op_mmx,$/;"	e	enum:__anon1
+op_out	peep/i386-dis.h	/^	char op_out[MAX_OPERANDS][100];$/;"	m	struct:bti386_t
+op_pcrel	peep/insntypes.h	/^	op_pcrel,$/;"	e	enum:__anon1
+op_prefix	peep/insntypes.h	/^  op_prefix,$/;"	e	enum:__anon1
+op_reg	peep/insntypes.h	/^  op_reg,$/;"	e	enum:__anon1
+op_riprel	peep/i386-dis.h	/^	bfd_vma op_riprel[MAX_OPERANDS];$/;"	m	struct:bti386_t
+op_rtn	peep/i386-dis.c	/^typedef void (*op_rtn) (bti386_t *bti386, int bytemode, int sizeflag);$/;"	t	file:
+op_seg	peep/insntypes.h	/^  op_seg,$/;"	e	enum:__anon1
+op_st	peep/insntypes.h	/^	op_st,$/;"	e	enum:__anon1
+op_tr	peep/insntypes.h	/^  op_tr,$/;"	e	enum:__anon1
+op_xmm	peep/insntypes.h	/^  op_xmm,$/;"	e	enum:__anon1
+opc	peep/insntypes.h	/^  opc_t opc;$/;"	m	struct:insn_t
+opc_init	peep/i386-dis.c	/^opc_init(btmod_vcpu *v)$/;"	f
+opc_inval	peep/opctable.h	6;"	d
+opc_is_size_sensitive	peep/i386-dis.c	/^opc_is_size_sensitive(bti386_t *bti386, char const *opc)$/;"	f	file:
+opc_t	peep/opctable.h	/^typedef int opc_t;$/;"	t
+opc_touches_cx	peep/i386-dis.c	/^opc_touches_cx(bti386_t *bti386, char const *opc)$/;"	f	file:
+opc_touches_stack	peep/i386-dis.c	/^opc_touches_stack(bti386_t *bti386, char const *opc)$/;"	f	file:
+opcstr	peep/insntypes.h	/^  char opcstr[8];       \/* only for better readability of peepgen_entries.h$/;"	m	struct:insn_t
+opctable	peep/opctable.h	/^  opc_t opctable[MAX_DISAS_ENTRIES][MAX_SIZEFLAGS];$/;"	m	struct:btmod_opctable
+opctable_dp	peep/i386-dis.c	/^opctable_dp(btmod_vcpu *v, struct dis386 const *dpc)$/;"	f	file:
+opctable_fgrps	peep/i386-dis.c	/^opctable_fgrps(btmod_vcpu *v, char *fg, int *fg_dpnum)$/;"	f	file:
+opctable_fill	peep/i386-dis.c	/^opctable_fill(btmod_vcpu *v, struct dis386 const *dptab, size_t dptab_size)$/;"	f	file:
+opctable_fill_float_mem	peep/i386-dis.c	/^opctable_fill_float_mem(btmod_vcpu *v, char const **fm, int *fm_dpnum, int fmsize)$/;"	f	file:
+opctable_find	peep/opctable.c	/^opctable_find(btmod *bt, int dp_num, int sizeflag)$/;"	f
+opctable_float_mem	peep/i386-dis.c	/^opctable_float_mem(btmod_vcpu *v, char const *fm, int *fm_dpnum)$/;"	f	file:
+opctable_init	peep/opctable.c	/^opctable_init(btmod *bt)$/;"	f
+opctable_insert	peep/opctable.c	/^opctable_insert(btmod *bt, char const *name, int dp_num, int sizeflag)$/;"	f
+opctable_name	peep/opctable.c	/^opctable_name(btmod *bt, opc_t opc)$/;"	f
+opctable_print	peep/opctable.c	/^opctable_print(btmod *bt)$/;"	f
+open_char	peep/i386-dis.h	/^	char open_char;$/;"	m	struct:bti386_t
+operand2str	peep/insn.c	/^operand2str(operand_t const *op, char *buf, size_t size)$/;"	f
+operand_get_size	peep/insn.c	/^operand_get_size(operand_t const *op)$/;"	f	file:
+operand_get_value	peep/insn.c	/^operand_get_value(operand_t const *op)$/;"	f
+operand_init	peep/insn.c	/^operand_init(operand_t *op)$/;"	f	file:
+operand_is_mem	peep/insn.c	/^operand_is_mem(operand_t const *op)$/;"	f	file:
+operand_is_mem16	peep/insn.c	/^operand_is_mem16(operand_t const *op)$/;"	f	file:
+operand_is_prefix	peep/insn.c	/^operand_is_prefix(operand_t const *op)$/;"	f	file:
+operand_mem_tag_t	peep/insntypes.h	/^} operand_mem_tag_t;$/;"	t	typeref:struct:__anon6
+operand_mem_val_t	peep/insntypes.h	/^} operand_mem_val_t;$/;"	t	typeref:struct:__anon4
+operand_t	peep/insntypes.h	/^typedef struct operand_t {$/;"	s
+operand_t	peep/insntypes.h	/^} operand_t;$/;"	t	typeref:struct:operand_t
+operands_equal	peep/insn.c	/^operands_equal(operand_t const *op1, operand_t const *op2)$/;"	f
+operands_match	peep/peep.c	/^operands_match(btmod_vcpu *v, operand_t const *op, operand_t const *templ,$/;"	f	file:
+opertype_t	peep/insntypes.h	/^} opertype_t;$/;"	t	typeref:enum:__anon1
+orig_sizeflag	peep/i386-dis.c	/^	int orig_sizeflag;$/;"	m	struct:dis_private	file:
+ot	bt_vcpu.h	/^	struct btmod_opctable ot;$/;"	m	struct:btmod	typeref:struct:btmod::btmod_opctable
+output_as_code	peepgen.c	/^output_as_code(FILE *fp, char const *label, char const *text,$/;"	f	file:
+output_assignments	peepgen.c	/^output_assignments(FILE *fp, char const *label,assignments_t const *assignments)$/;"	f	file:
+output_code_with_rollback	peepgen.c	/^output_code_with_rollback(FILE *out_S, char const *label, char const *out_text,$/;"	f	file:
+output_constant_variable_code	peepgen.c	/^output_constant_variable_code(FILE *outfile, EXE_SYM **entries, int entrynum,$/;"	f	file:
+output_cpu_constraints	peepgen.c	/^output_cpu_constraints(FILE *fp, char const *label,$/;"	f	file:
+output_edge_offsets	peepgen.c	/^output_edge_offsets(FILE *outfile, EXE_SYM *entry, size_t entry_size,$/;"	f	file:
+output_gencode	peepgen.c	/^output_gencode(char const *outfilename)$/;"	f	file:
+output_gencode_and_rollback_from_file	peepgen.c	/^output_gencode_and_rollback_from_file(FILE *outfile, FILE *codefile,$/;"	f	file:
+output_gencode_for_entry	peepgen.c	/^output_gencode_for_entry(FILE *outfile, FILE *codefile, EXE_SYM **entries,$/;"	f	file:
+output_joFF_values	peepgen.c	/^output_joFF_values(FILE *outfile, EXE_SYM **entries, int entrynum,$/;"	f	file:
+output_nomatch_pairs	peepgen.c	/^output_nomatch_pairs(char const *filename)$/;"	f	file:
+output_nomatch_pairs_for_entry	peepgen.c	/^output_nomatch_pairs_for_entry(FILE *fp, EXE_SYM **entries, int i,$/;"	f	file:
+output_regbit_code	peepgen.c	/^output_regbit_code(char *buf, size_t buf_size, uint8_t const *code[],$/;"	f	file:
+output_register_variable_code	peepgen.c	/^output_register_variable_code(FILE *outfile, EXE_SYM **entries, int entrynum,$/;"	f	file:
+output_regvar_code	peepgen.c	/^output_regvar_code(FILE *outfile, EXE_SYM **entries, int entrynum,$/;"	f	file:
+p_align	peep/elf.h	/^  Elf32_Word	p_align;$/;"	m	struct:elf32_phdr
+p_align	peep/elf.h	/^  Elf64_Xword p_align;		\/* Segment alignment, file & memory *\/$/;"	m	struct:elf64_phdr
+p_filesz	peep/elf.h	/^  Elf32_Word	p_filesz;$/;"	m	struct:elf32_phdr
+p_filesz	peep/elf.h	/^  Elf64_Xword p_filesz;		\/* Segment size in file *\/$/;"	m	struct:elf64_phdr
+p_flags	peep/elf.h	/^  Elf32_Word	p_flags;$/;"	m	struct:elf32_phdr
+p_flags	peep/elf.h	/^  Elf64_Word p_flags;$/;"	m	struct:elf64_phdr
+p_memsz	peep/elf.h	/^  Elf32_Word	p_memsz;$/;"	m	struct:elf32_phdr
+p_memsz	peep/elf.h	/^  Elf64_Xword p_memsz;		\/* Segment size in memory *\/$/;"	m	struct:elf64_phdr
+p_offset	peep/elf.h	/^  Elf32_Off	p_offset;$/;"	m	struct:elf32_phdr
+p_offset	peep/elf.h	/^  Elf64_Off p_offset;		\/* Segment file offset *\/$/;"	m	struct:elf64_phdr
+p_paddr	peep/elf.h	/^  Elf32_Addr	p_paddr;$/;"	m	struct:elf32_phdr
+p_paddr	peep/elf.h	/^  Elf64_Addr p_paddr;		\/* Segment physical address *\/$/;"	m	struct:elf64_phdr
+p_type	peep/elf.h	/^  Elf32_Word	p_type;$/;"	m	struct:elf32_phdr
+p_type	peep/elf.h	/^  Elf64_Word p_type;$/;"	m	struct:elf64_phdr
+p_vaddr	peep/elf.h	/^  Elf32_Addr	p_vaddr;$/;"	m	struct:elf32_phdr
+p_vaddr	peep/elf.h	/^  Elf64_Addr p_vaddr;		\/* Segment virtual address *\/$/;"	m	struct:elf64_phdr
+params	peep/peep.h	/^	long params[32];$/;"	m	struct:bt_peep_t
+params1	peep/peep.h	/^	long params1[4];$/;"	m	struct:bt_peep_t
+parent	lib/rbtree.h	/^  struct rbtree_elem *parent;$/;"	m	struct:rbtree_elem	typeref:struct:rbtree_elem::rbtree_elem
+parse_snippet_constraints	peepgen.c	/^parse_snippet_constraints(char *constraints, size_t constraints_len,$/;"	f	file:
+parse_vname	peepgen.c	/^parse_vname(char const *vname, char const *name, int *regtype, int *regno,$/;"	f	file:
+patch_translated_eips	bt_main.c	/^patch_translated_eips(btmod_vcpu *v)$/;"	f
+patch_until_fs_seen	bt_main.c	/^patch_until_fs_seen(btmod_vcpu *v, uint32_t cur_eip)$/;"	f
+pattern_match_field	peepgen.c	2605;"	d	file:
+pcrel	peep/insntypes.h	/^		uint64_t pcrel;$/;"	m	union:operand_t::__anon8
+pcrel2str	peep/insn.c	/^pcrel2str(int64_t val, int tag, char *buf, int buflen)$/;"	f	file:
+peep_entry_equal	peep/peep.c	/^peep_entry_equal(struct hash_elem const *ea, struct hash_elem const *eb,$/;"	f	file:
+peep_entry_hash	peep/peep.c	/^peep_entry_hash(struct hash_elem const *elem, void *aux)$/;"	f	file:
+peep_entry_t	peep/peeptab.h	/^typedef struct peep_entry_t$/;"	s
+peep_entry_t	peep/peeptab.h	/^} peep_entry_t;$/;"	t	typeref:struct:peep_entry_t
+peep_init	peep/peep.c	/^peep_init(btmod *bt)$/;"	f
+peep_label_str	peep/peep.c	/^char const *peep_label_str[] = {$/;"	v
+peep_null	peep/instrument.c	/^  peep_null = 0,$/;"	e	enum:__anon11	file:
+peep_null	peep/peep.c	/^  peep_null = 0,$/;"	e	enum:__anon17	file:
+peep_tab	bt_vcpu.h	/^	struct hash peep_tab;$/;"	m	struct:btmod	typeref:struct:btmod::hash
+peep_tab_entries	peep/peep.c	/^peep_entry_t peep_tab_entries[] = {$/;"	v
+peep_translate	peep/peep.c	/^peep_translate(btmod_vcpu *v, uint8_t **buf, uint8_t **ebuf, $/;"	f	file:
+peep_uninit	peep/peep.c	/^peep_uninit(btmod *bt)$/;"	f
+peepgen_emit_code	peep/instrument.c	/^peepgen_emit_code(btmod_vcpu *v, uint8_t **obuf, uint8_t **ebuf,$/;"	f	file:
+peepgen_label_t	peep/instrument.c	/^} peepgen_label_t;$/;"	t	typeref:enum:__anon11	file:
+peepgen_label_t	peep/peep.c	/^} peepgen_label_t;$/;"	t	typeref:enum:__anon17	file:
+peeptab_elem	peep/peeptab.h	/^  struct hash_elem peeptab_elem;$/;"	m	struct:peep_entry_t	typeref:struct:peep_entry_t::hash_elem
+pg_no	mem/vaddr.h	/^static inline uintptr_t pg_no (const void *va) {$/;"	f
+pg_ofs	mem/vaddr.h	/^static inline unsigned pg_ofs (const void *va) {$/;"	f
+pg_round_down	mem/vaddr.h	/^static inline void *pg_round_down (const void *va) {$/;"	f
+pg_round_up	mem/vaddr.h	/^static inline void *pg_round_up (const void *va) {$/;"	f
+pool_alloc_pages	mem/malloc.c	/^pool_alloc_pages(struct malloc_info *info, int pool)$/;"	f	file:
+pool_range	mem/malloc.h	/^  int pool_range[NUM_POOLS][2];$/;"	m	struct:malloc_info
+predecessor	lib/rbtree.c	/^predecessor(struct rbtree_elem const *node)$/;"	f	file:
+prefetch	include/debug.h	119;"	d
+prefix2str	peep/insn.c	/^prefix2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+prefix_name	peep/i386-dis.c	/^prefix_name (bti386_t *bti386, int pref, int sizeflag)$/;"	f	file:
+prefix_user_table	peep/i386-dis.c	/^static struct dis386 prefix_user_table[][4] = {$/;"	v	typeref:struct:dis386	file:
+prefixes	peep/i386-dis.h	/^  int prefixes;$/;"	m	struct:bti386_t
+prefixes	peep/peep.h	/^	uint8_t prefixes[16];$/;"	m	struct:bt_peep_t
+prev	lib/mylist.h	/^  struct mylist_elem *prev;     \/* Previous mylist element. *\/$/;"	m	struct:mylist_elem	typeref:struct:mylist_elem::mylist_elem
+prev_tb	sys/vcpu.h	/^  unsigned long prev_tb;$/;"	m	struct:vcpu_t
+print_asm_info	peep/tb.c	/^print_asm_info(btmod_vcpu *v, tb_t *tb)$/;"	f
+print_displacement	peep/i386-dis.c	/^print_displacement (bti386_t *bti386, char *buf, bfd_vma disp, size_t buf_size)$/;"	f	file:
+print_errormsg	lib/mdebug.h	35;"	d
+print_insn	peep/insn.c	/^print_insn(btmod *bt, insn_t const *insn) {$/;"	f
+print_lock	btmod.c	/^spinlock_t print_lock;$/;"	v
+print_operand_value	peep/i386-dis.c	/^print_operand_value (bti386_t *bti386, char *buf, int buf_size, int hex, bfd_vma disp)$/;"	f	file:
+print_stats	btmod.c	/^print_stats(int smp_cpus)$/;"	f	file:
+println_insn	peep/insn.c	/^println_insn(btmod *bt, insn_t const *insn) {$/;"	f
+profile_reset	lib/mdebug.h	36;"	d
+ptr_copy	peep/peep.h	/^	uint8_t ptr_copy[32];$/;"	m	struct:bt_peep_t
+ptr_reg	peep/i386-dis.c	/^ptr_reg (bti386_t *bti386, int code, int sizeflag)$/;"	f	file:
+push_orig_eips	btfix.c	/^push_orig_eips(struct btmod *bt)$/;"	f
+putop	peep/i386-dis.c	/^putop (bti386_t *bti386, const char *template, int sizeflag)$/;"	f	file:
+q_mode	peep/i386-dis.c	457;"	d	file:
+rAX_reg	peep/i386-dis.c	507;"	d	file:
+rBP_reg	peep/i386-dis.c	512;"	d	file:
+rBX_reg	peep/i386-dis.c	510;"	d	file:
+rCX_reg	peep/i386-dis.c	508;"	d	file:
+rDI_reg	peep/i386-dis.c	514;"	d	file:
+rDX_reg	peep/i386-dis.c	509;"	d	file:
+rSI_reg	peep/i386-dis.c	513;"	d	file:
+rSP_reg	peep/i386-dis.c	511;"	d	file:
+r_addend	peep/elf.h	/^  Elf32_Sword	r_addend;$/;"	m	struct:elf32_rela
+r_addend	peep/elf.h	/^  Elf64_Sxword r_addend;	\/* Constant addend used to compute value *\/$/;"	m	struct:elf64_rela
+r_info	peep/elf.h	/^  Elf32_Word	r_info;$/;"	m	struct:elf32_rel
+r_info	peep/elf.h	/^  Elf32_Word	r_info;$/;"	m	struct:elf32_rela
+r_info	peep/elf.h	/^  Elf64_Xword r_info;	\/* index and type of relocation *\/$/;"	m	struct:elf64_rel
+r_info	peep/elf.h	/^  Elf64_Xword r_info;	\/* index and type of relocation *\/$/;"	m	struct:elf64_rela
+r_offset	peep/elf.h	/^  Elf32_Addr	r_offset;$/;"	m	struct:elf32_rel
+r_offset	peep/elf.h	/^  Elf32_Addr	r_offset;$/;"	m	struct:elf32_rela
+r_offset	peep/elf.h	/^  Elf64_Addr r_offset;	\/* Location at which to apply the action *\/$/;"	m	struct:elf64_rel
+r_offset	peep/elf.h	/^  Elf64_Addr r_offset;	\/* Location at which to apply the action *\/$/;"	m	struct:elf64_rela
+rb_delete_fixup	lib/rbtree.c	/^rb_delete_fixup(struct rbtree_elem **rootp, struct rbtree_elem *node)$/;"	f	file:
+rb_insert	lib/rbtree.c	/^rb_insert(rbnode_t *tree, rbnode_t node)$/;"	f	file:
+rbcode_buf	peepgen.c	/^char rbcode_buf[65536*64];$/;"	v
+rbcode_end	peepgen.c	/^char *rbcode_end = (char *)rbcode_buf + sizeof rbcode_buf;$/;"	v
+rbcode_ptr	peepgen.c	/^char *rbcode_ptr = rbcode_buf;$/;"	v
+rbnode_t	lib/rbtree.c	/^typedef struct rbtree_elem *rbnode_t ;$/;"	t	typeref:struct:rbtree_elem	file:
+rbtree	lib/rbtree.h	/^struct rbtree {$/;"	s
+rbtree_begin	lib/rbtree.c	/^rbtree_begin (struct rbtree const *tree)$/;"	f
+rbtree_delete	lib/rbtree.c	/^rbtree_delete(struct rbtree *tree, struct rbtree_elem *elem)$/;"	f
+rbtree_elem	lib/rbtree.h	/^struct rbtree_elem {$/;"	s
+rbtree_elem_replace	lib/rbtree.c	/^rbtree_elem_replace(struct rbtree_elem **rootp, struct rbtree_elem *b,$/;"	f	file:
+rbtree_end	lib/rbtree.c	/^rbtree_end (struct rbtree const *tree)$/;"	f
+rbtree_entry	lib/rbtree.h	27;"	d
+rbtree_find	lib/rbtree.c	/^rbtree_find(struct rbtree const *tree, struct rbtree_elem const *elem)$/;"	f
+rbtree_find_first	lib/rbtree.c	/^rbtree_find_first(struct rbtree const *tree, struct rbtree_elem const *elem)$/;"	f
+rbtree_height	lib/rbtree.c	/^rbtree_height(struct rbtree const *tree)$/;"	f
+rbtree_init	lib/rbtree.c	/^rbtree_init(struct rbtree *tree, rbtree_less_func *less, void *aux) {$/;"	f
+rbtree_inorder	lib/rbtree.c	/^rbtree_inorder(struct rbtree const *tree, rbtree_print_func *print, void *aux)$/;"	f
+rbtree_insert	lib/rbtree.c	/^rbtree_insert(struct rbtree *tree, struct rbtree_elem *elem)$/;"	f
+rbtree_less_func	lib/rbtree.h	/^typedef bool rbtree_less_func(struct rbtree_elem const *a,$/;"	t
+rbtree_next	lib/rbtree.c	/^rbtree_next (struct rbtree_elem const *elem)$/;"	f
+rbtree_prev	lib/rbtree.c	/^rbtree_prev (struct rbtree_elem const *elem)$/;"	f
+rbtree_print_func	lib/rbtree.h	/^typedef void rbtree_print_func(struct rbtree_elem const *a, void *aux);$/;"	t
+rbtree_rbegin	lib/rbtree.c	/^rbtree_rbegin (struct rbtree const *tree)$/;"	f
+rbtree_rend	lib/rbtree.c	/^rbtree_rend (struct rbtree const *tree)$/;"	f
+rdtsc	bt_vcpu.h	/^static inline uint64_t rdtsc(void)$/;"	f
+read_assignment	peep/assignments.c	/^read_assignment(char const *line, assignments_t *assignments)$/;"	f	file:
+read_assignments	peepgen.c	/^read_assignments(FILE *fp, char const *index_name, assignments_t *assignments)$/;"	f	file:
+read_constraint	peepgen.c	/^read_constraint(operand_t *vars, int num_vars, cpu_constraints_t *constraints,$/;"	f	file:
+read_constraints	peepgen.c	/^read_constraints(operand_t *vars, int num_vars,$/;"	f	file:
+read_constraints_text	peepgen.c	/^read_constraints_text(FILE *fp, char *buf, int buf_size, int *linenum)$/;"	f	file:
+read_cpu_constraints	peepgen.c	/^read_cpu_constraints(FILE *fp, char const *index_name,$/;"	f	file:
+read_debug_marker	peepgen.c	/^read_debug_marker(FILE *fp, int *linenum)$/;"	f	file:
+read_in_text	peepgen.c	/^read_in_text(FILE *fp, char *buf, int buf_len, int *linenum)$/;"	f	file:
+read_nomatch_pairs	peepgen.c	/^read_nomatch_pairs(FILE *fp, char const *index_name,$/;"	f	file:
+read_out_text	peepgen.c	/^read_out_text(FILE *fp, char *buf, int buf_len, int *linenum)$/;"	f	file:
+reg	peep/i386-dis.h	/^		int reg;$/;"	m	struct:bti386_t::__anon15
+reg1	peep/nomatch_pair.h	/^  char reg1, reg2;$/;"	m	struct:nomatch_pair_t
+reg2	peep/nomatch_pair.h	/^  char reg1, reg2;$/;"	m	struct:nomatch_pair_t
+reg2str	peep/insn.c	/^reg2str(unsigned val, int tag, int size, bool rex_used, char *buf, int buflen)$/;"	f	file:
+regno	peepgen.c	/^  int regtype, regno;$/;"	m	struct:__anon20	file:
+regs16	peep/insn.c	/^char const *regs16[]= {"ax", "cx", "dx", "bx", "sp", "bp", "si", "di"};$/;"	v
+regs32	peep/insn.c	/^char const *regs32[]= {"eax", "ecx", "edx", "ebx", "esp", "ebp", "esi", "edi"};$/;"	v
+regs8	peep/insn.c	/^char const *regs8[] = {"al", "cl", "dl", "bl", "ah", "ch", "dh", "bh"};$/;"	v
+regset2str	peep/regset.c	/^regset2str(regset_t const *regset, char *buf, size_t buf_size)$/;"	f
+regset_clear	peep/regset.c	/^regset_clear(regset_t *regset, tag_t tag, int reg)$/;"	f
+regset_clear_all	peep/regset.c	/^regset_clear_all(regset_t *regset)$/;"	f
+regset_diff	peep/regset.c	/^regset_diff(regset_t *dst, regset_t const *src)$/;"	f
+regset_find_unused	peep/regset.c	/^regset_find_unused(regset_t const *regset)$/;"	f
+regset_mark	peep/regset.c	/^regset_mark(regset_t *regset, tag_t tag, int reg)$/;"	f
+regset_output_nomatch_pairs	peep/regset.c	/^regset_output_nomatch_pairs(struct nomatch_pair_t *nomatch_pairs,$/;"	f
+regset_t	peep/regset.h	/^typedef struct regset_t {$/;"	s
+regset_t	peep/regset.h	/^} regset_t;$/;"	t	typeref:struct:regset_t
+regset_union	peep/regset.c	/^regset_union(regset_t *dst, regset_t const *src)$/;"	f
+regtype	peepgen.c	/^  int regtype, regno;$/;"	m	struct:__anon20	file:
+regvar_union_on_memfield	peepgen.c	2659;"	d	file:
+rehash	lib/hash.c	/^rehash (struct hash *h) $/;"	f	file:
+relocs	peepgen.c	/^EXE_RELOC *relocs;$/;"	v
+remove_elem	lib/hash.c	/^remove_elem (struct hash *h, struct hash_elem *e) $/;"	f	file:
+rename_and_output_as_code	peepgen.c	/^rename_and_output_as_code(FILE *fp, char const *label, char const *text,$/;"	f	file:
+rename_as_code	peepgen.c	/^rename_as_code(char *out, int out_size, char const *in,$/;"	f	file:
+rename_constants_mem_field	peep/insn.c	807;"	d	file:
+rename_opcode	peep/i386-dis.h	/^	char const *rename_opcode;$/;"	m	struct:bti386_t
+reset_global_info	hypercall.h	74;"	d
+reset_shadow_memory	btmod.c	/^reset_shadow_memory(void)$/;"	f	file:
+reset_stack	sys/vcpu.h	72;"	d
+restore_guest	peep/peeptab_defs.h	571;"	d
+restore_guest_esp	peep/peeptab_defs.h	575;"	d
+rex	peep/i386-dis.h	/^	int rex;$/;"	m	struct:bti386_t
+rex_used	peep/i386-dis.h	/^	int rex_used;$/;"	m	struct:bti386_t
+rex_used	peep/insntypes.h	/^  unsigned rex_used:1;$/;"	m	struct:operand_t
+right	lib/rbtree.h	/^  struct rbtree_elem *right;$/;"	m	struct:rbtree_elem	typeref:struct:rbtree_elem::rbtree_elem
+rightrotate	lib/rbtree.c	/^rightrotate(rbnode_t *tree, rbnode_t node)$/;"	f	file:
+rm	peep/i386-dis.h	/^		int rm;$/;"	m	struct:bti386_t::__anon15
+root	lib/rbtree.h	/^  struct rbtree_elem *root;$/;"	m	struct:rbtree	typeref:struct:rbtree::rbtree_elem
+rtn	peep/i386-dis.c	/^		op_rtn rtn;$/;"	m	struct:dis386::__anon10	file:
+runmask_b	btmod.c	/^uint8_t runmask_b = 0xaa;$/;"	v
+runmask_l	btmod.c	/^uint32_t runmask_l = 0xaaaaaaaa;$/;"	v
+runmask_w	btmod.c	/^uint16_t runmask_w = 0xaaaa;$/;"	v
+sIb	peep/i386-dis.c	336;"	d	file:
+safe_printk	hypercall.h	120;"	d
+save_guest	peep/peeptab_defs.h	570;"	d
+save_guest_esp	peep/peeptab_defs.h	574;"	d
+scale	peep/insntypes.h	/^  unsigned scale:4;$/;"	m	struct:__anon4
+scale_char	peep/i386-dis.h	/^	char scale_char;$/;"	m	struct:bti386_t
+scratchbuf	peep/i386-dis.h	/^	char scratchbuf[100];$/;"	m	struct:bti386_t
+sdata	peepgen.c	/^uint8_t **sdata;$/;"	v
+search_offset	peep/tb.c	/^search_offset(tb_t *tb, uint16_t off)$/;"	f	file:
+seg	peep/insntypes.h	/^  } seg;$/;"	m	struct:__anon4	typeref:union:__anon4::__anon5
+seg	peep/insntypes.h	/^  } seg;$/;"	m	struct:__anon6	typeref:union:__anon6::__anon7
+seg2str	peep/insn.c	/^seg2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+segs	peep/insn.c	/^char const *segs[] = {"es", "cs", "ss", "ds", "fs", "gs"};$/;"	v
+segtype	peep/insntypes.h	/^  unsigned segtype:2;$/;"	m	struct:__anon4
+segtype_desc	peep/insntypes.h	/^  segtype_desc$/;"	e	enum:__anon3
+segtype_sel	peep/insntypes.h	/^  segtype_sel = 0,$/;"	e	enum:__anon3
+segtype_t	peep/insntypes.h	/^} segtype_t;$/;"	t	typeref:enum:__anon3
+separator_char	peep/i386-dis.h	/^	char separator_char;$/;"	m	struct:bti386_t
+set_eip	peep/peeptab_defs.h	299;"	d
+set_global_info	hypercall.h	68;"	d
+set_jtarget_eip	peep/peeptab_defs.h	305;"	d
+set_jtarget_eip_noflags	peep/peeptab_defs.h	302;"	d
+set_op	peep/i386-dis.c	/^set_op (bti386_t *bti386, bfd_vma op, int riprel)$/;"	f	file:
+setup_monitor_stack	peep/peeptab_defs.h	572;"	d
+sh_addr	peep/elf.h	/^  Elf32_Addr	sh_addr;$/;"	m	struct:elf32_shdr
+sh_addr	peep/elf.h	/^  Elf64_Addr sh_addr;		\/* Section virtual addr at execution *\/$/;"	m	struct:elf64_shdr
+sh_addralign	peep/elf.h	/^  Elf32_Word	sh_addralign;$/;"	m	struct:elf32_shdr
+sh_addralign	peep/elf.h	/^  Elf64_Xword sh_addralign;	\/* Section alignment *\/$/;"	m	struct:elf64_shdr
+sh_entsize	peep/elf.h	/^  Elf32_Word	sh_entsize;$/;"	m	struct:elf32_shdr
+sh_entsize	peep/elf.h	/^  Elf64_Xword sh_entsize;	\/* Entry size if section holds table *\/$/;"	m	struct:elf64_shdr
+sh_flags	peep/elf.h	/^  Elf32_Word	sh_flags;$/;"	m	struct:elf32_shdr
+sh_flags	peep/elf.h	/^  Elf64_Xword sh_flags;		\/* Miscellaneous section attributes *\/$/;"	m	struct:elf64_shdr
+sh_info	peep/elf.h	/^  Elf32_Word	sh_info;$/;"	m	struct:elf32_shdr
+sh_info	peep/elf.h	/^  Elf64_Word sh_info;		\/* Additional section information *\/$/;"	m	struct:elf64_shdr
+sh_link	peep/elf.h	/^  Elf32_Word	sh_link;$/;"	m	struct:elf32_shdr
+sh_link	peep/elf.h	/^  Elf64_Word sh_link;		\/* Index of another section *\/$/;"	m	struct:elf64_shdr
+sh_name	peep/elf.h	/^  Elf32_Word	sh_name;$/;"	m	struct:elf32_shdr
+sh_name	peep/elf.h	/^  Elf64_Word sh_name;		\/* Section name, index in string tbl *\/$/;"	m	struct:elf64_shdr
+sh_offset	peep/elf.h	/^  Elf32_Off	sh_offset;$/;"	m	struct:elf32_shdr
+sh_offset	peep/elf.h	/^  Elf64_Off sh_offset;		\/* Section file offset *\/$/;"	m	struct:elf64_shdr
+sh_size	peep/elf.h	/^  Elf32_Word	sh_size;$/;"	m	struct:elf32_shdr
+sh_size	peep/elf.h	/^  Elf64_Xword sh_size;		\/* Size of section in bytes *\/$/;"	m	struct:elf64_shdr
+sh_type	peep/elf.h	/^  Elf32_Word	sh_type;$/;"	m	struct:elf32_shdr
+sh_type	peep/elf.h	/^  Elf64_Word sh_type;		\/* Type of section *\/$/;"	m	struct:elf64_shdr
+shadow_idt_descr	btmod.c	/^struct desc_ptr shadow_idt_descr;$/;"	v	typeref:struct:desc_ptr
+shadow_idt_loaded	btmod.c	/^bool shadow_idt_loaded = false;$/;"	v
+shared_page	btmod.c	/^struct shared_page {$/;"	s	file:
+shdr	peepgen.c	/^struct elf_shdr *shdr;$/;"	v	typeref:struct:elf_shdr
+si_reg	peep/i386-dis.c	504;"	d	file:
+simd_cmp_op	peep/i386-dis.c	/^static const char *simd_cmp_op[] = {$/;"	v	file:
+size	peep/insntypes.h	/^  unsigned size:4;    \/\/in bytes$/;"	m	struct:operand_t
+sizeflagtable	peep/opctable.h	/^  int sizeflagtable[MAX_SIZEFLAGS];$/;"	m	struct:btmod_opctable
+sizeflagtable_size	peep/opctable.h	/^  int sizeflagtable_size;$/;"	m	struct:btmod_opctable
+smp_cpus	bt_vcpu.h	/^  int smp_cpus;$/;"	m	struct:btmod
+sp	btmod.c	/^struct shared_page sp;$/;"	v	typeref:struct:shared_page
+sp_reg	peep/i386-dis.c	502;"	d	file:
+sprint_insn	peep/i386-dis.c	/^sprint_insn (bti386_t *bti386, bfd_vma pc, char *buf, size_t buf_size, unsigned size, bool guest)$/;"	f
+ss	peep/i386-dis.c	410;"	d	file:
+ss_reg	peep/i386-dis.c	475;"	d	file:
+st	sys/vcpu.h	79;"	d
+st2str	peep/insn.c	/^st2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+st_info	peep/elf.h	/^  unsigned char	st_info;	\/* Type and binding attributes *\/$/;"	m	struct:elf64_sym
+st_info	peep/elf.h	/^  unsigned char	st_info;$/;"	m	struct:elf32_sym
+st_kernel	sys/vcpu.h	93;"	d
+st_name	peep/elf.h	/^  Elf32_Word	st_name;$/;"	m	struct:elf32_sym
+st_name	peep/elf.h	/^  Elf64_Word st_name;		\/* Symbol name, index in string tbl *\/$/;"	m	struct:elf64_sym
+st_other	peep/elf.h	/^  unsigned char	st_other;	\/* No defined meaning, 0 *\/$/;"	m	struct:elf64_sym
+st_other	peep/elf.h	/^  unsigned char	st_other;$/;"	m	struct:elf32_sym
+st_phys	sys/vcpu.h	112;"	d
+st_shndx	peep/elf.h	/^  Elf32_Half	st_shndx;$/;"	m	struct:elf32_sym
+st_shndx	peep/elf.h	/^  Elf64_Half st_shndx;		\/* Associated section index *\/$/;"	m	struct:elf64_sym
+st_size	peep/elf.h	/^  Elf32_Word	st_size;$/;"	m	struct:elf32_sym
+st_size	peep/elf.h	/^  Elf64_Xword st_size;		\/* Associated symbol size *\/$/;"	m	struct:elf64_sym
+st_value	peep/elf.h	/^  Elf32_Addr	st_value;$/;"	m	struct:elf32_sym
+st_value	peep/elf.h	/^  Elf64_Addr st_value;		\/* Value of the symbol *\/$/;"	m	struct:elf64_sym
+stackEv	peep/i386-dis.c	320;"	d	file:
+stack_v_mode	peep/i386-dis.c	467;"	d	file:
+start_bench	hypercall.h	45;"	d
+start_codep	peep/i386-dis.h	/^	unsigned char const *start_codep;$/;"	m	struct:bti386_t
+start_pc	peep/i386-dis.h	/^	bfd_vma start_pc;$/;"	m	struct:bti386_t
+start_remapping	hypercall.h	60;"	d
+start_translator	btmod.c	/^module_init(start_translator);$/;"	v
+start_translator	btmod.c	/^start_translator(void)$/;"	f
+status	bt_vcpu.h	/^enum status {$/;"	g
+stb_kernel	sys/vcpu.h	148;"	d
+stb_phys	sys/vcpu.h	156;"	d
+stl	sys/vcpu.h	/^stl(target_ulong ptr, uint32_t val)	{$/;"	f
+stl_kernel	sys/vcpu.h	150;"	d
+stl_phys	sys/vcpu.h	158;"	d
+stop_bench	hypercall.h	55;"	d
+stop_bt	btmod.c	/^stop_bt(int smp_cpus)$/;"	f	file:
+stop_remapping	hypercall.h	66;"	d
+str2assignments	peep/assignments.c	/^str2assignments(char const *buf, assignments_t *assignments)$/;"	f
+str2cpu_constraints	peep/cpu_constraints.c	/^str2cpu_constraints(char const *buf, cpu_constraints_t *constraints)$/;"	f
+str2imm	peep/insn.c	/^str2imm(char const *str, uint64_t *val, int *tag, int *size)$/;"	f	file:
+str2nomatch_pair	peep/nomatch_pair.c	/^str2nomatch_pair(char const *buf, nomatch_pair_t *nomatch_pair)$/;"	f
+str2operand	peep/insn.c	/^str2operand(operand_t *op, char const *str)$/;"	f
+str2prefix	peep/insn.c	/^str2prefix(char const *str, int *val, int *tag)$/;"	f	file:
+str2reg	peep/insn.c	/^str2reg(char const *str, int *val, int *tag, int *size, bool *rex_used)$/;"	f	file:
+str2regset	peep/regset.c	/^str2regset(regset_t *regset, char *buf)$/;"	f
+str2seg	peep/insn.c	/^str2seg(char const *str, int *val, int *tag)$/;"	f	file:
+str2tag	peep/insn.c	/^str2tag(char const *tagstr)$/;"	f
+str_op_get_type	peep/insn.c	/^str_op_get_type(char const *ptr)$/;"	f	file:
+strlcat	lib/utils.c	/^strlcat (char *dst, const char *src, size_t size) $/;"	f
+strlcpy	lib/utils.c	/^strlcpy (char *dst, const char *src, size_t size) $/;"	f
+strstart	lib/utils.c	/^strstart(const char *str, const char *val, const char **ptr)$/;"	f
+strtab	peepgen.c	/^char *strtab;$/;"	v
+strtol	lib/utils.c	/^strtol(char const *nptr, char **endptr, int base)$/;"	f
+strtoll	lib/utils.c	/^strtoll(char const *nptr, char **endptr, int base)$/;"	f
+stub	sys/vcpu.h	/^stub(target_ulong ptr, uint32_t val)	{$/;"	f
+stuw	sys/vcpu.h	/^stuw(target_ulong ptr, uint32_t val)	{$/;"	f
+stw_kernel	sys/vcpu.h	149;"	d
+stw_phys	sys/vcpu.h	157;"	d
+successor	lib/rbtree.c	/^successor(struct rbtree_elem const *node)$/;"	f	file:
+symtab	peepgen.c	/^EXE_SYM *symtab;$/;"	v
+symval_compare	peepgen.c	/^symval_compare(const void *_a, const void *_b)$/;"	f	file:
+t_mode	peep/i386-dis.c	458;"	d	file:
+table	bt_main.c	/^	  gate_desc table[NR_VECTORS];$/;"	m	struct:bt_shadow	file:
+tag	peep/insntypes.h	/^  } tag;$/;"	m	struct:operand_t	typeref:union:operand_t::__anon9
+tag1	peep/nomatch_pair.h	/^  tag_t tag1, tag2;$/;"	m	struct:nomatch_pair_t
+tag2	peep/nomatch_pair.h	/^  tag_t tag1, tag2;$/;"	m	struct:nomatch_pair_t
+tag2str	peep/insn.c	/^tag2str(opertype_t tag)$/;"	f
+tag_abcd	peep/insntypes.h	/^  tag_abcd,             \/* If for an op_reg arg, only e[abcd]x are allowed. *\/$/;"	e	enum:__anon2
+tag_const	peep/insntypes.h	/^  tag_const = 0,$/;"	e	enum:__anon2
+tag_cs_gs	peep/insntypes.h	/^  tag_cs_gs,$/;"	e	enum:__anon2
+tag_eax	peep/insntypes.h	/^  tag_eax,$/;"	e	enum:__anon2
+tag_no_cs_gs	peep/insntypes.h	/^  tag_no_cs_gs,$/;"	e	enum:__anon2
+tag_no_eax	peep/insntypes.h	/^  tag_no_eax,$/;"	e	enum:__anon2
+tag_no_eax_esp	peep/insntypes.h	/^  tag_no_eax_esp,$/;"	e	enum:__anon2
+tag_no_esp	peep/insntypes.h	/^  tag_no_esp,$/;"	e	enum:__anon2
+tag_t	peep/insntypes.h	/^} tag_t;$/;"	t	typeref:enum:__anon2
+tag_var	peep/insntypes.h	/^  tag_var,$/;"	e	enum:__anon2
+tail	lib/mylist.h	/^  struct mylist_elem tail;      \/* List tail. *\/$/;"	m	struct:mylist	typeref:struct:mylist::mylist_elem
+target_phys_addr_t	include/types.h	/^typedef uint32_t target_phys_addr_t;$/;"	t
+target_sysenter	btmod.c	/^uint64_t target_sysenter;$/;"	v
+target_ulong	include/types.h	/^typedef uint32_t target_ulong;$/;"	t
+tb_add	peep/tb.c	/^tb_add(struct rbtree *rb, tb_t *tb)$/;"	f
+tb_add_jump	peep/tb.c	/^tb_add_jump(btmod *bt, tb_t *tb, uint16_t off)$/;"	f
+tb_find	peep/tb.c	/^tb_find(struct rbtree *rb, const void *tc_ptr)$/;"	f
+tb_gen_translated_code	bt_main.c	/^tb_gen_translated_code(btmod_vcpu *v)$/;"	f	file:
+tb_gen_translated_code_idt	bt_main.c	/^tb_gen_translated_code_idt(btmod_vcpu *v)$/;"	f	file:
+tb_init	peep/tb.c	/^tb_init(struct rbtree *rb)$/;"	f
+tb_kmalloc	peep/tb.c	/^tb_kmalloc(btmod *bt, size_t size, unsigned pool, const char *func, int line)$/;"	f	file:
+tb_less	peep/jumptable2.c	/^tb_less(struct rbtree_elem const *_a, struct rbtree_elem const *_b, void *aux)$/;"	f	file:
+tb_malloc	peep/tb.c	/^tb_malloc(btmod *bt, tb_t *tb)$/;"	f
+tb_print_in_asm	peep/tb.c	/^tb_print_in_asm(btmod_vcpu *v, tb_t const *tb, unsigned size)$/;"	f	file:
+tb_print_out_asm	peep/tb.c	/^tb_print_out_asm(btmod_vcpu *v, tb_t const *tb)$/;"	f	file:
+tb_t	peep/tb.h	/^typedef struct tb_t {$/;"	s
+tb_t	peep/tb.h	/^} tb_t;$/;"	t	typeref:struct:tb_t
+tb_tc_ptr_to_eip_virt	peep/tb.c	/^tb_tc_ptr_to_eip_virt(struct rbtree *rb, uint32_t tc_ptr)$/;"	f
+tbprintk	hypercall.h	118;"	d
+tc_boundaries	peep/tb.h	/^  uint16_t *tc_boundaries;$/;"	m	struct:tb_t
+tc_elem	peep/tb.h	/^  struct rbtree_elem tc_elem;$/;"	m	struct:tb_t	typeref:struct:tb_t::rbtree_elem
+tc_less	peep/tb.c	/^tc_less(struct rbtree_elem const *_a, struct rbtree_elem const *_b, void *aux)$/;"	f	file:
+tc_ptr	peep/tb.h	/^  uint8_t *tc_ptr;$/;"	m	struct:tb_t
+tc_tree	bt_vcpu.h	/^  struct rbtree tc_tree;$/;"	m	struct:btmod	typeref:struct:btmod::rbtree
+temp_assignment_violates_nomatch_pairs	peep/peep.c	/^temp_assignment_violates_nomatch_pairs(int tempno, int reg,$/;"	f	file:
+templ_buf	peep/peep.h	/^	char templ_buf[64];$/;"	m	struct:bt_peep_t
+templ_matches_insn	peep/peep.c	/^templ_matches_insn(btmod_vcpu *v, insn_t *insn, insn_t *tmpl, assignments_t *assignments)$/;"	f	file:
+templ_matches_insns	peep/peep.c	/^templ_matches_insns(btmod_vcpu *v, insn_t *insns, int n_insns, insn_t *templ, int n_templ,$/;"	f	file:
+temporaries	peep/peeptab.h	/^  tag_t temporaries[MAX_TEMPORARIES];$/;"	m	struct:peep_entry_t
+text	peepgen.c	/^uint8_t *text;$/;"	v
+text_shndx	peepgen.c	/^int text_shndx;$/;"	v
+the_buffer	peep/i386-dis.c	/^	bfd_byte the_buffer[MAX_MNEM_SIZE];$/;"	m	struct:dis_private	file:
+three_byte_table	peep/i386-dis.c	/^static struct dis386 three_byte_table[][256] = {$/;"	v	typeref:struct:dis386	file:
+threebyte_0x38_uses_DATA_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x38_uses_DATA_prefix[256] = {$/;"	v	file:
+threebyte_0x38_uses_REPNZ_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x38_uses_REPNZ_prefix[256] = {$/;"	v	file:
+threebyte_0x38_uses_REPZ_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x38_uses_REPZ_prefix[256] = {$/;"	v	file:
+threebyte_0x3a_uses_DATA_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x3a_uses_DATA_prefix[256] = {$/;"	v	file:
+threebyte_0x3a_uses_REPNZ_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x3a_uses_REPNZ_prefix[256] = {$/;"	v	file:
+threebyte_0x3a_uses_REPZ_prefix	peep/i386-dis.c	/^static const unsigned char threebyte_0x3a_uses_REPZ_prefix[256] = {$/;"	v	file:
+tmp_assignments	peep/peep.h	/^	assignments_t tmp_assignments;$/;"	m	struct:bt_peep_t
+tmpl	peep/peeptab.h	/^  insn_t tmpl[MAX_IN_LEN];           \/* input template.  *\/$/;"	m	struct:peep_entry_t
+to_byte	peep/peeptab_defs.h	350;"	d
+to_double	peep/peeptab_defs.h	353;"	d
+to_long	peep/peeptab_defs.h	352;"	d
+to_safe	peep/peeptab_defs.h	356;"	d
+to_word	peep/peeptab_defs.h	351;"	d
+tolower	lib/ctype.h	/^static inline int tolower (int c) { return isupper (c) ? c - 'A' + 'a' : c; }$/;"	f
+toupper	lib/ctype.h	/^static inline int toupper (int c) { return islower (c) ? c - 'a' + 'A' : c; }$/;"	f
+tpage	bt_vcpu.h	/^	void *tpage;$/;"	m	struct:btmod
+tr2str	peep/insn.c	/^tr2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+translate	peep/peep.c	/^translate(btmod_vcpu *v, tb_t *tb, bool tmode)$/;"	f
+translate_idt	btmod.c	/^translate_idt(int idx)$/;"	f	file:
+translation_lock	bt_vcpu.h	/^  spinlock_t translation_lock;$/;"	m	struct:btmod
+tregs	peep/regset.h	/^  char tregs[MAX_TEMPORARIES];   \/* temporaries tr0d..trNd. *\/$/;"	m	struct:regset_t
+tregs	peepgen.c	/^static char const *tregs[]={"tr0", "tr1", "tr2"};$/;"	v	file:
+tregs16	peep/insn.c	/^char const *tregs16[]={"tr0w", "tr1w", "tr2w", "tr3w", "tr4w", "tr5w",$/;"	v
+tregs32	peep/insn.c	/^char const *tregs32[]={"tr0d", "tr1d", "tr2d", "tr3d", "tr4d", "tr5d",$/;"	v
+tregs8	peep/insn.c	/^char const *tregs8[]={"tr0b", "tr1b", "tr2b", "tr3b", "tr4b", "tr5b",$/;"	v
+turn_off_least_1bit	lib/hash.c	/^turn_off_least_1bit (size_t x) $/;"	f	file:
+two_source_ops	peep/i386-dis.h	/^  int two_source_ops;$/;"	m	struct:bti386_t
+twobyte_has_modrm	peep/i386-dis.c	/^static const unsigned char twobyte_has_modrm[256] = {$/;"	v	file:
+twobyte_uses_DATA_prefix	peep/i386-dis.c	/^static const unsigned char twobyte_uses_DATA_prefix[256] = {$/;"	v	file:
+twobyte_uses_REPNZ_prefix	peep/i386-dis.c	/^static const unsigned char twobyte_uses_REPNZ_prefix[256] = {$/;"	v	file:
+twobyte_uses_REPZ_prefix	peep/i386-dis.c	/^static const unsigned char twobyte_uses_REPZ_prefix[256] = {$/;"	v	file:
+tx_target	peep/peep.c	/^unsigned long tx_target;$/;"	v
+type	peep/insntypes.h	/^  opertype_t type;$/;"	m	struct:operand_t
+uint64	peep/insn.c	/^typedef unsigned long long uint64;$/;"	t	file:
+umalloc	lib/utils.c	/^umalloc(size_t size, int unused)$/;"	f
+unique_ins	btmod.c	/^char unique_ins[100][8];$/;"	v
+unique_ins_count	btmod.c	/^int unique_ins_count = 0;$/;"	v
+unlikely	include/debug.h	118;"	d
+usage	peepgen.c	/^static void usage(void)$/;"	f	file:
+use	peep/peep.h	/^	regset_t use, def;$/;"	m	struct:bt_peep_t
+used_prefixes	peep/i386-dis.h	/^	int used_prefixes;$/;"	m	struct:bti386_t
+v	bt_vcpu.h	/^	btmod_vcpu *v;$/;"	m	struct:btmod
+v	peepgen.c	/^btmod_vcpu *v = NULL;$/;"	v
+v_mode	peep/i386-dis.c	454;"	d	file:
+val	peep/assignments.h	/^    operand_t val;$/;"	m	struct:assignments_t::__anon16
+val	peep/insntypes.h	/^  } val;$/;"	m	struct:operand_t	typeref:union:operand_t::__anon8
+val_satisfies_tag	peep/assignments.c	/^val_satisfies_tag(int val, tag_t tag)$/;"	f	file:
+var	peep/assignments.h	/^    operand_t var;$/;"	m	struct:assignments_t::__anon16
+var_is_temporary	peep/assignments.c	/^var_is_temporary(operand_t const *var)$/;"	f
+variables_assign_random_consts	peep/assignments.c	/^variables_assign_random_consts(assignments_t *assignments,$/;"	f
+variables_assign_random_prefix	peep/assignments.c	/^variables_assign_random_prefix(assignments_t *assignments,$/;"	f
+variables_assign_random_regs	peep/assignments.c	/^variables_assign_random_regs(assignments_t *assignments, operand_t const *vars,$/;"	f
+variables_assign_random_segs	peep/assignments.c	/^variables_assign_random_segs(assignments_t *assignments, operand_t const *vars,$/;"	f
+vcpu	bt_vcpu.h	/^	vcpu_t vcpu;$/;"	m	struct:btmod_vcpu
+vcpu_clear_log	lib/debug.c	/^void vcpu_clear_log(int log_flags)$/;"	f
+vcpu_get_eip	sys/vcpu.c	/^vcpu_get_eip(vcpu_t *vcpu)$/;"	f
+vcpu_get_eip	sys/vcpu.h	/^vcpu_get_eip(vcpu_t *vcpu)$/;"	f
+vcpu_get_log_flags	lib/debug.c	/^int vcpu_get_log_flags(void)$/;"	f
+vcpu_id	bt_vcpu.h	/^	int vcpu_id;$/;"	m	struct:btmod_vcpu
+vcpu_log_item_t	include/debug.h	/^typedef struct vcpu_log_item_t {$/;"	s
+vcpu_log_item_t	include/debug.h	/^} vcpu_log_item_t ;$/;"	t	typeref:struct:vcpu_log_item_t
+vcpu_log_items	lib/debug.c	/^vcpu_log_item_t vcpu_log_items[] = {$/;"	v
+vcpu_set_log	lib/debug.c	/^void vcpu_set_log(int log_flags)$/;"	f
+vcpu_t	sys/vcpu.h	/^typedef struct vcpu_t {$/;"	s
+vcpu_t	sys/vcpu.h	/^} vcpu_t;$/;"	t	typeref:struct:vcpu_t
+vpeepgen_emit_code	peep/instrument.c	/^vpeepgen_emit_code(btmod_vcpu *v, uint8_t **obuf, uint8_t **ebuf,$/;"	f	file:
+vregs	peep/regset.h	/^  char vregs[NUM_REGS];          \/* register variables vr0d..vrNd. *\/$/;"	m	struct:regset_t
+vregs	peepgen.c	/^static char const *vregs[]={"vr0", "vr1", "vr2", "vr3", "vr4", "vr5", "vr6",$/;"	v	file:
+vregs16	peep/insn.c	/^char const *vregs16[]={"vr0w", "vr1w", "vr2w", "vr3w", "vr4w", "vr5w",$/;"	v
+vregs32	peep/insn.c	/^char const *vregs32[]={"vr0d", "vr1d", "vr2d", "vr3d", "vr4d", "vr5d",$/;"	v
+vregs8	peep/insn.c	/^char const *vregs8[]= {"vr0b", "vr1b", "vr2b", "vr3b", "vr0B", "vr1B",$/;"	v
+vregs8rex	peep/insn.c	/^char const *vregs8rex[]= {"vr0b", "vr1b", "vr2b", "vr3b", "vr4b",$/;"	v
+vsegs	peep/insn.c	/^char const *vsegs[] = {"vseg0", "vseg1", "vseg2", "vseg3", "vseg4", "vseg5"};$/;"	v
+w_mode	peep/i386-dis.c	455;"	d	file:
+writes_operand	peep/insn.c	/^writes_operand(btmod *bt, insn_t const *insn, const operand_t *op)$/;"	f
+x86_64_table	peep/i386-dis.c	/^static struct dis386 x86_64_table[][2] = {$/;"	v	typeref:struct:dis386	file:
+x_mode	peep/i386-dis.c	459;"	d	file:
+xfopen	peepgen.c	/^xfopen(char const *filename, char const *mode)$/;"	f	file:
+xmm2str	peep/insn.c	/^xmm2str(int val, int tag, char *buf, int buflen)$/;"	f	file:
+xstr	lib/macros.h	4;"	d
+zAX	peep/i386-dis.c	394;"	d	file:
+z_mode	peep/i386-dis.c	468;"	d	file:
+z_mode_ax_reg	peep/i386-dis.c	516;"	d	file:
