@@ -17,7 +17,7 @@
 #include "peep/regset.h"
 #include "peep/tb.h"
 #include "peep/cpu_constraints.h"
-#include "peep/sti_fallthrough.h"
+//#include "peep/sti_fallthrough.h"
 #include "sys/vcpu.h"
 #include "btmod.h"
 #include "hypercall.h"

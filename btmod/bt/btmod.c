@@ -21,12 +21,12 @@
 #include "peep/tb.h"
 #include "peep/jumptable2.h"
 #include "peep/jumptable1.h"
-#include "peep/gvtable.h"
+//#include "peep/gvtable.h"
 #include "peep/i386-dis.h"
 #include "peepgen_offsets.h"
 #include "debug.h"
 #include "sys/vcpu.h"
-#include "peep/tb_exit_callbacks.h"
+//#include "peep/tb_exit_callbacks.h"
 #include "bt_vcpu.h"
 #include "hypercall.h"
 #include "btfix.h"
@@ -148,7 +148,7 @@ reset_shadow_memory(void)
 {
 	if (_shadowmem_start) {
     outl(_shadowmem_start, RESET_PORT);
-		notify_gtable_addr();
+		//notify_gtable_addr();
 	}
 }
 
@@ -357,7 +357,7 @@ init_bt(int smp_cpus)
 	}
 	opc_init(bt->v);
 	create_shadow_idt(bt->v);
-	clear_gvtable();
+	//clear_gvtable();
 	printk("init BT sucessful %s(%p)\n", __func__, init_bt);
 	return 0;
 

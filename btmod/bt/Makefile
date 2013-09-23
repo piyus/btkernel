@@ -12,8 +12,8 @@ MON_OBJS := lib/mylist.o lib/hash.o lib/rbtree.o lib/utils.o lib/debug.o \
 				 		peep/tb.o peep/i386-dis.o peep/insn.o peep/opctable.o \
 					  peep/regset.o peep/nomatch_pair.o peep/jumptable2.o \
 						peep/jumptable1.o peep/cpu_constraints.o peep/peepcode.o \
-            peep/assignments.o peep/tb_exit_callbacks.o peep/peep.o \
-            peep/instrument.o peep/gvtable.o mem/malloc.o \
+            peep/assignments.o peep/peep.o \
+            peep/instrument.o  mem/malloc.o \
 						btfix.o btmod.o bt_main.o
 
 

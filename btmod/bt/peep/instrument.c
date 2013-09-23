@@ -16,13 +16,13 @@
 #include "peep/regset.h"
 #include "peep/tb.h"
 #include "peep/cpu_constraints.h"
-#include "peep/sti_fallthrough.h"
+//#include "peep/sti_fallthrough.h"
 #include "sys/vcpu.h"
 #include "btmod.h"
 #include "btfix.h"
 #include "hypercall.h"
 #include "peep/instrument.h"
-#include "peep/gvtable.h"
+//#include "peep/gvtable.h"
 
 typedef enum {
   peep_null = 0,
